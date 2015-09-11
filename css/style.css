@@ -3,11 +3,11 @@ html * {
 -moz-osx-font-smoothing: grayscale;
 }
 
-/**, *:after, *:before {
+*, *:after, *:before {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
-}*/
+}
 
 html, body {
 /* you need to set this to assign to the main element a min height of 100% */
