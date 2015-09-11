@@ -1,0 +1,416 @@
+@media only screen and (max-width: 1000px) {
+/*** HEADER ***/
+	#cd-logo {
+	float: none;
+	margin: 2px auto;
+	}
+	#cd-logo img {
+	margin:0px auto;
+	}
+	
+/*** SFONDI BOX DESCRIZIONE PRODOTTO ***/
+	.boxprodotto1{
+		background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto1 .bottonegiu{
+		margin-top: -170px;
+	}
+	.boxprodotto2{
+		background:url("../immagini/ristomanager.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto2 .bottonegiu{
+		margin-top: -205px;
+	}
+	.boxprodotto3{
+		background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto4{
+		background:url("../immagini/sadmin.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto4 .bottonegiu{
+		margin-top: -230px;
+	}
+	.boxprodotto5{
+		background:url("../immagini/trovapassword.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto5 .bottonegiu{
+		margin-top: -150px;
+	}
+	.boxprodotto6{
+		background:url("../immagini/roulette.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto6 .bottonegiu{
+		margin-top: -90px;
+	}
+	.boxprodotto7{
+		background:url("../immagini/spaccio.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto8{
+		background:url("../immagini/security.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto9{
+		background:url("../immagini/battery.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto9 .bottonegiu{
+		margin-top: -60px;
+	}
+	.boxprodotto-contatti{
+		background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed left /cover;
+		height: 750px;
+	}
+	.textprodotto-contatti{
+		margin:0px;
+	}
+}
+
+@media only screen and (max-width: 900px){
+/*** DIV GENERALE DEL PROFOTTO CON TESTOS ***/
+	.contenutoprodotto, .contenutoprodotto2, .contenutoprodotto3, .contenutoprodotto4, .contenutoprodotto5,
+	.contenutoprodotto6, .contenutoprodotto7, .contenutoprodotto8, .contenutoprodotto9, .contenutoprodotto-contattaci{
+		width:80%;
+	}
+/*** FOOTER ***/
+	.footerinfo{
+		border-bottom:0px;
+	}
+
+	.contenutoinfo{
+		display:none;
+	}
+	.logofooter{
+		width:100%;
+		text-align:center;
+		margin:10px auto;
+		padding:0px;
+	}
+	.copyright{
+		display:none;
+	}
+	.menufooter{
+		width:100%;
+		margin-top:10px;
+	}
+	.boxfooter ul {
+		padding: 10px 0px;
+	}
+	.boxfooter li {
+		float:none;
+		border-right:0px;
+		text-align:center;
+		display:block;
+		margin:10px 0px;
+	}
+	.boxfooter a {
+		padding: 0px;
+	}
+	.boxlingua{
+		text-align:center;
+	}
+	.lingua{
+		float:none;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	.boxlingua img{
+		float:none;
+		margin-right:0px;
+	}
+
+	.imglingua{
+		float:left;
+		width:16px;
+	}
+	.copyright-nascosto{
+		float:left;
+		display:block;
+		width:98%;
+		height:auto;
+		margin:10px 0px;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+/*** BOX PRODOTTO 1 ***/
+	.boxprodotto1{
+		background-image:none;
+		background-color:#ffffff;
+		height: 600px;
+	}
+	.contenutoprodotto{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggsoft{
+		display:none;
+	}
+	.boxprodotto1 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 2 ***/
+	.boxprodotto2{
+		background-image:none;
+		background-color:#DFDFDF;
+		height: 700px;
+	}
+	.contenutoprodotto2{
+		width:100%;
+		top:65px;
+		margin-left:0px;
+		text-align:center;
+	}
+	.contenutoprodotto2 h2{
+		background-color:#D12323;
+		height:100px;
+	}
+	.contenutoprodotto2 h2 img{
+		margin-top:15px;
+	}
+	.oggristo{
+		display:none;
+	}
+	.boxprodotto2 .bottonegiu{
+		margin-top: 100px;
+		background-color:#FF7300;
+		padding:10px 0px;
+	}
+/*** BOX PRODOTTO 3 ***/
+	.boxprodotto3{
+		background-image:none;
+		background-color:#FFDA44;
+		height: 700px;
+	}
+	.contenutoprodotto3{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggmex{
+		display:none;
+	}
+	.boxprodotto3 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 4 ***/
+	.boxprodotto4{
+		background-image:none;
+		background-color:#936543;
+		height: 700px;
+	}
+	.contenutoprodotto4{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggsadmin{
+		display:none;
+	}
+	.boxprodotto4 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 5 ***/
+	.boxprodotto5{
+		background:#5D8EBB url("../immagini/trovapassword2.jpg") repeat-x center center;
+		height: 680px;
+	}
+	.contenutoprodotto5{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggpassword{
+		display:none;
+	}
+	.boxprodotto5 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 6 ***/
+	.boxprodotto6{
+		background-image:none;
+		background-color:#319931;
+		height: 700px;
+	}
+	.contenutoprodotto6{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggroulette{
+		display:none;
+	}
+	.boxprodotto6 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 7 ***/
+	.boxprodotto7{
+		background:url("../immagini/spaccio2.jpg") no-repeat fixed center center /cover;
+		height: 700px;
+	}
+	.contenutoprodotto7{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggspaccio{
+		display:none;
+	}
+	.boxprodotto7 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 8 ***/
+	.boxprodotto8{
+		background-image:none;
+		background-color:#E6E6E6;
+		height: 700px;
+	}
+	.contenutoprodotto8{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.boxprodotto8 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX PRODOTTO 9 ***/
+	.boxprodotto9{
+		background-image:none;
+		background-color:#79BCA6;
+		height: 700px;
+	}
+	.contenutoprodotto9{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.oggbattery{
+		display:none;
+	}
+	.boxprodotto9 .bottonegiu{
+		margin-top: 100px;
+	}
+/*** BOX CONTATTI ***/
+	.boxprodotto-contatti{
+		background-image:none;
+		background-color:#ffffff;
+		height: 900px;
+	}
+	.contenutoprodotto-contatti{
+		width:100%;
+		margin-left:0px;
+		text-align:center;
+	}
+	.modulo{
+		width:95%;
+		max-width:95%;
+		height:auto;
+		text-align:center;
+		margin:0px auto;
+	}
+	.camponome, .campocognome, .campocitta, .campotel, .campoemail, .textarea{
+		width:99%;
+	}
+	.camponome span, .campocognome span, .campocitta span, .campotel span, .campoemail span, .textarea{
+		width:25%;
+		display:block;
+	}
+	.modulo input{
+		max-width:100%;
+	}
+	.campocitta input{
+		max-width:250px;
+	}
+	.textarea textarea{
+		width:250px;
+		height:100px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.boxprodotto1, .boxprodotto3, .boxprodotto4, 
+	.boxprodotto5{
+		height: 530px;
+	}
+	.boxprodotto2{
+		height:570px;
+	}
+	.boxprodotto6, .boxprodotto7, .boxprodotto8{
+		height: 560px;
+	}
+	.boxprodotto9{
+		height:510px;
+	}
+	.contenutoprodotto h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto1 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto2 h2 img{
+		width:95%;
+		max-width:350px;
+		height:auto;
+		margin-top:25px;
+	}
+	.boxprodotto2 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto3 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto3 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto4 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto4 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto5 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto5 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto6 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto6 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto7 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto7 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto8 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto8 .bottonegiu{
+		margin-top: 30px;
+	}
+	.contenutoprodotto9 h2 img{
+		width:95%;
+		max-width:300px;
+		height:auto;
+	}
+	.boxprodotto9 .bottonegiu{
+		margin-top: 30px;
+	}
+}

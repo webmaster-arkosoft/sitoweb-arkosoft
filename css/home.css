@@ -1,0 +1,628 @@
+/*** BOX GENERALE DELLA DESCRIZIONE E BOTTONE DEL PRODOTTO ***/
+
+.boxdescrizione{
+max-width:1024px;
+height:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.boxbottone{
+width:100%;
+height:auto;
+}
+
+.contbottone{
+width:200px;
+background-color:#F4A100;
+border-bottom:3px solid #CA8400;
+border-radius:5px;
+font-size:15px;
+text-align:center;
+font-family: 'Roboto Slab', serif;
+}
+
+.contbottone a{
+display:block;
+cursor:pointer;
+color:#FFFFFF;
+padding:10px 5px;
+}
+
+.contbottone a:hover{
+color:#000000;
+}
+@media only screen and (max-width: 700px) {
+	.contbottone{
+		margin:0px auto;
+	}
+}
+.bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top:150px;
+}
+
+.contenutogiu{
+width:100%;
+height:auto;
+color:#000000;
+font-size:15px;
+text-align:center;
+font-family: 'Roboto Slab', serif;
+}
+
+.contenutogiu p{
+margin:0px;
+}
+
+@media only screen and (max-width: 700px) {
+	.contenutogiu{
+		width:100%;
+	}
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 1 ***/
+.boxprodotto1{
+background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+.contenutoprodotto{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 20px;
+position:relative;
+}
+
+.textprodotto{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.oggsoft{
+overflow:hidden;
+margin-left:-120px;
+margin-top:0px;
+}
+
+.boxprodotto1 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -150px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 2 ***/
+.boxprodotto2{
+background:url("../immagini/ristomanager.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto2{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 100px;
+position:relative;
+}
+
+.textprodotto2{
+width:100%;
+height:auto;
+margin:40px 0px 30px 0px;
+}
+
+.textprodotto2 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.oggristo{
+overflow:hidden;
+margin-left:-120px;
+margin-top:30px;
+}
+
+.boxprodotto2 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -195px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 3 ***/
+.boxprodotto3{
+background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto3{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 100px;
+position:relative;
+}
+
+.textprodotto3{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto3 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.oggmex{
+overflow:hidden;
+margin-left:-120px;
+margin-top:30px;
+}
+
+.boxprodotto3 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -100px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 4 ***/
+.boxprodotto4{
+background:url("../immagini/sadmin.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto4{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 100px;
+position:relative;
+}
+
+.textprodotto4{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto4 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#ffffff;
+}
+
+.contenutoprodotto4 .contenutogiu {
+color:#ffffff;	
+}
+
+.oggsadmin{
+overflow:hidden;
+margin-left:-220px;
+margin-top:10px;
+}
+
+.boxprodotto4 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -220px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 5 ***/
+.boxprodotto5{
+background:url("../immagini/trovapassword.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto5{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 100px;
+position:relative;
+}
+
+.textprodotto5{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto5 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.oggpassword{
+overflow:hidden;
+margin-left:-80px;
+margin-top:10px;
+}
+
+.boxprodotto5 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -145px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 6 ***/
+.boxprodotto6{
+background:url("../immagini/roulette.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto6{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 110px;
+position:relative;
+}
+
+.textprodotto6{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto6 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.contenutoprodotto6 .contenutogiu {
+color:#ffffff;	
+}
+
+.oggroulette{
+overflow:hidden;
+margin-left:0px;
+margin-top:30px;
+}
+
+.boxprodotto6 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -80px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 7 ***/
+.boxprodotto7{
+background:url("../immagini/spaccio.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto7{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 100px;
+position:relative;
+}
+
+.textprodotto7{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto7 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.oggspaccio{
+overflow:hidden;
+margin-left:-100px;
+margin-top:10px;
+}
+
+.boxprodotto7 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -120px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 8 ***/
+.boxprodotto8{
+background:url("../immagini/security.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto8{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 110px;
+position:relative;
+}
+
+.textprodotto8{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto8 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.boxprodotto8 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: 180px;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 9 ***/
+.boxprodotto9{
+background:url("../immagini/battery.jpg") no-repeat fixed center top /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+}
+
+.contenutoprodotto9{
+width:50%;
+height:100%;
+margin-left:20px;
+top: 110px;
+position:relative;
+}
+
+.textprodotto9{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto9 p{
+margin:0px;
+font-family: 'Roboto Slab', serif;
+font-size:18px;
+color:#000000;
+}
+
+.oggbattery{
+overflow:hidden;
+margin-left:0px;
+margin-top:40px;
+}
+
+.boxprodotto9 .bottonegiu{
+width:100%;
+height:auto;
+position:relative;
+margin-top: -50px;
+}
+
+/*** BOX DESCRIZIONE CONTATTI ***/
+.boxprodotto-contatti{
+background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed center /cover;
+height:100%;
+width:100%;
+position:relative;
+top:0;
+left:0;
+overflow:hidden;
+font-family: 'Roboto Slab', serif;
+}
+
+.contenutoprodotto-contatti{
+width:50%;
+height:auto;
+margin-left:20px;
+top: 70px;
+position:relative;
+}
+
+.contenutoprodotto-contatti h3{
+font-size:30px;	
+color:#969595;
+}
+.contenutoprodotto-contatti h2{
+font-size:30px;
+color:#555555;
+}
+
+.textprodotto-contatti{
+width:100%;
+height:auto;
+margin:10px 0px;
+}
+
+.textprodotto-contatti p{
+margin:0px;
+font-size:18px;
+color:#000000;
+}
+
+/*** MODULO DI COMPILAZIONE ***/
+
+.boxmodulo{
+width:100%;
+height:auto;
+}
+
+.modulo{
+width:100%;
+max-width:350px;
+height:300px;
+color:#262626;
+font-size:15px;
+}
+
+.camponome, .campocognome, .campocitta, .campotel, .campoemail, .textarea{
+width:49%;
+height:auto;
+text-align:left;
+float:left;
+margin-top:0px;
+}
+
+.modulo input{
+max-width:150px;
+height:20px;
+}
+
+.campocitta{
+width:100% !important;
+}
+
+.campocitta input{
+width:100%;
+max-width:322px;
+height:20px;
+}
+
+.textarea{
+width:100%;
+height:auto;
+}
+
+.textarea textarea{
+width:322px;
+height:100px;
+resize: none;
+}
+
+.boxprivacy{
+width:100%;
+height:auto;
+margin-top:5px;
+float:left;
+}
+
+.boxprivacy p{
+margin:0px;	
+}
+
+.boxprivacy a{
+color:#0098D0;	
+}
+
+.boxprivacy input{
+height:auto;	
+}
+
+.modulo .boxbottone{
+width:100%;
+height:auto;
+float:left;
+}
+
+.modulo .contbottone{
+width:100px;
+margin-top:5px;
+background-color:#F4A100;
+border-bottom:3px solid #CA8400;
+border-radius:5px;
+font-size:15px;
+text-align:center;
+}
+
+/*** BOX SOCIAL ***/
+.boxsocial{
+width:100%;
+height:auto;
+float:left;
+margin-top: 10px;
+text-align:center;
+}
+
+hr{
+width:200px;
+height:2px;
+margin: 0px auto;
+background-color:#d4d4d4;
+border:0px;
+}
+
+.boxsocial p{
+color:#000000;
+font-size:18px;
+margin:5px 0px;
+}
+
+.bottonisocial{
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+.bottonisocial img{
+margin-left:5px;
+}
