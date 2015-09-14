@@ -14,12 +14,13 @@ height:auto;
 
 .contbottone{
 width:200px;
-background-color:#F4A100;
+height:auto;
+background:url("../immagini/sfondo-bottoni.jpg") repeat-x center top;
 border-bottom:3px solid #CA8400;
-border-radius:5px;
 font-size:15px;
 text-align:center;
 font-family: 'Roboto Slab', serif;
+font-weight:bold;
 }
 
 .contbottone a{
@@ -30,7 +31,8 @@ padding:10px 5px;
 }
 
 .contbottone a:hover{
-color:#000000;
+color:#ffffff;
+background:#F5A101;
 }
 @media only screen and (max-width: 700px) {
 	.contbottone{
