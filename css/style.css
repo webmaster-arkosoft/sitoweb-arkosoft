@@ -9,12 +9,6 @@ html * {
 box-sizing: border-box;
 }*/
 
-#ciao-stefano{
-	height:300px;
-	width:300px;
-	padding:300px 55px;
-}
-
 html, body {
 /* you need to set this to assign to the main element a min height of 100% */
 height: 100%;
@@ -603,7 +597,7 @@ display:block;
 }
 
 .descinfos a:hover{
-color:#0000ff;
+color:#8fdffd;
 }
 
 .boxfooter{
@@ -638,7 +632,7 @@ margin-top:45px;
 }
 
 .menufooter a:hover{
-color: #0000ff;
+color: #8fdffd;
 }
 
 .contattacimenu{
@@ -722,16 +716,36 @@ background:url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub2
 {width:100%; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:10px; padding:0px; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub2 li
-{height:120px; width:170px; padding:0px; text-align:center; margin:0px;}
+{height:120px; width:auto; padding:0px; text-align:center; margin:0px 20px;}
+#nav li:hover ul.sub li.box2li ul.sub2 li div
+{width:70px; height:70px; margin:0px auto;}
+#nav li:hover ul.sub li.box2li ul.sub2 li div
+{padding-top:5px;}
 #nav li:hover ul.sub li.box2li ul.sub2 li p
 {margin:0px;font-size:12px;}
 #nav li:hover ul.sub li.box2li ul.sub2 li a
 {color:#ffffff; text-decoration:none; display:block;}
 #nav li:hover ul.sub li.box2li ul.sub2 li a:hover 
-{color:#7CBBFA;}
+{color:#8fdffd;}
 /*** HOVER PER LE IMMAGINI NELLA LISTA PRODOTTI ***/
 #nav li:hover ul.sub li.box2li ul.sub2 #prod-hover a img:hover
-{width:63px; height:auto;margin-top:-5px;}
+{width:63px; height:auto; margin-top:-5px;}
+
+/*** DIV CONDIVIDI ***/
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi
+{width:100%; height:50px; margin:0px auto; float:left; display:block;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi li
+{width:100%; height:100%; margin:0px 20px; padding:0px; color:#ffffff; font-weight:bold;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi div
+{float:left; margin:5px 10px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi span
+{padding-top:10px; display:block;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi div a
+{padding:0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi div a:hover
+{color:#8fdffd;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub-condividi .testo
+{float:right;}
 
 /*** DIVISORE DELLE LISTE DEI SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub3
@@ -745,7 +759,7 @@ background:url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub4 li a
 {color:#ffffff; display:block; padding:5px 0px;}
 #nav li:hover ul.sub li.box2li ul.sub4 li a:hover
-{color:#7CBBFA;}
+{color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub4 li a img
 {padding:0px 0px;}
 
