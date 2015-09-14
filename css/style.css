@@ -57,7 +57,7 @@ margin:0px auto;
 }
 
 .boxheader h1 a img{
-	padding:13px 15px;
+	padding:13px 25px 13px 20px;
 }
 
 .ricerca{
@@ -698,12 +698,12 @@ margin: 15px 10px;
 
 /*** ANIMAZIONE HEADER APERTO-CHIUSO ***/
 #nav li.sfondolist:hover{
-background:url("../immagini/colorhover.png") repeat-x center center;
+background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 }
 
 /*** PRIMO BLOCCO LIST GENERALE ***/
 #nav li ul.sub
-{position:absolute; display:none; left:0px; top:110px; width:100%; height:auto; margin:0px; padding:0; list-style:none; background:#0A5F8F url("../immagini/headeraperto.jpg") no-repeat center top;}
+{position:absolute; display:none; left:0px; top:110px; width:100%; height:auto; margin:0px; padding:0; list-style:none; background:#0A5F8F url("../immagini/headeraperto.jpg") no-repeat center bottom;}
 #nav li ul.sub li.box2li
 {width:100%; max-width:1024px; height:auto; display:block; margin:0px auto;}
 
@@ -714,23 +714,25 @@ background:url("../immagini/colorhover.png") repeat-x center center;
 {margin:0px; padding:0px;}
 
 /*** TERZO BLOCCO LIST RIGHE CONTENUTO SOFTWARE ***/
-#nav li:hover ul.sub li.box2li ul.sub2
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2
 {width:100%; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:10px; padding:0px; float:left;}
-#nav li:hover ul.sub li.box2li ul.sub2 li
-{height:120px; width:100px; padding:0px; text-align:center; margin:0px 20px;}
-#nav li:hover ul.sub li.box2li ul.sub2 li div
-{width:70px; height:70px; margin:0px auto;}
-#nav li:hover ul.sub li.box2li ul.sub2 li div
-{padding-top:5px;}
-#nav li:hover ul.sub li.box2li ul.sub2 li p
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li
+{height:auto; width:100px; padding:0px; text-align:center; margin:0px 20px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li div
+{width:70px; height:70px; margin:0px auto; padding-top:0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li p
 {margin:0px;font-size:12px;}
-#nav li:hover ul.sub li.box2li ul.sub2 li a
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li a
 {color:#ffffff; text-decoration:none; display:block;}
-#nav li:hover ul.sub li.box2li ul.sub2 li a:hover 
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li a:hover 
 {color:#8fdffd;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover div
+{width:60px; height:60px; margin-bottom:10px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover .icona
+{background:rgba(255,255,255,0.2); width:65px; height:65px;}
 /*** HOVER PER LE IMMAGINI NELLA LISTA PRODOTTI ***/
-#nav li:hover ul.sub li.box2li ul.sub2 #prod-hover a img:hover
-{width:63px; height:auto; margin-top:-5px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover a img:hover
+{width:63px; height:auto;}
 
 /*** DIV CONDIVIDI ***/
 #nav li:hover ul.sub li.box2li ul.sub-condividi
@@ -771,17 +773,6 @@ background:url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover li:hover li:hover ul ul,
 #nav li:hover li:hover li:hover li:hover ul ul
 {display:none;}
-
-/*** HEADER CHIEDI AIUTO ***/
-/*** TERZO BLOCCO LIST RIGHE CONTENUTO SOFTWARE ***/
-#nav li:hover ul.sub li.box2li ul.sub1contatti
-{width:59%; height:auto; display:block; margin-top:10px; margin-bottom:0px; float:left;}
-#nav li:hover ul.sub li.box2li ul.sub1contatti li
-{margin:0px 0px 10px 10px; padding:0px; width:100%; height:auto;text-align:left; font-family:bold; font-size:20px;}
-#nav li:hover ul.sub li.box2li ul.sub1contatti li a
-{margin:0px; padding:0px;}
-#nav li:hover ul.sub li.box2li ul.sub1contatti li.titlesub
-{margin:0px 0px 30px 20px; padding:0px; text-align:left; width:100%; height:auto; font-family:bold; font-size:20px;}
 
 /*** QUARTO BLOCCO LIST A DESTRA DEI SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub4contatti
