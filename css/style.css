@@ -727,12 +727,31 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li a:hover 
 {color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover div
-{width:60px; height:60px; margin-bottom:10px;}
+{width:60px; height:60px; margin-bottom:10px; margin:5px auto;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover .icona
-{background:rgba(255,255,255,0.2); width:65px; height:65px;}
+{width:65px; height:65px;}
 /*** HOVER PER LE IMMAGINI NELLA LISTA PRODOTTI ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover a img:hover
 {width:63px; height:auto;}
+
+#nav li:hover ul.sub li.box2li ul.sub5
+{width:100%; height:auto; margin:0px auto; display:block; float:left;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale
+{width:300px; height:70px; text-align:center; float:left;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content
+{width:100px; height:100%; margin-left:20px; float:left; padding:0px;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a
+{margin:0px; padding:0px; border:0px;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a:hover
+{color:#8fdffd;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content img
+{margin-left:auto; margin-right:auto;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1
+{width:180px; height:100%; text-align:left; float:left; colo:#ffffff; font-weight:bold; margin-top:10px; padding:0px;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a
+{margin:0px; padding:0px; border:0px;}
+#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a:hover
+{color:#8fdffd;}
 
 /*** DIV CONDIVIDI ***/
 #nav li:hover ul.sub li.box2li ul.sub-condividi
