@@ -613,14 +613,22 @@ float:left;
 
 .logofooter{
 float:left;
-margin: 30px 30px 0 10px;
+margin: 30px 20px 0px 10px;
 }
 
 .copyright{
-font-size:10px;
-max-width:300px;
+max-width:50%;
 width:auto;
-margin:0px auto;
+margin-top:0px;
+margin-left:20px;
+float:left;
+text-align:left;
+font-size:12px;
+}
+
+.copyright a{
+color:#ffffff;
+text-decoration:underline;
 }
 
 .copyright-nascosto{
@@ -629,7 +637,7 @@ margin:0px auto;
 
 .menufooter{
 float:left;
-margin-top:45px;
+margin-top:20px;
 }
 
 .menufooter a:hover{
@@ -656,11 +664,11 @@ padding: 0px;
 border-right:1px solid #ffffff;
 }
 
-.boxfooter li a{
+.boxfooter .menufooter li a{
 padding:0px 10px;
 }
 
-.boxfooter a{
+.boxfooter .menufooter a{
 display: inline-block;
 padding: 10px;
 color: #FFF;
@@ -679,6 +687,10 @@ text-align:right;
 float:right;
 padding:10px 0px;
 margin-right:10px;
+}
+
+.lingua a{
+color:#ffffff;
 }
 
 .boxlingua img{
@@ -709,13 +721,13 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 
 /*** SECONDO BLOCCO LIST GENERALE CENTRATO AL PRIMO ***/
 #nav li:hover ul.sub li.box2li ul.sub1
-{width:75%; height:auto; display:block; margin-top:0px; margin-bottom:10px; float:left;}
+{width:75%; height:auto; display:block; margin-top:0px; margin-bottom:5px; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub1 li
 {margin:0px; padding:0px;}
 
 /*** TERZO BLOCCO LIST RIGHE CONTENUTO SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2
-{width:100%; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:10px; padding:0px; float:left;}
+{width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li
 {height:auto; width:100px; padding:0px; text-align:center; margin:0px 20px;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li div
@@ -734,6 +746,7 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover a img:hover
 {width:63px; height:auto;}
 
+/*** QUINTO BLOCCO LIST ***/
 #nav li:hover ul.sub li.box2li ul.sub5
 {width:100%; height:auto; margin:0px auto; display:block; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale
@@ -757,7 +770,7 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub-condividi
 {width:100%; height:50px; margin:0px auto; float:left; display:block;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi li
-{width:96%; height:100%; margin:0px 20px; padding:0px; color:#ffffff; font-weight:bold;}
+{width:96%; height:100%; margin:0px 10px; padding:0px; color:#ffffff; font-weight:bold;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi div
 {float:left; margin:5px 10px; width:auto; height:100%;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi span

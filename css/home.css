@@ -21,6 +21,7 @@ font-size:15px;
 text-align:center;
 font-family: 'Roboto Slab', serif;
 font-weight:bold;
+margin-top:30px;
 }
 
 .contbottone a{
@@ -42,15 +43,17 @@ background:#F5A101;
 .bottonegiu{
 width:100%;
 height:auto;
+bottom:110px;
+left:90px;
+overflow:hidden;
 position:relative;
-margin-top:150px;
 }
 
 .contenutogiu{
 width:100%;
 height:auto;
 color:#000000;
-font-size:15px;
+font-size:12px;
 text-align:center;
 font-family: 'Roboto Slab', serif;
 }
@@ -81,6 +84,7 @@ height:100%;
 margin-left:20px;
 top: 20px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto{
@@ -92,21 +96,15 @@ margin:10px 0px;
 .textprodotto p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .oggsoft{
 overflow:hidden;
-margin-left:-120px;
-margin-top:0px;
-}
-
-.boxprodotto1 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -150px;
+margin-left:-60px;
+margin-top:10px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
@@ -126,32 +124,27 @@ height:100%;
 margin-left:20px;
 top: 100px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto2{
 width:100%;
 height:auto;
-margin:40px 0px 30px 0px;
+margin:10px 0px;
 }
 
 .textprodotto2 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .oggristo{
 overflow:hidden;
-margin-left:-120px;
-margin-top:30px;
-}
-
-.boxprodotto2 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -195px;
+margin-left:-130px;
+margin-top:10px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
@@ -169,8 +162,9 @@ overflow:hidden;
 width:50%;
 height:100%;
 margin-left:20px;
-top: 100px;
+top: 120px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto3{
@@ -182,21 +176,19 @@ margin:10px 0px;
 .textprodotto3 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .oggmex{
 overflow:hidden;
-margin-left:-120px;
+margin-left:-100px;
 margin-top:30px;
 }
 
 .boxprodotto3 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -100px;
+bottom:45px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
@@ -216,6 +208,7 @@ height:100%;
 margin-left:20px;
 top: 100px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto4{
@@ -227,8 +220,9 @@ margin:10px 0px;
 .textprodotto4 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
-color:#ffffff;
+font-size:16px;
+font-weight:normal;
+color:#000000;
 }
 
 .contenutoprodotto4 .contenutogiu {
@@ -237,15 +231,12 @@ color:#ffffff;
 
 .oggsadmin{
 overflow:hidden;
-margin-left:-220px;
+margin-left:-150px;
 margin-top:10px;
 }
 
 .boxprodotto4 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -220px;
+bottom:205px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
@@ -263,8 +254,9 @@ overflow:hidden;
 width:50%;
 height:100%;
 margin-left:20px;
-top: 100px;
+top: 110px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto5{
@@ -276,21 +268,19 @@ margin:10px 0px;
 .textprodotto5 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .oggpassword{
 overflow:hidden;
-margin-left:-80px;
+margin-left:-70px;
 margin-top:10px;
 }
 
 .boxprodotto5 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -145px;
+bottom:110px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
@@ -310,6 +300,7 @@ height:100%;
 margin-left:20px;
 top: 110px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto6{
@@ -321,7 +312,8 @@ margin:10px 0px;
 .textprodotto6 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
@@ -331,15 +323,12 @@ color:#ffffff;
 
 .oggroulette{
 overflow:hidden;
-margin-left:0px;
-margin-top:30px;
+margin-left:-70px;
+margin-top:10px;
 }
 
 .boxprodotto6 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -80px;
+bottom:30px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
@@ -357,8 +346,9 @@ overflow:hidden;
 width:50%;
 height:100%;
 margin-left:20px;
-top: 100px;
+top: 110px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto7{
@@ -370,21 +360,19 @@ margin:10px 0px;
 .textprodotto7 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .oggspaccio{
 overflow:hidden;
-margin-left:-100px;
+margin-left:-70px;
 margin-top:10px;
 }
 
 .boxprodotto7 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -120px;
+bottom:80px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
@@ -404,6 +392,7 @@ height:100%;
 margin-left:20px;
 top: 110px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto8{
@@ -415,15 +404,13 @@ margin:10px 0px;
 .textprodotto8 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .boxprodotto8 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: 180px;
+bottom:-210px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
@@ -443,6 +430,7 @@ height:100%;
 margin-left:20px;
 top: 110px;
 position:relative;
+text-align:left;
 }
 
 .textprodotto9{
@@ -454,21 +442,19 @@ margin:10px 0px;
 .textprodotto9 p{
 margin:0px;
 font-family: 'Roboto Slab', serif;
-font-size:18px;
+font-size:16px;
+font-weight:normal;
 color:#000000;
 }
 
 .oggbattery{
 overflow:hidden;
 margin-left:0px;
-margin-top:40px;
+margin-top:20px;
 }
 
 .boxprodotto9 .bottonegiu{
-width:100%;
-height:auto;
-position:relative;
-margin-top: -50px;
+bottom:0px;
 }
 
 /*** BOX DESCRIZIONE CONTATTI ***/
@@ -485,14 +471,15 @@ font-family: 'Roboto Slab', serif;
 
 .contenutoprodotto-contatti{
 width:50%;
-height:auto;
+height:100%;
 margin-left:20px;
-top: 70px;
+top: 110px;
 position:relative;
+text-align:left;
 }
 
 .contenutoprodotto-contatti h3{
-font-size:30px;	
+font-size:25px;	
 color:#969595;
 }
 .contenutoprodotto-contatti h2{
@@ -508,7 +495,7 @@ margin:10px 0px;
 
 .textprodotto-contatti p{
 margin:0px;
-font-size:18px;
+font-size:16px;
 color:#000000;
 }
 
@@ -587,13 +574,27 @@ float:left;
 }
 
 .modulo .contbottone{
-width:100px;
-margin-top:5px;
-background-color:#F4A100;
+width:150px;
+height:auto;
+background:url("../immagini/sfondo-bottoni.jpg") repeat-x center top;
 border-bottom:3px solid #CA8400;
-border-radius:5px;
 font-size:15px;
 text-align:center;
+font-family: 'Roboto Slab', serif;
+font-weight:bold;
+margin-top:5px;
+}
+
+.modulo .contbottone a{
+display:block;
+cursor:pointer;
+color:#FFFFFF;
+padding:10px 5px;
+}
+
+.modulo .contbottone a:hover{
+color:#ffffff;
+background:#F5A101;
 }
 
 /*** BOX SOCIAL ***/
