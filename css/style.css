@@ -509,7 +509,7 @@ margin-left:15px;
 }
 
 .infobox1 p{
-background:url("../immagini/footeraperto.jpg") no-repeat right center;
+background:url("../immagini/footerchiuso.jpg") no-repeat right center;
 margin:15px 0px;
 }
 
@@ -608,7 +608,7 @@ float:left;
 
 .logofooter{
 float:left;
-margin: 30px 20px 0px 10px;
+margin: 30px 20px 0px 20px;
 }
 
 .copyright{
@@ -632,7 +632,7 @@ text-decoration:underline;
 
 .menufooter{
 float:left;
-margin-top:20px;
+margin-top:10px;
 }
 
 .menufooter a:hover{
@@ -686,6 +686,10 @@ margin-right:10px;
 
 .lingua a{
 color:#ffffff;
+margin-right:10px;
+margin-top:10px;
+display:block;
+float:left;
 }
 
 .boxlingua img{
@@ -767,9 +771,9 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub-condividi li
 {width:96%; height:100%; margin:0px 10px; padding:0px; color:#ffffff; font-weight:bold;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi div
-{float:left; margin:5px 10px; width:auto; height:100%;}
+{float:left; margin:10px 10px; width:auto; height:100%;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi span
-{padding-top:10px; display:block;}
+{padding-top:5px; display:block;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi div a
 {padding:0px;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi div a:hover

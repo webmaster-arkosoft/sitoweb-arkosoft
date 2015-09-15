@@ -16,7 +16,6 @@ height:auto;
 width:200px;
 height:auto;
 background:url("../immagini/sfondo-bottoni.jpg") repeat-x center top;
-border-bottom:3px solid #CA8400;
 font-size:15px;
 text-align:center;
 font-family: 'Roboto Slab', serif;
@@ -42,11 +41,11 @@ background:#F5A101;
 }
 .bottonegiu{
 width:100%;
-height:auto;
-bottom:110px;
-left:40px;
+height:100%;
+top:0;
+left:0;
 overflow:hidden;
-position:relative;
+position:absolute;
 }
 
 .contenutogiu{
@@ -56,6 +55,9 @@ color:#000000;
 font-size:12px;
 text-align:center;
 font-family: 'Roboto Slab', serif;
+top:70%;
+left:0;
+position:relative;
 }
 
 .contenutogiu p{
@@ -159,7 +161,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto3{
-width:70%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 120px;
@@ -185,11 +187,6 @@ color:#000000;
 overflow:hidden;
 margin-left:-100px;
 margin-top:30px;
-}
-
-.boxprodotto3 .bottonegiu{
-bottom:45px;
-left:-10px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
@@ -223,7 +220,7 @@ margin:0px;
 font-family: 'Roboto Slab', serif;
 font-size:16px;
 font-weight:normal;
-color:#000000;
+color:#ffffff;
 }
 
 .contenutoprodotto4 .contenutogiu {
@@ -234,10 +231,6 @@ color:#ffffff;
 overflow:hidden;
 margin-left:-150px;
 margin-top:10px;
-}
-
-.boxprodotto4 .bottonegiu{
-bottom:205px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
@@ -278,10 +271,6 @@ color:#000000;
 overflow:hidden;
 margin-left:-70px;
 margin-top:10px;
-}
-
-.boxprodotto5 .bottonegiu{
-bottom:110px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
@@ -328,10 +317,6 @@ margin-left:-70px;
 margin-top:10px;
 }
 
-.boxprodotto6 .bottonegiu{
-bottom:30px;
-}
-
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
 .boxprodotto7{
 background:url("../immagini/spaccio.jpg") no-repeat fixed center top /cover;
@@ -372,10 +357,6 @@ margin-left:-70px;
 margin-top:10px;
 }
 
-.boxprodotto7 .bottonegiu{
-bottom:80px;
-}
-
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
 .boxprodotto8{
 background:url("../immagini/security.jpg") no-repeat fixed center top /cover;
@@ -408,10 +389,6 @@ font-family: 'Roboto Slab', serif;
 font-size:16px;
 font-weight:normal;
 color:#000000;
-}
-
-.boxprodotto8 .bottonegiu{
-bottom:-210px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
@@ -452,10 +429,6 @@ color:#000000;
 overflow:hidden;
 margin-left:0px;
 margin-top:20px;
-}
-
-.boxprodotto9 .bottonegiu{
-bottom:0px;
 }
 
 /*** BOX DESCRIZIONE CONTATTI ***/

@@ -6,56 +6,29 @@
 	.boxprodotto1{
 		background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center left /cover;
 	}
-	.boxprodotto1 .bottonegiu{
-		bottom:130px;
-	}
 	.boxprodotto2{
 		background:url("../immagini/ristomanager.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto2 .bottonegiu{
-		bottom:130px;
 	}
 	.boxprodotto3{
 		background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center left /cover;
 	}
-	.boxprodotto3 .bottonegiu{
-		bottom:65px;
-	}
 	.boxprodotto4{
 		background:url("../immagini/sadmin.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto4 .bottonegiu{
-		bottom:225px;
 	}
 	.boxprodotto5{
 		background:url("../immagini/trovapassword.jpg") no-repeat fixed center left /cover;
 	}
-	.boxprodotto5 .bottonegiu{
-		bottom:130px;
-	}
 	.boxprodotto6{
 		background:url("../immagini/roulette.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto6 .bottonegiu{
-		bottom:45px;
 	}
 	.boxprodotto7{
 		background:url("../immagini/spaccio.jpg") no-repeat fixed center left /cover;
 	}
-	.boxprodotto7 .bottonegiu{
-		bottom:100px;
-	}
 	.boxprodotto8{
 		background:url("../immagini/security.jpg") no-repeat fixed center left /cover;
 	}
-	.boxprodotto8 .bottonegiu{
-		bottom:-195px;
-	}
 	.boxprodotto9{
 		background:url("../immagini/battery.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto9 .bottonegiu{
-		bottom:20px;
 	}
 	.boxprodotto-contatti{
 		background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed left /cover;
@@ -131,6 +104,15 @@
 }
 
 @media only screen and (max-width: 700px) {
+	#header {
+		height: 65px;
+	}
+	.logo-arkosoft{
+		display:none;
+	}
+	#cd-menu-trigger .cd-menu-icon {
+		top: 50%;
+	}
 /*** BOX PRODOTTO 1 ***/
 	.boxprodotto1{
 		background-image:none;
@@ -140,13 +122,10 @@
 		width:100%;
 		margin-left:0px;
 		text-align:center;
+		top:0px;
 	}
 	.oggsoft{
 		display:none;
-	}
-	.boxprodotto1 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 2 ***/
 	.boxprodotto2{
@@ -155,24 +134,20 @@
 	}
 	.contenutoprodotto2{
 		width:100%;
-		top:65px;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.contenutoprodotto2 h2{
 		background-color:#D12323;
 		height:100px;
-		margin-top:45px;
+		margin-top:0px;
 	}
 	.contenutoprodotto2 h2 img{
 		margin-top:0px;
 	}
 	.oggristo{
 		display:none;
-	}
-	.boxprodotto2 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 3 ***/
 	.boxprodotto3{
@@ -181,15 +156,12 @@
 	}
 	.contenutoprodotto3{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.oggmex{
 		display:none;
-	}
-	.boxprodotto3 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 4 ***/
 	.boxprodotto4{
@@ -198,15 +170,12 @@
 	}
 	.contenutoprodotto4{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.oggsadmin{
 		display:none;
-	}
-	.boxprodotto4 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 5 ***/
 	.boxprodotto5{
@@ -214,15 +183,12 @@
 	}
 	.contenutoprodotto5{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.oggpassword{
 		display:none;
-	}
-	.boxprodotto5 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 6 ***/
 	.boxprodotto6{
@@ -231,15 +197,12 @@
 	}
 	.contenutoprodotto6{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.oggroulette{
 		display:none;
-	}
-	.boxprodotto6 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 7 ***/
 	.boxprodotto7{
@@ -247,15 +210,12 @@
 	}
 	.contenutoprodotto7{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.oggspaccio{
 		display:none;
-	}
-	.boxprodotto7 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 8 ***/
 	.boxprodotto8{
@@ -264,12 +224,9 @@
 	}
 	.contenutoprodotto8{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
-	}
-	.boxprodotto8 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX PRODOTTO 9 ***/
 	.boxprodotto9{
@@ -278,15 +235,12 @@
 	}
 	.contenutoprodotto9{
 		width:100%;
+		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
 	.oggbattery{
 		display:none;
-	}
-	.boxprodotto9 .bottonegiu{
-		bottom: -100px;
-		left:0px;
 	}
 /*** BOX CONTATTI ***/
 	.boxprodotto-contatti{
@@ -297,7 +251,14 @@
 	.contenutoprodotto-contatti{
 		width:100%;
 		margin-left:0px;
-		text-align:center;
+		text-align:left;
+		top:64px;
+	}
+	.contenutoprodotto-contatti h2, h3{
+		margin-left:10px;
+	}
+	.textprodotto-contatti{
+		margin-left:10px;
 	}
 	.modulo{
 		width:95%;
