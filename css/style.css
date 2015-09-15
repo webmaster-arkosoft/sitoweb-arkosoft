@@ -57,7 +57,7 @@ margin:0px auto;
 }
 
 .boxheader h1 a img{
-	padding:13px 25px 13px 20px;
+	padding:13px 25px 12px 20px;
 }
 
 .ricerca{
@@ -132,7 +132,7 @@ transform: translateX(-260px);
 position: fixed;
 top: 0;
 left: 0;
-height: 65px;
+height: 110px;
 width: 100%;
 background: url("../immagini/sfondoheader.jpg")repeat-x center center;
 z-index: 2;
@@ -156,11 +156,6 @@ transform: translateX(-260px);
 }
 #header.is-fixed {
 position: fixed;
-}
-@media only screen and (min-width: 1000px) {
-#header {
-height: 110px;
-}
 }
 
 #cd-logo {
@@ -231,7 +226,7 @@ display: none;
 display: inline-block;
 position: absolute;
 left: 50%;
-top: 50%;
+top: 70%;
 bottom: auto;
 right: auto;
 -webkit-transform: translateX(-50%) translateY(-50%);
@@ -347,14 +342,14 @@ padding: 0px;
 color: #aab5b7;
 }
 #cd-lateral-nav a.current {
-background-color: #3a4a4d;
+background-color: #8fdffd;
 color: #FFF;
 }
 .no-touch #cd-lateral-nav a:hover {
 color: #FFF;
 }
 #cd-lateral-nav a:hover {
-color: #0000FF;
+color: #8fdffd;
 }
 @media only screen and (min-width: 1000px) {
 #cd-lateral-nav .cd-navigation {

@@ -44,7 +44,7 @@ background:#F5A101;
 width:100%;
 height:auto;
 bottom:110px;
-left:90px;
+left:40px;
 overflow:hidden;
 position:relative;
 }
@@ -79,7 +79,7 @@ left:0;
 overflow:hidden;
 }
 .contenutoprodotto{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 20px;
@@ -119,7 +119,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto2{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 100px;
@@ -159,7 +159,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto3{
-width:50%;
+width:70%;
 height:100%;
 margin-left:20px;
 top: 120px;
@@ -189,6 +189,7 @@ margin-top:30px;
 
 .boxprodotto3 .bottonegiu{
 bottom:45px;
+left:-10px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
@@ -203,7 +204,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto4{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 100px;
@@ -251,7 +252,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto5{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 110px;
@@ -295,7 +296,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto6{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 110px;
@@ -343,7 +344,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto7{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 110px;
@@ -387,7 +388,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto8{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 110px;
@@ -425,7 +426,7 @@ overflow:hidden;
 }
 
 .contenutoprodotto9{
-width:50%;
+width:60%;
 height:100%;
 margin-left:20px;
 top: 110px;

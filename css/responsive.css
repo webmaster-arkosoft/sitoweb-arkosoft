@@ -1,74 +1,69 @@
 @media only screen and (max-width: 1000px) {
-/*** HEADER ***/
-	#cd-logo {
-	float: none;
-	margin: 2px auto;
+	.contenutoprodotto {
+		width: 60%;
 	}
-	#cd-logo img {
-	margin:0px auto;
-	}
-	
 /*** SFONDI BOX DESCRIZIONE PRODOTTO ***/
 	.boxprodotto1{
 		background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center left /cover;
 	}
 	.boxprodotto1 .bottonegiu{
-		margin-top: -170px;
+		bottom:130px;
 	}
 	.boxprodotto2{
 		background:url("../immagini/ristomanager.jpg") no-repeat fixed center left /cover;
 	}
 	.boxprodotto2 .bottonegiu{
-		margin-top: -205px;
+		bottom:130px;
 	}
 	.boxprodotto3{
 		background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto3 .bottonegiu{
+		bottom:65px;
 	}
 	.boxprodotto4{
 		background:url("../immagini/sadmin.jpg") no-repeat fixed center left /cover;
 	}
 	.boxprodotto4 .bottonegiu{
-		margin-top: -230px;
+		bottom:225px;
 	}
 	.boxprodotto5{
 		background:url("../immagini/trovapassword.jpg") no-repeat fixed center left /cover;
 	}
 	.boxprodotto5 .bottonegiu{
-		margin-top: -150px;
+		bottom:130px;
 	}
 	.boxprodotto6{
 		background:url("../immagini/roulette.jpg") no-repeat fixed center left /cover;
 	}
 	.boxprodotto6 .bottonegiu{
-		margin-top: -90px;
+		bottom:45px;
 	}
 	.boxprodotto7{
 		background:url("../immagini/spaccio.jpg") no-repeat fixed center left /cover;
 	}
+	.boxprodotto7 .bottonegiu{
+		bottom:100px;
+	}
 	.boxprodotto8{
 		background:url("../immagini/security.jpg") no-repeat fixed center left /cover;
+	}
+	.boxprodotto8 .bottonegiu{
+		bottom:-195px;
 	}
 	.boxprodotto9{
 		background:url("../immagini/battery.jpg") no-repeat fixed center left /cover;
 	}
 	.boxprodotto9 .bottonegiu{
-		margin-top: -60px;
+		bottom:20px;
 	}
 	.boxprodotto-contatti{
 		background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed left /cover;
 		height: 750px;
 	}
-	.textprodotto-contatti{
-		margin:0px;
-	}
 }
 
 @media only screen and (max-width: 900px){
-/*** DIV GENERALE DEL PROFOTTO CON TESTOS ***/
-	.contenutoprodotto, .contenutoprodotto2, .contenutoprodotto3, .contenutoprodotto4, .contenutoprodotto5,
-	.contenutoprodotto6, .contenutoprodotto7, .contenutoprodotto8, .contenutoprodotto9, .contenutoprodotto-contattaci{
-		width:80%;
-	}
 /*** FOOTER ***/
 	.footerinfo{
 		border-bottom:0px;
@@ -128,6 +123,10 @@
 		margin:10px 0px;
 		text-align:center;
 	}
+	.copyright-nascosto a{
+		color:#ffffff;
+		text-decoration:underline;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -165,15 +164,10 @@
 		height:100px;
 	}
 	.contenutoprodotto2 h2 img{
-		margin-top:15px;
+		margin-top:10px;
 	}
 	.oggristo{
 		display:none;
-	}
-	.boxprodotto2 .bottonegiu{
-		margin-top: 100px;
-		background-color:#FF7300;
-		padding:10px 0px;
 	}
 /*** BOX PRODOTTO 3 ***/
 	.boxprodotto3{
@@ -327,26 +321,10 @@
 }
 
 @media only screen and (max-width: 500px) {
-	.boxprodotto1, .boxprodotto3, .boxprodotto4, 
-	.boxprodotto5{
-		height: 530px;
-	}
-	.boxprodotto2{
-		height:570px;
-	}
-	.boxprodotto6, .boxprodotto7, .boxprodotto8{
-		height: 560px;
-	}
-	.boxprodotto9{
-		height:510px;
-	}
 	.contenutoprodotto h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
-	}
-	.boxprodotto1 .bottonegiu{
-		margin-top: 30px;
 	}
 	.contenutoprodotto2 h2 img{
 		width:95%;
@@ -354,63 +332,39 @@
 		height:auto;
 		margin-top:25px;
 	}
-	.boxprodotto2 .bottonegiu{
-		margin-top: 30px;
-	}
 	.contenutoprodotto3 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
-	}
-	.boxprodotto3 .bottonegiu{
-		margin-top: 30px;
 	}
 	.contenutoprodotto4 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
 	}
-	.boxprodotto4 .bottonegiu{
-		margin-top: 30px;
-	}
 	.contenutoprodotto5 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
-	}
-	.boxprodotto5 .bottonegiu{
-		margin-top: 30px;
 	}
 	.contenutoprodotto6 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
 	}
-	.boxprodotto6 .bottonegiu{
-		margin-top: 30px;
-	}
 	.contenutoprodotto7 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
-	}
-	.boxprodotto7 .bottonegiu{
-		margin-top: 30px;
 	}
 	.contenutoprodotto8 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
 	}
-	.boxprodotto8 .bottonegiu{
-		margin-top: 30px;
-	}
 	.contenutoprodotto9 h2 img{
 		width:95%;
 		max-width:300px;
 		height:auto;
-	}
-	.boxprodotto9 .bottonegiu{
-		margin-top: 30px;
 	}
 }
