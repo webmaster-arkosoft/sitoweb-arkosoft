@@ -109,6 +109,7 @@
 	.boxlingua img{
 		float:none;
 		margin-right:0px;
+		margin-top:10px;
 	}
 
 	.imglingua{
@@ -134,7 +135,6 @@
 	.boxprodotto1{
 		background-image:none;
 		background-color:#ffffff;
-		height: 600px;
 	}
 	.contenutoprodotto{
 		width:100%;
@@ -145,13 +145,13 @@
 		display:none;
 	}
 	.boxprodotto1 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 2 ***/
 	.boxprodotto2{
 		background-image:none;
 		background-color:#DFDFDF;
-		height: 700px;
 	}
 	.contenutoprodotto2{
 		width:100%;
@@ -162,18 +162,22 @@
 	.contenutoprodotto2 h2{
 		background-color:#D12323;
 		height:100px;
+		margin-top:45px;
 	}
 	.contenutoprodotto2 h2 img{
-		margin-top:10px;
+		margin-top:0px;
 	}
 	.oggristo{
 		display:none;
+	}
+	.boxprodotto2 .bottonegiu{
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 3 ***/
 	.boxprodotto3{
 		background-image:none;
 		background-color:#FFDA44;
-		height: 700px;
 	}
 	.contenutoprodotto3{
 		width:100%;
@@ -184,13 +188,13 @@
 		display:none;
 	}
 	.boxprodotto3 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 4 ***/
 	.boxprodotto4{
 		background-image:none;
 		background-color:#936543;
-		height: 700px;
 	}
 	.contenutoprodotto4{
 		width:100%;
@@ -201,12 +205,12 @@
 		display:none;
 	}
 	.boxprodotto4 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 5 ***/
 	.boxprodotto5{
 		background:#5D8EBB url("../immagini/trovapassword2.jpg") repeat-x center center;
-		height: 680px;
 	}
 	.contenutoprodotto5{
 		width:100%;
@@ -217,13 +221,13 @@
 		display:none;
 	}
 	.boxprodotto5 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 6 ***/
 	.boxprodotto6{
 		background-image:none;
 		background-color:#319931;
-		height: 700px;
 	}
 	.contenutoprodotto6{
 		width:100%;
@@ -234,12 +238,12 @@
 		display:none;
 	}
 	.boxprodotto6 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 7 ***/
 	.boxprodotto7{
 		background:url("../immagini/spaccio2.jpg") no-repeat fixed center center /cover;
-		height: 700px;
 	}
 	.contenutoprodotto7{
 		width:100%;
@@ -250,13 +254,13 @@
 		display:none;
 	}
 	.boxprodotto7 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 8 ***/
 	.boxprodotto8{
 		background-image:none;
 		background-color:#E6E6E6;
-		height: 700px;
 	}
 	.contenutoprodotto8{
 		width:100%;
@@ -264,13 +268,13 @@
 		text-align:center;
 	}
 	.boxprodotto8 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX PRODOTTO 9 ***/
 	.boxprodotto9{
 		background-image:none;
 		background-color:#79BCA6;
-		height: 700px;
 	}
 	.contenutoprodotto9{
 		width:100%;
@@ -281,7 +285,8 @@
 		display:none;
 	}
 	.boxprodotto9 .bottonegiu{
-		margin-top: 100px;
+		bottom: -100px;
+		left:0px;
 	}
 /*** BOX CONTATTI ***/
 	.boxprodotto-contatti{
@@ -330,7 +335,6 @@
 		width:95%;
 		max-width:350px;
 		height:auto;
-		margin-top:25px;
 	}
 	.contenutoprodotto3 h2 img{
 		width:95%;
