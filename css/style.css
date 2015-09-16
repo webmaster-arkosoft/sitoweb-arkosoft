@@ -728,7 +728,7 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2
 {width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li
-{height:auto; width:100px; padding:0px; text-align:center; margin:0px 20px;}
+{height:auto; width:100px; padding:0px; text-align:center; margin:0px 20px; }
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li div
 {width:70px; height:70px; margin:0px auto; padding-top:0px;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li p
@@ -739,29 +739,65 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 {color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover div
 {width:60px; height:60px; margin-bottom:10px; margin:5px auto;}
-#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover .icona
-{width:65px; height:65px;}
 /*** HOVER PER LE IMMAGINI NELLA LISTA PRODOTTI ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover a img:hover
 {width:63px; height:auto;}
 
+/*** MONDO ARKOSOFT ***/
+#nav li:hover ul.sub li.box2li ul.mondo1
+{width:100%; height:auto; display:block; margin-top:0px; margin-bottom:5px; float:left;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo
+{width:100%; height:auto; border-right:0px; display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover
+{height:auto; width:185px; padding:0px; text-align:center; margin:0px 0px 15px 10px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover p
+{margin:5px 0px; font-size:14px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a
+{color:#ffffff; text-decoration:none; display:block; margin:0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a:hover 
+{color:#8fdffd;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover .icona
+{width:80px; height:80px; margin:0px auto; padding-top:0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover .icona img
+{background:rgba(255,255,255,0.2);}
+/*** HOVER IMMAGINI MONDO ARKOSOFT ***/
+#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a img:hover
+{width:75px; height:auto;}
+
+/*** CHIEDI AIUTO ***/
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto
+{width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover
+{height:auto; width:185px; padding:0px; text-align:center; margin:0px 0px 15px 0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover p
+{margin:5px 0px; font-size:14px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a
+{color:#ffffff; text-decoration:none; display:block; margin:0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a:hover 
+{color:#8fdffd;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover .icona
+{width:80px; height:80px; margin:0px auto; padding-top:0px;}
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover .icona img
+{background:rgba(255,255,255,0.2);}
+/*** HOVER IMMAGINI CHIEDI AIUTO ***/
+#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a img:hover
+{width:75px; height:auto;}
+
 /*** QUINTO BLOCCO LIST ***/
 #nav li:hover ul.sub li.box2li ul.sub5
-{width:100%; height:auto; margin:0px auto; display:block; float:left;}
+{width:100%; height:auto; margin-left:20px; display:block; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale
-{width:300px; height:70px; text-align:center; float:left;}
+{width:320px; height:50px; text-align:left; float:left; margin:10px 0px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content
-{width:100px; height:100%; margin-left:20px; float:left; padding:0px;}
+{width:auto; height:100%; margin-left:0px; float:left; padding:0px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a
 {margin:0px; padding:0px; border:0px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a:hover
 {color:#8fdffd;}
-#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content img
-{margin-left:auto; margin-right:auto;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1
-{width:180px; height:100%; text-align:left; float:left; colo:#ffffff; font-weight:bold; margin-top:10px; padding:0px;}
+{width:230px; height:auto; text-align:left; float:left; colo:#ffffff; font-weight:bold; margin-top:5px; margin-left:5px; padding:0px; font-size:13px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a
-{margin:0px; padding:0px; border:0px;}
+{margin:2px 0px; padding:0px; border:0px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a:hover
 {color:#8fdffd;}
 

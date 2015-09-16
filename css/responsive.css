@@ -51,6 +51,9 @@
 		margin:10px auto;
 		padding:0px;
 	}
+	.contenutologo img{
+		margin-top:20px;
+	}
 	.copyright{
 		display:none;
 	}
@@ -75,9 +78,15 @@
 		text-align:center;
 	}
 	.lingua{
+		width:100%;
 		float:none;
 		margin-right:auto;
 		margin-left:auto;
+	}
+	.lingua a{
+		padding:0px;
+		margin:0px;
+		float:none;
 	}
 	.boxlingua img{
 		float:none;
@@ -90,12 +99,13 @@
 		width:16px;
 	}
 	.copyright-nascosto{
-		float:left;
+		float:none;
 		display:block;
-		width:98%;
+		width:95%;
 		height:auto;
-		margin:10px 0px;
+		margin:10px auto;
 		text-align:center;
+		font-size:15px;
 	}
 	.copyright-nascosto a{
 		color:#ffffff;
