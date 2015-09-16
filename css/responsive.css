@@ -123,6 +123,9 @@
 	#cd-menu-trigger .cd-menu-icon {
 		top: 50%;
 	}
+	.cd-main-content {
+		padding-top: 75px;
+	}
 /*** BOX PRODOTTO 1 ***/
 	.boxprodotto1{
 		background-image:none;
