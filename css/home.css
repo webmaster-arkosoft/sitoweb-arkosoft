@@ -65,7 +65,13 @@ margin:0px;
 	.contenutogiu{
 		width:100%;
 	}
+	.contenutogiu img{
+		width:40px;
+		height:40px;
+	}
 }
+
+.img-nascosto{display:none;}
 
 /*** BOX DESCRIZIONE PRODOTTO 1 ***/
 .boxprodotto1{

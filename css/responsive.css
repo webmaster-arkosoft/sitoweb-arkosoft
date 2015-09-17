@@ -115,6 +115,7 @@
 
 @media only screen and (max-width: 700px) {
 	.contenutogiu{
+		top:60%;
 		left:0;
 	}
 	#header {
@@ -168,6 +169,7 @@
 		margin-left:0px;
 	}
 	.contenutoprodotto2 .contenutogiu{
+		top:55%;
 		left:0;
 	}
 /*** BOX PRODOTTO 3 ***/
@@ -222,6 +224,7 @@
 		margin-left:0px;
 	}
 	.contenutoprodotto5 .contenutogiu{
+		top:60%;
 		left:0;
 	}
 /*** BOX PRODOTTO 6 ***/
@@ -240,7 +243,7 @@
 		margin-left:0px;
 	}
 	.contenutoprodotto6 .contenutogiu{
-		top:65%;
+		top:60%;
 		left:0;
 	}
 /*** BOX PRODOTTO 7 ***/
@@ -276,7 +279,7 @@
 	}
 
 	.contenutoprodotto8 .contenutogiu{
-		top: 65%;
+		top: 60%;
 		left:0;
 	}
 /*** BOX PRODOTTO 9 ***/
