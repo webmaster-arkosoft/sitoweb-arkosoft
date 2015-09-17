@@ -34,18 +34,14 @@ padding:10px 5px;
 color:#ffffff;
 background:#F5A101;
 }
+
 @media only screen and (max-width: 700px) {
 	.contbottone{
 		margin:0px auto;
 	}
 }
-.bottonegiu{
-width:100%;
-height:100%;
-float:left;
-}
 
-.contenutogiu{
+/*.contenutogiu{
 width:100%;
 height:auto;
 color:#000000;
@@ -55,17 +51,14 @@ font-family: 'Roboto Slab', serif;
 top:70%;
 left:20%;
 position:relative;
-}
+}*/
 
-.contenutogiu p{
+.bottonegiu p{
 margin:0px;
 }
 
 @media only screen and (max-width: 700px) {
-	.contenutogiu{
-		width:100%;
-	}
-	.contenutogiu img{
+	.bottonegiu img{
 		width:40px;
 		height:40px;
 	}
@@ -110,9 +103,19 @@ color:#000000;
 background:url("../immagini/oggettosoftshop.jpg") no-repeat left top;
 width:100%;
 height:300px;
-float:left;
-overflow:hidden;
 margin-left:-80px;
+}
+
+.boxprodotto1 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
@@ -152,15 +155,20 @@ color:#000000;
 .oggristo{
 background:url("../immagini/oggettoristo.png") no-repeat left top;
 width:100%;
-height:350px;
-float:left;
-overflow:hidden;
-margin-left:-130px;
+height:300px;
+margin-left:-80px;
 }
 
-.contenutoprodotto2 .contenutogiu{
-top:60%;
-left:28%;
+.boxprodotto2 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
@@ -201,15 +209,19 @@ color:#000000;
 background:url("../immagini/oggettomex.png") no-repeat left top;
 width:100%;
 height:300px;
-float:left;
-overflow:hidden;
-margin-left:-60px;
-margin-top:20px;
+margin-left:-80px;
 }
 
-.contenutoprodotto3 .contenutogiu{
-top: 60%;
-left:15%;
+.boxprodotto3 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
@@ -253,15 +265,20 @@ color:#ffffff;
 .oggsadmin{
 background:url("../immagini/oggettos-admin.png") no-repeat left top;
 width:100%;
-height:420px;
-float:left;
-overflow:hidden;
-margin-left:-150px;
+height:300px;
+margin-left:-80px;
 }
 
-.contenutoprodotto4 .contenutogiu{
-top: 50%;
-left:30%;
+.boxprodotto4 .bottonegiu{
+bottom: 20%;
+color: #ffffff;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
@@ -301,15 +318,20 @@ color:#000000;
 .oggpassword{
 background:url("../immagini/oggettopassword.png") no-repeat left top;
 width:100%;
-height:310px;
-float:left;
-overflow:hidden;
+height:300px;
 margin-left:-80px;
 }
 
-.contenutoprodotto5 .contenutogiu{
-top: 70%;
-left:20%;
+.boxprodotto5 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
@@ -354,14 +376,19 @@ color:#ffffff;
 background:url("../immagini/oggettoroulette.png") no-repeat left top;
 width:100%;
 height:300px;
-float:left;
-overflow:hidden;
 margin-left:-80px;
 }
 
-.contenutoprodotto6 .contenutogiu{
-top: 70%;
-left:20%;
+.boxprodotto6 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
@@ -402,14 +429,19 @@ color:#000000;
 background:url("../immagini/oggettospaccio.png") no-repeat left top;
 width:100%;
 height:300px;
-float:left;
-overflow:hidden;
 margin-left:-80px;
 }
 
-.contenutoprodotto7 .contenutogiu{
-top: 70%;
-left:20%;
+.boxprodotto7 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
@@ -449,14 +481,19 @@ color:#000000;
 .oggsecurity{
 width:100%;
 height:300px;
-float:left;
-overflow:hidden;
 margin-left:-80px;
 }
 
-.contenutoprodotto8 .contenutogiu{
-top: 70%;
-left:20%;
+.boxprodotto8 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
@@ -497,15 +534,19 @@ color:#000000;
 background:url("../immagini/oggettobattery.png") no-repeat left top;
 width:100%;
 height:300px;
-float:left;
-overflow:hidden;
-margin-left:0px;
-margin-top:20px;
+margin-left:-80px;
 }
 
-.contenutoprodotto9 .contenutogiu{
-top: 65%;
-left:7%;
+.boxprodotto9 .bottonegiu{
+bottom: 20%;
+color: #000000;
+font-family: "Roboto Slab",serif;
+font-size: 12px;
+height: auto;
+left: 30%;
+position: absolute;
+text-align: center;
+width: 50%;
 }
 
 /*** BOX DESCRIZIONE CONTATTI ***/
