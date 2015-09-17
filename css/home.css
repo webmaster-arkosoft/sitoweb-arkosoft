@@ -89,7 +89,7 @@ color:#000000;
 
 .oggsoft{
 background:url("../immagini/oggettosoftshop.jpg") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -142,7 +142,7 @@ color:#000000;
 
 .oggristo{
 background:url("../immagini/oggettoristo.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -195,7 +195,7 @@ color:#000000;
 
 .oggmex{
 background:url("../immagini/oggettomex.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -252,7 +252,7 @@ color:#ffffff;
 
 .oggsadmin{
 background:url("../immagini/oggettos-admin.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -305,7 +305,7 @@ color:#000000;
 
 .oggpassword{
 background:url("../immagini/oggettopassword.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -362,7 +362,7 @@ color:#ffffff;
 
 .oggroulette{
 background:url("../immagini/oggettoroulette.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -415,7 +415,7 @@ color:#000000;
 
 .oggspaccio{
 background:url("../immagini/oggettospaccio.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -467,7 +467,7 @@ color:#000000;
 }
 
 .oggsecurity{
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -520,7 +520,7 @@ color:#000000;
 
 .oggbattery{
 background:url("../immagini/oggettobattery.png") no-repeat left top;
-width:100%;
+width:auto;
 height:300px;
 margin-left:-80px;
 }
@@ -595,7 +595,7 @@ font-size:15px;
 }
 
 .camponome, .campocognome, .campocitta, .campotel, .campoemail, .textarea{
-width:49%;
+width:50%;
 height:auto;
 text-align:left;
 float:left;
@@ -644,7 +644,8 @@ color:#0098D0;
 }
 
 .boxprivacy input{
-height:auto;	
+height:auto;
+width:auto;	
 }
 
 .modulo .boxbottone{

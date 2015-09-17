@@ -167,7 +167,7 @@ display: block;
 }
 
 #cd-logo img:hover{
-	background:url("../immagini/colorhover.png") repeat-x center center;
+background:url("../immagini/colorhover.png") repeat-x center center;
 }
 
 #cd-top-nav {
