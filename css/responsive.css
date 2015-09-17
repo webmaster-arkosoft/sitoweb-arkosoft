@@ -141,6 +141,10 @@
 		text-align:center;
 		top:0px;
 	}
+	.boxprodotto1 .bottonegiu{
+		left: 0;
+		width: 100%;
+	}
 	.oggsoft{
 		background:url("../immagini/oggettosoftshop1.jpg") no-repeat center top;
 		margin-left:0px;
@@ -164,14 +168,14 @@
 	.contenutoprodotto2 h2 img{
 		margin-top:0px;
 	}
-	.oggristo{
-		background:url("../immagini/oggettoristo2.png") no-repeat center top;
-		margin-left:0px;
-	}
 	.boxprodotto2 .bottonegiu{
 		background:#FF7300;
 		left: 0;
 		width: 100%;
+	}
+	.oggristo{
+		background:url("../immagini/oggettoristo2.png") no-repeat center top;
+		margin-left:0px;
 	}
 /*** BOX PRODOTTO 3 ***/
 	.boxprodotto3{
@@ -183,6 +187,10 @@
 		top:64px;
 		margin-left:0px;
 		text-align:center;
+	}
+	.boxprodotto3 .bottonegiu{
+		left: 0;
+		width: 100%;
 	}
 	.oggmex{
 		background:url("../immagini/oggettomex1.png") no-repeat center top;
@@ -199,6 +207,10 @@
 		margin-left:0px;
 		text-align:center;
 	}
+	.boxprodotto4 .bottonegiu{
+		left: 0;
+		width: 100%;
+	}
 	.oggsadmin{
 		background:url("../immagini/oggettos-admin1.png") no-repeat center top;
 		margin-left:0px;
@@ -212,6 +224,10 @@
 		top:64px;
 		margin-left:0px;
 		text-align:center;
+	}
+	.boxprodotto5 .bottonegiu{
+		left: 0;
+		width: 100%;
 	}
 	.oggpassword{
 		background:url("../immagini/oggettopassword1.png") no-repeat center top;
@@ -228,6 +244,10 @@
 		margin-left:0px;
 		text-align:center;
 	}
+	.boxprodotto6 .bottonegiu{
+		left: 0;
+		width: 100%;
+	}
 	.oggroulette{
 		background:url("../immagini/oggettoroulette1.png") no-repeat center top;
 		margin-left:0px;
@@ -241,6 +261,10 @@
 		top:64px;
 		margin-left:0px;
 		text-align:center;
+	}
+	.boxprodotto7 .bottonegiu{
+		left: 0;
+		width: 100%;
 	}
 	.oggspaccio{
 		background:url("../immagini/oggettospaccio1.png") no-repeat center top;
@@ -257,6 +281,10 @@
 		margin-left:0px;
 		text-align:center;
 	}
+	.boxprodotto8 .bottonegiu{
+		left: 0;
+		width: 100%;
+	}
 	.oggsecurity{
 		margin-left:0px;
 	}
@@ -270,6 +298,10 @@
 		top:64px;
 		margin-left:0px;
 		text-align:center;
+	}
+	.boxprodotto9 .bottonegiu{
+		left: 0;
+		width: 100%;
 	}
 	.oggbattery{
 		background:url("../immagini/oggettobattery1.png") no-repeat center top;
