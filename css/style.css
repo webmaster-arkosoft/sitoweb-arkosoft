@@ -44,6 +44,7 @@ height:45px;
 margin:0px auto;
 background:#000000;
 text-align:right;
+display:block;
 }
 
 .logo-arkosoft img{
@@ -159,11 +160,13 @@ position: fixed;
 }
 
 #cd-logo {
-display: block;
 float: left;
 }
-#cd-logo img {
+#cd-logo .logo-mondo {
 display: block;
+}
+#cd-logo .logo-intero {
+display: none;
 }
 
 #cd-logo img:hover{
