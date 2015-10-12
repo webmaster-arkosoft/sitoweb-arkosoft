@@ -10,6 +10,7 @@ margin-right:auto;
 .boxbottone{
 width:100%;
 height:auto;
+float:left;
 }
 
 .contbottone{
@@ -37,7 +38,7 @@ background:#F5A101;
 
 @media only screen and (max-width: 700px) {
 	.contbottone{
-		margin:0px auto;
+		margin:30px auto;
 	}
 }
 
@@ -77,6 +78,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto p{
@@ -89,9 +91,10 @@ color:#000000;
 
 .oggsoft{
 background:url("../immagini/oggettosoftshop.jpg") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
-margin-left:-80px;
+margin-left:-130px;
+float:left;
 }
 
 .boxprodotto1 .bottonegiu{
@@ -104,6 +107,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
@@ -130,6 +134,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto2 p{
@@ -142,9 +147,10 @@ color:#000000;
 
 .oggristo{
 background:url("../immagini/oggettoristo.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto2 .bottonegiu{
@@ -157,6 +163,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
@@ -183,6 +190,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto3 p{
@@ -195,9 +203,10 @@ color:#000000;
 
 .oggmex{
 background:url("../immagini/oggettomex.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto3 .bottonegiu{
@@ -210,6 +219,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
@@ -236,6 +246,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto4 p{
@@ -252,9 +263,10 @@ color:#ffffff;
 
 .oggsadmin{
 background:url("../immagini/oggettos-admin.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto4 .bottonegiu{
@@ -267,6 +279,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
@@ -293,6 +306,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto5 p{
@@ -305,9 +319,10 @@ color:#000000;
 
 .oggpassword{
 background:url("../immagini/oggettopassword.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto5 .bottonegiu{
@@ -320,6 +335,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
@@ -346,6 +362,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto6 p{
@@ -362,9 +379,10 @@ color:#ffffff;
 
 .oggroulette{
 background:url("../immagini/oggettoroulette.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto6 .bottonegiu{
@@ -377,6 +395,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
@@ -403,6 +422,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto7 p{
@@ -415,9 +435,10 @@ color:#000000;
 
 .oggspaccio{
 background:url("../immagini/oggettospaccio.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto7 .bottonegiu{
@@ -430,6 +451,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
@@ -456,6 +478,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto8 p{
@@ -467,9 +490,10 @@ color:#000000;
 }
 
 .oggsecurity{
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto8 .bottonegiu{
@@ -482,6 +506,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
@@ -508,6 +533,7 @@ text-align:left;
 width:100%;
 height:auto;
 margin:10px 0px;
+float:left;
 }
 
 .textprodotto9 p{
@@ -520,9 +546,10 @@ color:#000000;
 
 .oggbattery{
 background:url("../immagini/oggettobattery.png") no-repeat left top;
-width:auto;
+width:100%;
 height:300px;
 margin-left:-80px;
+float:left;
 }
 
 .boxprodotto9 .bottonegiu{
@@ -535,6 +562,7 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
+float:left;
 }
 
 /*** BOX DESCRIZIONE CONTATTI ***/
