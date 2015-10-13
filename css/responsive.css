@@ -20,9 +20,6 @@
 	.cd-main-content {
 		padding-top: 65px;
 	}
-	.boxbottone{
-		margin:20px 0px;
-	}
 /*** SFONDI BOX DESCRIZIONE PRODOTTO ***/
 	.boxprodotto1{
 		background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center left /cover;
@@ -135,6 +132,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+	.boxbottone{
+		margin:30px 0px;
+	}
 	.contenutogiu{
 		top:60%;
 		left:0;
@@ -145,23 +145,31 @@
 		background-color:#ffffff;
 	}
 	.contenutoprodotto{
+		background:url("../immagini/oggettosoftshop1.jpg") no-repeat center bottom;
 		width:100%;
 		margin-left:0px;
 		text-align:center;
 		top:10px;
 	}
+	.textprodotto{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto h3{
+		margin:10px;
+	}
+	.textprodotto h3 p{
+		font-size:18px;
+	}
 	.boxprodotto1 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggsoft{
-		background:url("../immagini/oggettosoftshop1.jpg") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 2 ***/
 	.boxprodotto2{
@@ -169,10 +177,15 @@
 		background-color:#DFDFDF;
 	}
 	.contenutoprodotto2{
+		background:url("../immagini/oggettoristo2.png") no-repeat center bottom;
 		width:100%;
 		margin-left:0px;
 		text-align:center;
 		top:64px;
+	}
+	.textprodotto2{
+		margin:30px 0px;
+		width:100%;
 	}
 	.contenutoprodotto2 h2{
 		background-color:#D12323;
@@ -182,42 +195,52 @@
 	.contenutoprodotto2 h2 img{
 		margin-top:0px;
 	}
+	.textprodotto2 h3{
+		margin:10px;
+	}
+	.textprodotto2 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto2 .bottonegiu{
-		background:none;
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggristo{
-		background:url("../immagini/oggettoristo2.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 3 ***/
 	.boxprodotto3{
 		background-image:none;
 	}
 	.contenutoprodotto3{
+		background:url("../immagini/oggettomex1.png") no-repeat center bottom;
 		width:100%;
 		top:66px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto3{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto3 h3{
+		margin:10px;
+	}
+	.textprodotto3 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto3 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggmex{
-		background:url("../immagini/oggettomex1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 4 ***/
 	.boxprodotto4{
@@ -225,46 +248,62 @@
 		background-color:#936543;
 	}
 	.contenutoprodotto4{
+		background:url("../immagini/oggettos-admin1.png") no-repeat center bottom;
 		width:100%;
 		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto4{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto4 h3{
+		margin:10px;
+	}
+	.textprodotto4 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto4 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggsadmin{
-		background:url("../immagini/oggettos-admin1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 5 ***/
 	.boxprodotto5{
 		background:#5D8EBB url("../immagini/trovapassword2.jpg") repeat-x center center;
 	}
 	.contenutoprodotto5{
+		background:url("../immagini/oggettopassword1.png") no-repeat center bottom;
 		width:100%;
 		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto5{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto5 h3{
+		margin:10px;
+	}
+	.textprodotto5 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto5 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggpassword{
-		background:url("../immagini/oggettopassword1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 6 ***/
 	.boxprodotto6{
@@ -272,46 +311,62 @@
 		background-color:#319931;
 	}
 	.contenutoprodotto6{
+		background:url("../immagini/oggettoroulette1.png") no-repeat center bottom;
 		width:100%;
 		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto6{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto6 h3{
+		margin:10px;
+	}
+	.textprodotto6 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto6 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggroulette{
-		background:url("../immagini/oggettoroulette1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 7 ***/
 	.boxprodotto7{
 		background:url("../immagini/spaccio2.jpg") no-repeat fixed center center /cover;
 	}
 	.contenutoprodotto7{
+		background:url("../immagini/oggettospaccio1.png") no-repeat center bottom;
 		width:100%;
 		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto7{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto7 h3{
+		margin:10px;
+	}
+	.textprodotto7 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto7 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggspaccio{
-		background:url("../immagini/oggettospaccio1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 8 ***/
 	.boxprodotto8{
@@ -319,23 +374,31 @@
 		background-color:#E6E6E6;
 	}
 	.contenutoprodotto8{
+		background:url("../immagini/oggettoshost1.png") no-repeat center bottom;
 		width:100%;
 		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto8{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto8 h3{
+		margin:10px;
+	}
+	.textprodotto8 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto8 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggsecurity{
-		background:url("../immagini/oggettoshost1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX PRODOTTO 9 ***/
 	.boxprodotto9{
@@ -343,23 +406,31 @@
 		background-color:#79BCA6;
 	}
 	.contenutoprodotto9{
+		background:url("../immagini/oggettobattery1.png") no-repeat center bottom;
 		width:100%;
 		top:64px;
 		margin-left:0px;
 		text-align:center;
 	}
+	.textprodotto9{
+		margin:30px 0px;
+		width:100%;
+	}
+	.textprodotto9 h3{
+		margin:10px;
+	}
+	.textprodotto9 h3 p{
+		font-size:18px;
+	}
 	.boxprodotto9 .bottonegiu{
-		left: 0;
 		width: 100%;
-		bottom: 0;
-		position: relative;
-		margin:10px 0px;
+		height:auto;
+		bottom: 70px;
+		left: 0;
+		position: absolute;
 	}
 	.oggbattery{
-		background:url("../immagini/oggettobattery1.png") no-repeat left center;
-		margin-left:0px;
-		height:auto;
-		float:none;
+		display:none;
 	}
 /*** BOX CONTATTI ***/
 	.boxprodotto-contatti{
@@ -373,7 +444,7 @@
 		text-align:left;
 		top:64px;
 	}
-	.contenutoprodotto-contatti h2, h3{
+	.contenutoprodotto-contatti h2, .contenutoprodotto-contatti h3{
 		margin-left:10px;
 	}
 	.textprodotto-contatti{

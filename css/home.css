@@ -10,7 +10,7 @@ margin-right:auto;
 .boxbottone{
 width:100%;
 height:auto;
-float:left;
+margin:20px 0px;
 }
 
 .contbottone{
@@ -21,7 +21,6 @@ font-size:15px;
 text-align:center;
 font-family: 'Roboto Slab', serif;
 font-weight:bold;
-margin-top:30px;
 }
 
 .contbottone a{
@@ -75,10 +74,9 @@ text-align:left;
 }
 
 .textprodotto{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto p{
@@ -90,11 +88,10 @@ color:#000000;
 }
 
 .oggsoft{
-background:url("../immagini/oggettosoftshop.jpg") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettosoftshop.jpg") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-130px;
-float:left;
 }
 
 .boxprodotto1 .bottonegiu{
@@ -107,7 +104,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
@@ -131,10 +127,9 @@ text-align:left;
 }
 
 .textprodotto2{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto2 p{
@@ -146,11 +141,10 @@ color:#000000;
 }
 
 .oggristo{
-background:url("../immagini/oggettoristo.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettoristo.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto2 .bottonegiu{
@@ -163,7 +157,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
@@ -187,10 +180,9 @@ text-align:left;
 }
 
 .textprodotto3{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto3 p{
@@ -202,11 +194,10 @@ color:#000000;
 }
 
 .oggmex{
-background:url("../immagini/oggettomex.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettomex.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto3 .bottonegiu{
@@ -219,7 +210,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
@@ -243,10 +233,9 @@ text-align:left;
 }
 
 .textprodotto4{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto4 p{
@@ -262,11 +251,10 @@ color:#ffffff;
 }
 
 .oggsadmin{
-background:url("../immagini/oggettos-admin.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettos-admin.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto4 .bottonegiu{
@@ -279,7 +267,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
@@ -303,10 +290,9 @@ text-align:left;
 }
 
 .textprodotto5{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto5 p{
@@ -318,11 +304,10 @@ color:#000000;
 }
 
 .oggpassword{
-background:url("../immagini/oggettopassword.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettopassword.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto5 .bottonegiu{
@@ -335,7 +320,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
@@ -359,10 +343,9 @@ text-align:left;
 }
 
 .textprodotto6{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto6 p{
@@ -378,11 +361,10 @@ color:#ffffff;
 }
 
 .oggroulette{
-background:url("../immagini/oggettoroulette.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettoroulette.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto6 .bottonegiu{
@@ -395,7 +377,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
@@ -419,10 +400,9 @@ text-align:left;
 }
 
 .textprodotto7{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto7 p{
@@ -434,11 +414,10 @@ color:#000000;
 }
 
 .oggspaccio{
-background:url("../immagini/oggettospaccio.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettospaccio.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto7 .bottonegiu{
@@ -451,7 +430,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
@@ -475,10 +453,9 @@ text-align:left;
 }
 
 .textprodotto8{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto8 p{
@@ -493,7 +470,6 @@ color:#000000;
 width:100%;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto8 .bottonegiu{
@@ -506,7 +482,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
@@ -530,10 +505,9 @@ text-align:left;
 }
 
 .textprodotto9{
-width:100%;
+width:70%;
 height:auto;
-margin:10px 0px;
-float:left;
+margin:20px 0px;
 }
 
 .textprodotto9 p{
@@ -545,11 +519,10 @@ color:#000000;
 }
 
 .oggbattery{
-background:url("../immagini/oggettobattery.png") no-repeat left top;
-width:100%;
+background:url("../immagini/oggettobattery.png") no-repeat left bottom;
+width:auto;
 height:300px;
 margin-left:-80px;
-float:left;
 }
 
 .boxprodotto9 .bottonegiu{
@@ -562,7 +535,6 @@ left: 30%;
 position: absolute;
 text-align: center;
 width: 50%;
-float:left;
 }
 
 /*** BOX DESCRIZIONE CONTATTI ***/
@@ -680,6 +652,7 @@ width:auto;
 width:100%;
 height:auto;
 float:left;
+margin:0px;
 }
 
 .modulo .contbottone{
