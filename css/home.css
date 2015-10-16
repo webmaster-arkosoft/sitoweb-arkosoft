@@ -121,7 +121,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 100px;
+top: 50px;
 position:relative;
 text-align:left;
 }
@@ -148,7 +148,7 @@ margin-left:-80px;
 }
 
 .boxprodotto2 .bottonegiu{
-bottom: 20%;
+bottom: 10%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -174,7 +174,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 120px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -201,7 +201,7 @@ margin-left:-80px;
 }
 
 .boxprodotto3 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -227,7 +227,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 100px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -254,11 +254,11 @@ color:#ffffff;
 background:url("../immagini/oggettos-admin.png") no-repeat left bottom;
 width:auto;
 height:300px;
-margin-left:-80px;
+margin-left:-130px;
 }
 
 .boxprodotto4 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #ffffff;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -284,7 +284,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 110px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -307,11 +307,11 @@ color:#000000;
 background:url("../immagini/oggettopassword.png") no-repeat left bottom;
 width:auto;
 height:300px;
-margin-left:-80px;
+margin-left:-130px;
 }
 
 .boxprodotto5 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -337,7 +337,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 110px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -368,7 +368,7 @@ margin-left:-80px;
 }
 
 .boxprodotto6 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -394,7 +394,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 110px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -421,7 +421,7 @@ margin-left:-80px;
 }
 
 .boxprodotto7 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -447,7 +447,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 110px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -473,7 +473,7 @@ margin-left:-80px;
 }
 
 .boxprodotto8 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -499,7 +499,7 @@ overflow:hidden;
 width:60%;
 height:100%;
 margin-left:20px;
-top: 110px;
+top: 65px;
 position:relative;
 text-align:left;
 }
@@ -526,7 +526,7 @@ margin-left:-80px;
 }
 
 .boxprodotto9 .bottonegiu{
-bottom: 20%;
+bottom: 15%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -553,7 +553,7 @@ font-family: 'Roboto Slab', serif;
 width:50%;
 height:100%;
 margin-left:20px;
-top: 110px;
+top: 65px;
 position:relative;
 text-align:left;
 }

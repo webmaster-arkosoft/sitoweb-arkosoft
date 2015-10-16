@@ -1,4 +1,60 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 810px) {
+	.contenutoprodotto2{
+		top: 110px;
+	}
+	.boxprodotto2 .bottonegiu{
+		bottom: 18%;
+	}
+	.contenutoprodotto3{
+		top: 110px;
+	}
+	.boxprodotto3 .bottonegiu{
+		bottom: 18%;
+	}
+	.contenutoprodotto4{
+		top: 110px;
+	}
+	.boxprodotto4 .bottonegiu{
+		bottom: 18%;
+	}
+	.oggsadmin{
+		margin-left:-80px;
+	}
+	.contenutoprodotto5{
+		top: 110px;
+	}
+	.boxprodotto5 .bottonegiu{
+		bottom: 18%;
+	}
+	.oggpassword{
+		margin-left:-80px;
+	}
+	.contenutoprodotto6{
+		top: 110px;
+	}
+	.boxprodotto6 .bottonegiu{
+		bottom: 18%;
+	}
+	.contenutoprodotto7{
+		top: 110px;
+	}
+	.boxprodotto7 .bottonegiu{
+		bottom: 18%;
+	}
+	.contenutoprodotto8{
+		top: 110px;
+	}
+	.boxprodotto8 .bottonegiu{
+		bottom: 18%;
+	}
+	.contenutoprodotto9{
+		top: 110px;
+	}
+	.boxprodotto9 .bottonegiu{
+		bottom: 18%;
+	}
+}
+@media only screen and (max-width: 800px) {
 	.logo-arkosoft{
 		display:none;
 	}
@@ -54,7 +110,7 @@
 	}
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
 /*** FOOTER ***/
 	.footerinfo{
 		border-bottom:0px;

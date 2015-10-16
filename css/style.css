@@ -205,7 +205,7 @@ background-color: #242e30;
 .no-touch #cd-top-nav a:hover {
 color: rgba(255, 255, 255, 0.7);
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
 #cd-top-nav {
 display: none;
 }
@@ -278,7 +278,7 @@ top: 0;
 -o-transform: rotate(-45deg);
 transform: rotate(-45deg);
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 790px) {
 #cd-menu-trigger {display:none;}
 }
 
@@ -354,7 +354,7 @@ color: #FFF;
 #cd-lateral-nav a:hover {
 color: #8fdffd;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 #cd-lateral-nav .cd-navigation {
 margin: 20px 0;
 }

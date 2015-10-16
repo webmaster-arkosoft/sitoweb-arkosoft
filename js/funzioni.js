@@ -1,3 +1,10 @@
+/* posizionenamento delle div per mobile all'apertura del menù laterale */
+function myFunction(){
+	document.getElementById("header").style.zIndex="2";
+	document.getElementById("cd-lateral-nav").style.zIndex="3";
+	//document.getElementById("cd-main-content").style.zIndex="1";
+}
+
 /* scroll animato della pagina */
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
