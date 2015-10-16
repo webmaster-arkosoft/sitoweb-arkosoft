@@ -56,7 +56,7 @@ margin:0px;
 
 /*** BOX DESCRIZIONE PRODOTTO 1 ***/
 .boxprodotto1{
-background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center top /cover;
+background:#ffffff url("../immagini/softshop.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -108,7 +108,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
 .boxprodotto2{
-background:url("../immagini/ristomanager.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/ristomanager.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -161,7 +161,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
 .boxprodotto3{
-background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/gestionemessaggi.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -214,7 +214,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
 .boxprodotto4{
-background:url("../immagini/sadmin.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/sadmin.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -271,7 +271,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
 .boxprodotto5{
-background:url("../immagini/trovapassword.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/trovapassword.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -324,7 +324,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
 .boxprodotto6{
-background:url("../immagini/roulette.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/roulette.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -381,7 +381,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
 .boxprodotto7{
-background:url("../immagini/spaccio.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/spaccio.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -434,7 +434,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
 .boxprodotto8{
-background:url("../immagini/security.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/security.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -486,7 +486,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
 .boxprodotto9{
-background:url("../immagini/battery.jpg") no-repeat fixed center top /cover;
+background:url("../immagini/battery.jpg") no-repeat center top /cover;
 height:100%;
 width:100%;
 position:relative;
@@ -539,7 +539,7 @@ width: 50%;
 
 /*** BOX DESCRIZIONE CONTATTI ***/
 .boxprodotto-contatti{
-background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed center /cover;
+background:#ffffff url("../immagini/contatti.jpg") no-repeat center /cover;
 height:700px;
 width:100%;
 position:relative;
