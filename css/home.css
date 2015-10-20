@@ -10,7 +10,7 @@ margin-right:auto;
 .boxbottone{
 width:100%;
 height:auto;
-margin:20px 0px;
+margin-top:50px;
 }
 
 .contbottone{
@@ -634,6 +634,7 @@ margin-left:20px;
 top: 110px;
 position:relative;
 text-align:left;
+float:left;
 }
 
 .contenutoprodotto-contatti h3{
@@ -756,6 +757,19 @@ color:#ffffff;
 background:#F5A101;
 }
 
+.box-maps{
+width:45%;
+height:100%;
+float:left
+}
+
+.iframemaps{
+height: 306px;
+left: -64px;
+position: relative;
+top: 345px;
+width: 483px;
+}
 /*** BOX SOCIAL ***/
 .boxsocial{
 width:100%;

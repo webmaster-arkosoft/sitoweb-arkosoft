@@ -139,12 +139,12 @@ transform: translateX(-260px);
 position: fixed;
 top: 0;
 left: 0;
-height: 155px;
+height: 110px;
 width: 100%;
 /*background: url("../immagini/sfondoheader.jpg")repeat-x center center;*/
 background-image:url("../immagini/sfondoheader.jpg");
 background-repeat:repeat-x;
-background-position:center center;
+background-position:center bottom;
 /*z-index: 3;*/
 /* Force Hardware Acceleration in WebKit */
 -webkit-transform: translateZ(0);
