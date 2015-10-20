@@ -1,4 +1,4 @@
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 800px) {
 	.contenutoprodotto2{
 		top: 110px;
 	}
@@ -54,7 +54,7 @@
 		bottom: 18%;
 	}
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 795px) {
 	.logo-arkosoft{
 		display:none;
 	}
@@ -110,7 +110,7 @@
 	}
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 795px){
 /*** FOOTER ***/
 	.footerinfo{
 		border-bottom:0px;

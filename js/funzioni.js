@@ -55,7 +55,7 @@ $(document).ready(function () {
     );
 });
 
-/* Posizionenamento delle div per mobile all'apertura del menù laterale */
+/* Z-index */
 function myFunction(){
 	document.getElementById("header").style.zIndex="2";
 	document.getElementById("cd-lateral-nav").style.zIndex="3";

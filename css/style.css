@@ -62,30 +62,30 @@ margin:0px auto;
 }
 
 .ricerca{
-float:right;
-height:auto;
-width:25%;
-padding-top:15px !important;
-}
-
-.ricerca input{
-float:left;
+	float:right;
+	height:auto;
+	width:25%;
+	padding-top:15px !important;
+	margin-right:10px;
 }
 
 .ricerca .cerca{
-width:100%;
-height:35px;
-border:0px;
-color:#000000;
-padding-left:5px;
-background:#B9B9B9;
+	width:85%;
+	height:35px;
+	border:0px;
+	color:#000000;
+	padding-left:5px;
+	background:#B9B9B9;
+	float:left;
 }
 
-.ricerca img{
-float:left;
-margin-left:-30px;
-margin-top:6px;
-cursor:pointer;
+.ricerca .lente{
+	background:#B9B9B9 url(../immagini/lente.jpg) no-repeat center;
+	width:15%;
+	height:35px;
+	float:left;
+	border:0px;
+	cursor:pointer;
 }
 
 /*** CSS HEADER, BODY E MENU LATERALE ***/
@@ -133,10 +133,13 @@ transform: translateX(-260px);
 position: fixed;
 top: 0;
 left: 0;
-height: 110px;
+height: 155px;
 width: 100%;
-background: url("../immagini/sfondoheader.jpg")repeat-x center center;
-z-index: 2;
+/*background: url("../immagini/sfondoheader.jpg")repeat-x center center;*/
+background-image:url("../immagini/sfondoheader.jpg");
+background-repeat:repeat-x;
+background-position:center center;
+/*z-index: 3;*/
 /* Force Hardware Acceleration in WebKit */
 -webkit-transform: translateZ(0);
 -webkit-backface-visibility: hidden;
@@ -189,7 +192,6 @@ margin:0px;
 #cd-top-nav li {
 height:auto;
 display: inline-block;
-margin-right: 20px;
 padding-top: 1px;
 font-size:15px;
 }
@@ -205,7 +207,7 @@ background-color: #242e30;
 .no-touch #cd-top-nav a:hover {
 color: rgba(255, 255, 255, 0.7);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 795px) {
 #cd-top-nav {
 display: none;
 }
@@ -278,9 +280,6 @@ top: 0;
 -o-transform: rotate(-45deg);
 transform: rotate(-45deg);
 }
-@media only screen and (min-width: 790px) {
-#cd-menu-trigger {display:none;}
-}
 
 #cd-lateral-nav {
 position: fixed;
@@ -306,6 +305,11 @@ transition: transform .4s 0s, visibility 0s .4s;
 -o-transform: translateX(80px);
 transform: translateX(80px);
 }
+
+@media only screen and (min-width: 790px) {
+#cd-menu-trigger {display:none;}
+}
+
 #cd-lateral-nav .cd-navigation {
 margin: 10px 0 16px;
 }
@@ -316,22 +320,27 @@ margin: 10px 0 16px;
 }
 
 #cd-lateral-nav .cd-navigation .ricerca{
-float:noen;
-height:auto;
-width:100%;
-}
-
-#cd-lateral-nav .cd-navigation .ricerca input{
 float:left;
+height:auto;
+width:90%;
 }
 
 #cd-lateral-nav .cd-navigation .ricerca .cerca{
-width:90%;
+width:85%;
 height:35px;
 border:0px;
 color:#000000;
 padding-left:5px;
 background:#B9B9B9;
+}
+
+#cd-lateral-nav .cd-navigation .ricerca .lente{
+	background:#B9B9B9 url(../immagini/lente.jpg) no-repeat center;
+	width:15%;
+	height:35px;
+	float:left;
+	border:0px;
+	cursor:pointer;
 }
 
 #cd-lateral-nav .sub-menu {
@@ -354,7 +363,7 @@ color: #FFF;
 #cd-lateral-nav a:hover {
 color: #8fdffd;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 795px) {
 #cd-lateral-nav .cd-navigation {
 margin: 20px 0;
 }

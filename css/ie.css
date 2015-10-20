@@ -1,3 +1,96 @@
-#header {
-background-color:#2f2f2f;
+/*** INIZIO HEADER DELLA PAGINA ***/
+.ricerca .cerca{
+	width:80%\0/!important;
+}
+.ricerca .lente{
+	height:37px\0/!important;
+}
+/*** BOX DESCRIZIONE PRODOTTO 1 ***/
+.boxprodotto1{
+background-image:url("../immagini/ie8/softshop.jpg")!important;
+background-position:left bottom!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 2 ***/
+.boxprodotto2{
+background-image:url("../immagini/ie8/ristomanager.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto2{
+top: 100px!important;
+}
+.boxprodotto2 .bottonegiu{
+bottom: 15%!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 3 ***/
+.boxprodotto3{
+background-image:url("../immagini/ie8/gestionemessaggi.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto3{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 4 ***/
+.boxprodotto4{
+background-image:url("../immagini/ie8/sadmin.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto4{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 5 ***/
+.boxprodotto5{
+background-image:url("../immagini/ie8/trovapassword.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto5{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 6 ***/
+.boxprodotto6{
+background-image:url("../immagini/ie8/roulette.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto6{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 7 ***/
+.boxprodotto7{
+background-image:url("../immagini/ie8/spaccio.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto7{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 8 ***/
+.boxprodotto8{
+background-image:url("../immagini/ie8/security.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto8{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 9 ***/
+.boxprodotto9{
+background-image:url("../immagini/ie8/battery.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto9{
+top: 100px!important;
+}
+
+/*** BOX DESCRIZIONE CONTATTI ***/
+.boxprodotto-contatti{
+background-image:url("../immagini/ie8/contatti.jpg")!important;
+background-position:left bottom!important;
+}
+.contenutoprodotto-contatti{
+top: 120px!important;
 }
