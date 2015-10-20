@@ -1,5 +1,5 @@
-/* scroll animato della pagina */
-$(function() {
+/* SCROOL DELLA PAGINA */
+$(document).ready(function () {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -13,13 +13,6 @@ $(function() {
     }
   });
 });
-
-/* Posizionenamento delle div per mobile all'apertura del menù laterale */
-function myFunction(){
-	document.getElementById("header").style.zIndex="2";
-	document.getElementById("cd-lateral-nav").style.zIndex="3";
-	//document.getElementById("cd-main-content").style.zIndex="1";
-}
 
 /* APERTURA E CHIUSURA DEL FOOTER */
 stuHover = function() {
@@ -61,3 +54,10 @@ $(document).ready(function () {
         }
     );
 });
+
+/* Posizionenamento delle div per mobile all'apertura del menù laterale */
+function myFunction(){
+	document.getElementById("header").style.zIndex="2";
+	document.getElementById("cd-lateral-nav").style.zIndex="3";
+	//document.getElementById("cd-main-content").style.zIndex="1";
+}
