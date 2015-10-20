@@ -78,6 +78,9 @@ margin:0px auto;
 	background:#B9B9B9;
 	float:left;
 }
+.ricerca .cerca{
+	width:80%\9;
+}
 
 .ricerca .lente{
 	background:#B9B9B9 url(../immagini/lente.jpg) no-repeat center;
@@ -86,6 +89,9 @@ margin:0px auto;
 	float:left;
 	border:0px;
 	cursor:pointer;
+}
+.ricerca .lente{
+	height:37px\9;
 }
 
 /*** CSS HEADER, BODY E MENU LATERALE ***/
