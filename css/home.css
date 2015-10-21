@@ -37,7 +37,7 @@ color:#ffffff;
 background:#F5A101;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 795px) {
 	.contbottone{
 		margin:30px auto;
 	}
@@ -47,7 +47,7 @@ background:#F5A101;
 margin:0px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 795px) {
 	.bottonegiu img{
 		width:40px;
 		height:40px;
@@ -433,7 +433,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
 .boxprodotto7{
 /*background:url("../immagini/spaccio.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/spaccio.jpg");
+background-image:url("../immagini/1024x768/spaccio.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -471,7 +471,7 @@ color:#000000;
 
 .oggspaccio{
 /*background:url("../immagini/oggettospaccio.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettospaccio.png");
+background-image:url("../immagini/1024x768/oggettospaccio.png");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -494,7 +494,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
 .boxprodotto8{
 /*background:url("../immagini/security.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/security.jpg");
+background-image:url("../immagini/1024x768/security.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -551,7 +551,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
 .boxprodotto9{
 /*background:url("../immagini/battery.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/battery.jpg");
+background-image:url("../immagini/1024x768/battery.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -589,7 +589,7 @@ color:#000000;
 
 .oggbattery{
 /*background:url("../immagini/oggettobattery.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettobattery.png");
+background-image:url("../immagini/1024x768/oggettobattery.png");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -613,12 +613,12 @@ width: 50%;
 .boxprodotto-contatti{
 /*background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed center /cover;*/
 background-color:#ffffff;
-background-image:url("../immagini/contatti.jpg");
+background-image:url("../immagini/1024x768/contatti.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
 background-size:cover;
-height:700px;
+height:100%;
 width:100%;
 position:relative;
 top:0;
@@ -758,20 +758,21 @@ background:#F5A101;
 }
 
 .box-maps{
-background: rgba(0, 0, 0, 0) url("../immagini/maps.png") no-repeat scroll center bottom;
+background: rgba(0, 0, 0, 0) url("../immagini/1024x768/maps.png") no-repeat scroll center bottom / 100% auto;
 float: left;
 height: 100%;
-margin-left: -105px;
-width: 55%;
+margin-left: -7px;
+max-width: 424px;
+width:45%;
 }
 
 .iframemaps{
-display: block;
-height: 262px;
-left: 70px;
-position: relative;
-top: 379px;
-width: 415px;
+bottom: 15px;
+display: none;
+height: 239px;
+position: absolute;
+right: 85px;
+width: 385px;
 }
 /*** BOX SOCIAL ***/
 .boxsocial{

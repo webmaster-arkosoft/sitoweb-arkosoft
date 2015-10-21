@@ -50,6 +50,9 @@
 	.contenutoprodotto9{
 		top: 110px;
 	}
+	.iframemaps{
+		display:block;
+	}
 	.boxprodotto9 .bottonegiu{
 		bottom: 18%;
 	}
@@ -75,38 +78,6 @@
 	}
 	.cd-main-content {
 		padding-top: 65px;
-	}
-/*** SFONDI BOX DESCRIZIONE PRODOTTO ***/
-	.boxprodotto1{
-		background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto2{
-		background:url("../immagini/ristomanager.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto3{
-		background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto4{
-		background:url("../immagini/sadmin.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto5{
-		background:url("../immagini/trovapassword.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto6{
-		background:url("../immagini/roulette.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto7{
-		background:url("../immagini/spaccio.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto8{
-		background:url("../immagini/security.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto9{
-		background:url("../immagini/battery.jpg") no-repeat fixed center left /cover;
-	}
-	.boxprodotto-contatti{
-		background:#ffffff url("../immagini/contatti.jpg") no-repeat fixed left /cover;
-		height: 750px;
 	}
 }
 
@@ -187,7 +158,7 @@
 	}
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 795px) {
 	.contenutogiu{
 		top:60%;
 		left:0;
@@ -198,7 +169,7 @@
 		background-color:#ffffff;
 	}
 	.contenutoprodotto{
-		background:url("../immagini/oggettosoftshop1.jpg") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettosoftshop1.jpg") no-repeat center bottom;
 		width:100%;
 		margin-left:0px;
 		text-align:center;
@@ -230,7 +201,7 @@
 		background-color:#DFDFDF;
 	}
 	.contenutoprodotto2{
-		background:url("../immagini/oggettoristo2.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettoristo2.png") no-repeat center bottom;
 		width:100%;
 		margin-left:0px;
 		text-align:center;
@@ -269,7 +240,7 @@
 		background-image:none!important;
 	}
 	.contenutoprodotto3{
-		background:url("../immagini/oggettomex1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettomex1.png") no-repeat center bottom;
 		width:100%;
 		top:66px!important;
 		margin-left:0px;
@@ -301,7 +272,7 @@
 		background-color:#936543;
 	}
 	.contenutoprodotto4{
-		background:url("../immagini/oggettos-admin1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettos-admin1.png") no-repeat center bottom;
 		width:100%;
 		top:64px!important;
 		margin-left:0px;
@@ -332,7 +303,7 @@
 		background:#5D8EBB url("../immagini/trovapassword2.jpg") repeat-x center center!important;
 	}
 	.contenutoprodotto5{
-		background:url("../immagini/oggettopassword1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettopassword1.png") no-repeat center bottom;
 		width:100%;
 		top:64px!important;
 		margin-left:0px;
@@ -364,7 +335,7 @@
 		background-color:#319931;
 	}
 	.contenutoprodotto6{
-		background:url("../immagini/oggettoroulette1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettoroulette1.png") no-repeat center bottom;
 		width:100%;
 		top:64px!important;
 		margin-left:0px;
@@ -395,7 +366,7 @@
 		background:url("../immagini/spaccio2.jpg") no-repeat fixed center center /cover!important;
 	}
 	.contenutoprodotto7{
-		background:url("../immagini/oggettospaccio1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettospaccio1.png") no-repeat center bottom;
 		width:100%;
 		top:64px!important;
 		margin-left:0px;
@@ -427,7 +398,7 @@
 		background-color:#E6E6E6;
 	}
 	.contenutoprodotto8{
-		background:url("../immagini/oggettoshost1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettoshost1.png") no-repeat center bottom;
 		width:100%;
 		top:64px!important;
 		margin-left:0px;
@@ -459,7 +430,7 @@
 		background-color:#79BCA6;
 	}
 	.contenutoprodotto9{
-		background:url("../immagini/oggettobattery1.png") no-repeat center bottom;
+		background:url("../immagini/1024x768/oggettobattery1.png") no-repeat center bottom;
 		width:100%;
 		top:64px!important;
 		margin-left:0px;
