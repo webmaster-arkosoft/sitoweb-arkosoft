@@ -60,7 +60,7 @@ margin:0px;
 .boxprodotto1{
 /*background:#ffffff url("../immagini/softshop.jpg") no-repeat fixed center top /cover;*/
 background-color:#ffffff;
-background-image:url("../immagini/softshop.jpg");
+background-image:url("../immagini/1024x768/softshop.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -97,7 +97,7 @@ color:#000000;
 
 .oggsoft{
 /*background:url("../immagini/oggettosoftshop.jpg") no-repeat left bottom;*/
-background-image:url("../immagini/oggettosoftshop.jpg");
+background-image:url("../immagini/1024x768/oggettosoftshop.jpg");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -120,7 +120,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
 .boxprodotto2{
 /*background:url("../immagini/ristomanager.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/ristomanager.jpg");
+background-image:url("../immagini/1024x768/ristomanager.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -158,7 +158,7 @@ color:#000000;
 
 .oggristo{
 /*background:url("../immagini/oggettoristo.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettoristo.png");
+background-image:url("../immagini/1024x768/oggettoristo.png");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -181,7 +181,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
 .boxprodotto3{
 /*background:url("../immagini/gestionemessaggi.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/gestionemessaggi.jpg");
+background-image:url("../immagini/1024x768/gestionemessaggi.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -219,7 +219,7 @@ color:#000000;
 
 .oggmex{
 /*background:url("../immagini/oggettomex.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettomex.png");
+background-image:url("../immagini/1024x768/oggettomex.jpg");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -242,7 +242,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
 .boxprodotto4{
 /*background:url("../immagini/sadmin.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/sadmin.jpg");
+background-image:url("../immagini/1024x768/sadmin.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -284,7 +284,7 @@ color:#ffffff;
 
 .oggsadmin{
 /*background:url("../immagini/oggettos-admin.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettos-admin.png");
+background-image:url("../immagini/1024x768/oggettos-admin.png");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -307,7 +307,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
 .boxprodotto5{
 /*background:url("../immagini/trovapassword.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/trovapassword.jpg");
+background-image:url("../immagini/1024x768/trovapassword.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -345,7 +345,7 @@ color:#000000;
 
 .oggpassword{
 /*background:url("../immagini/oggettopassword.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettopassword.png");
+background-image:url("../immagini/1024x768/oggettopassword.png");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -368,7 +368,7 @@ width: 50%;
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
 .boxprodotto6{
 /*background:url("../immagini/roulette.jpg") no-repeat fixed center top /cover;*/
-background-image:url("../immagini/roulette.jpg");
+background-image:url("../immagini/1024x768/roulette.jpg");
 background-repeat:no-repeat;
 background-attachment:fixed;
 background-position:center top;
@@ -410,7 +410,7 @@ color:#ffffff;
 
 .oggroulette{
 /*background:url("../immagini/oggettoroulette.png") no-repeat left bottom;*/
-background-image:url("../immagini/oggettoroulette.png");
+background-image:url("../immagini/1024x768/oggettoroulette.png");
 background-repeat:no-repeat;
 background-position:left bottom;
 width:auto;
@@ -682,7 +682,7 @@ margin-top:0px;
 }
 
 .modulo input{
-max-width:150px;
+max-width:146px;
 height:20px;
 }
 
@@ -758,17 +758,20 @@ background:#F5A101;
 }
 
 .box-maps{
-width:45%;
-height:100%;
-float:left
+background: rgba(0, 0, 0, 0) url("../immagini/maps.png") no-repeat scroll center bottom;
+float: left;
+height: 100%;
+margin-left: -105px;
+width: 55%;
 }
 
 .iframemaps{
-height: 306px;
-left: -64px;
+display: block;
+height: 262px;
+left: 70px;
 position: relative;
-top: 345px;
-width: 483px;
+top: 379px;
+width: 415px;
 }
 /*** BOX SOCIAL ***/
 .boxsocial{
