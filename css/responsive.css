@@ -1,6 +1,402 @@
-@media only screen and (min-width: 1270px) {
+@media only screen and (min-width: 1270px) and (max-height: 1024px){
+/*** BOX GENERALE DELLA DESCRIZIONE E BOTTONE DEL PRODOTTO ***/
+	.boxdescrizione{
+		max-width:1280px;
+	}
+	.contbottone{
+		width:250px;
+		background-image: url("../immagini/1280x1024/sfondo-bottoni.jpg");
+		background-repeat: repeat-x;
+		background-position: center top;
+		font-size:18px;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 1 ***/
+	.boxprodotto1{
+		background-position:center bottom;
+	}
+	.contenutoprodotto {
+		width: 50%;
+		top:5%;
+	}
+	.textprodotto {
+		margin: 30px 0;
+		width: 80%;
+	}
+	.textprodotto p {
+		font-size: 20px;
+	}
+	.oggsoft{
+		height:400px;
+	}
+	.boxprodotto1 .bottonegiu{
+		bottom: 0;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 2 ***/
+	.boxprodotto2{
+		background-position:center bottom;
+	}
+	.contenutoprodotto2 {
+		width: 50%;
+		top:18%!important;
+	}
+	.textprodotto2 {
+		margin: 90px 0px;
+		width: 80%;
+	}
+	.textprodotto2 p {
+		font-size: 20px;
+	}
+	.oggristo{
+		height:400px;
+	}
+	.boxprodotto2 .bottonegiu{
+		bottom: 0;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 3 ***/
+	.boxprodotto3{
+		background-position:center bottom;
+	}
+	.contenutoprodotto3 {
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto3 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto3 p {
+		font-size: 20px;
+	}
+	.oggmex{
+		height:410px;
+	}
+	.boxprodotto3 .bottonegiu{
+		bottom: 0!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 4 ***/
+	.boxprodotto4{
+		background-position:center bottom;
+	}
+	.contenutoprodotto4 {
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto4 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto4 p {
+		font-size: 20px;
+	}
+	.oggsadmin{
+		height:410px;
+	}
+	.boxprodotto4 .bottonegiu{
+		bottom: 0!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 5 ***/
+	.boxprodotto5{
+		background-position:center bottom;
+	}
+	.contenutoprodotto5 {
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto5 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto5 p {
+		font-size: 20px;
+	}
+	.oggpassword{
+		height:410px;
+	}
+	.boxprodotto5 .bottonegiu{
+		bottom: 0!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 6 ***/
+	.boxprodotto6{
+		background-position:center bottom;
+	}
+	.contenutoprodotto6{
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto6 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto6 p {
+		font-size: 20px;
+	}
+	.oggroulette {
+		height:410px;
+	}
+	.boxprodotto6 .bottonegiu {
+		bottom: 0!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 7 ***/
+	.boxprodotto7 {
+		background-position:center bottom;
+	}
+	.contenutoprodotto7 {
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto7 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto7 p {
+		font-size: 20px;
+	}
+	.oggspaccio{
+		height:410px;
+	}
+	.boxprodotto7 .bottonegiu {
+		bottom: 45px!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 8 ***/
+	.boxprodotto8 {
+		background-position:center bottom;
+	}
+	.contenutoprodotto8 {
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto8 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto8 p {
+		font-size: 20px;
+	}
+	.oggsecurity {
+		height:410px;
+	}
+	.boxprodotto8 .bottonegiu {
+		bottom: 0!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 9 ***/
+	.boxprodotto9 {
+		background-position:center bottom;
+	}
+	.contenutoprodotto9 {
+		width: 50%;
+		top:15%!important;
+	}
+	.textprodotto9 {
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.textprodotto9 p {
+		font-size: 20px;
+	}
+	.oggbattery {
+		height:410px;
+	}
+	.boxprodotto9 .bottonegiu {
+		bottom: 0!important;
+		font-size: 15px;
+		left: 0;
+		width: 100%;
+	}
+/*** BOX DESCRIZIONE CONTATTI ***/
+	.contenutoprodotto-contatti{
+		top:15%;
+	}
+	.contenutoprodotto-contatti h3{
+		font-size:35px;
+	}
+	.textprodotto-contatti{
+		margin:20px 0px;
+	}
+
+	.textprodotto-contatti p{
+		font-size:20px;
+	}
+/*** MODULO DI COMPILAZIONE ***/
+	.modulo{
+		max-width:500px;
+		height:auto;
+		font-size:18px;
+	}
+	.modulo input{
+		max-width:146px;
+		height:30px;
+	}
+
+.campocitta{
+width:100% !important;
+}
+
+.campocitta input{
+width:100%;
+max-width:322px;
+height:20px;
+}
+
+.textarea{
+width:100%;
+height:auto;
+}
+
+.textarea textarea{
+width:322px;
+height:100px;
+resize: none;
+}
+
+.boxprivacy{
+width:100%;
+height:auto;
+margin-top:5px;
+float:left;
+}
+
+.boxprivacy p{
+margin:0px;	
+}
+
+.boxprivacy a{
+color:#0098D0;	
+}
+
+.boxprivacy input{
+height:auto;
+width:auto;	
+}
+
+.modulo .boxbottone{
+width:100%;
+height:auto;
+float:left;
+margin:0px;
+}
+
+.modulo .contbottone{
+width:150px;
+height:auto;
+background:url("../immagini/sfondo-bottoni.jpg") repeat-x center top;
+font-size:15px;
+text-align:center;
+font-family: 'Roboto Slab', serif;
+font-weight:bold;
+margin-top:5px;
+}
+
+.modulo .contbottone a{
+display:block;
+cursor:pointer;
+color:#FFFFFF;
+padding:10px 5px;
+}
+
+.modulo .contbottone a:hover{
+color:#ffffff;
+background:#F5A101;
+}
+	.box-maps {
+		max-width: 550px;
+		width: 100%;
+		margin-left:0px;
+	}
+	.iframemaps {
+		height: 310px;
+		width: 500px;
+	}
+}
+
+@media only screen and (min-width: 1270px) and (max-height: 800px){
+/*** BOX GENERALE DELLA DESCRIZIONE E BOTTONE DEL PRODOTTO ***/
+	.boxdescrizione{
+		max-width:1280px;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 1 ***/
+	.boxprodotto1{
+		background-position:center bottom;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 2 ***/
+	.boxprodotto2{
+		background-position:center bottom;
+	}
 	.boxprodotto2 .bottonegiu{
 		bottom: 1%!important;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 3 ***/
+	.boxprodotto3{
+		background-position:center bottom;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 4 ***/
+	.boxprodotto4{
+		background-position:center bottom;
+	}
+	.boxprodotto4 .bottonegiu{
+		bottom: 5%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 5 ***/
+	.boxprodotto5{
+		background-position:center bottom;
+	}
+	.boxprodotto5 .bottonegiu{
+		bottom: 5%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 6 ***/
+	.boxprodotto6{
+		background-position:center bottom;
+	}
+	.boxprodotto6 .bottonegiu{
+		bottom: 5%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 7 ***/
+	.boxprodotto7{
+		background-position:center bottom;
+	}
+	.boxprodotto7 .bottonegiu{
+		bottom: 5%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 8 ***/
+	.boxprodotto8{
+		background-position:center bottom;
+	}
+	.boxprodotto8 .bottonegiu{
+		bottom: 5%;
+	}
+/*** BOX DESCRIZIONE PRODOTTO 9 ***/
+	.boxprodotto9{
+		background-position:center bottom;
+	}
+	.boxprodotto9 .bottonegiu{
+		bottom: 5%;
+	}
+/*** BOX DESCRIZIONE CONTATTI ***/
+	.boxprodotto-contatti{
+		background-position:center top;
 	}
 /*** MODULO DI COMPILAZIONE ***/
 	.iframemaps{
