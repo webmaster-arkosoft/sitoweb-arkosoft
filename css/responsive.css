@@ -1,4 +1,25 @@
 @media only screen and (min-width: 1270px) and (max-height: 1024px){
+/*** INIZIO HEADER DELLA PAGINA ***/
+	.logo-arkosoft{
+		height:60px;
+	}
+	.logo-arkosoft img{
+		padding:10px 15px;
+	}
+	.cd-main-content {
+		padding-top: 125px;
+	}
+/*** CSS HEADER, BODY E MENU LATERALE ***/
+	#header {
+		height: 125px;
+	}
+	#cd-top-nav li {
+		font-size:18px;
+	}
+/*** PRIMO BLOCCO LIST GENERALE ***/
+	#nav li ul.sub {
+		top:125px;
+	}
 /*** BOX GENERALE DELLA DESCRIZIONE E BOTTONE DEL PRODOTTO ***/
 	.boxdescrizione{
 		max-width:1280px;
@@ -242,85 +263,33 @@
 	}
 /*** MODULO DI COMPILAZIONE ***/
 	.modulo{
-		max-width:500px;
+		width:100%;
+		max-width:600px;
 		height:auto;
 		font-size:18px;
 	}
 	.modulo input{
-		max-width:146px;
+		width:100%;
+		max-width:250px;
 		height:30px;
 	}
-
-.campocitta{
-width:100% !important;
-}
-
-.campocitta input{
-width:100%;
-max-width:322px;
-height:20px;
-}
-
-.textarea{
-width:100%;
-height:auto;
-}
-
-.textarea textarea{
-width:322px;
-height:100px;
-resize: none;
-}
-
-.boxprivacy{
-width:100%;
-height:auto;
-margin-top:5px;
-float:left;
-}
-
-.boxprivacy p{
-margin:0px;	
-}
-
-.boxprivacy a{
-color:#0098D0;	
-}
-
-.boxprivacy input{
-height:auto;
-width:auto;	
-}
-
-.modulo .boxbottone{
-width:100%;
-height:auto;
-float:left;
-margin:0px;
-}
-
-.modulo .contbottone{
-width:150px;
-height:auto;
-background:url("../immagini/sfondo-bottoni.jpg") repeat-x center top;
-font-size:15px;
-text-align:center;
-font-family: 'Roboto Slab', serif;
-font-weight:bold;
-margin-top:5px;
-}
-
-.modulo .contbottone a{
-display:block;
-cursor:pointer;
-color:#FFFFFF;
-padding:10px 5px;
-}
-
-.modulo .contbottone a:hover{
-color:#ffffff;
-background:#F5A101;
-}
+	.campocitta input {
+		height: 30px;
+		max-width: 550px;
+		width: 100%;
+	}
+	.textarea textarea {
+		height: 200px;
+		resize: none;
+		width: 550px;
+	}
+	.boxprivacy input{
+		height:auto;
+		width:auto;	
+	}
+	.modulo .contbottone{
+		font-size:18px;
+	}
 	.box-maps {
 		max-width: 550px;
 		width: 100%;
@@ -329,6 +298,53 @@ background:#F5A101;
 	.iframemaps {
 		height: 310px;
 		width: 500px;
+	}
+/*** BOX SOCIAL ***/
+	.bottonisocial{
+		width:55%;
+	}
+
+	.bottonisocial .facebook{
+		background-image:url(../immagini/1280x1024/facebook1.jpg);
+		height:50px;
+		width:50px;
+	}
+
+	.bottonisocial .twitter{
+		background-image:url(../immagini/1280x1024/twitter1.jpg);
+		height:50px;
+		width:50px;
+	}
+
+	.bottonisocial .google{
+		background-image:url(../immagini/1280x1024/googleplus1.jpg);
+		height:50px;
+		width:50px;
+	}
+
+	.bottonisocial .youtube{
+		background-image:url(../immagini/1280x1024/youtube1.jpg);
+		height:50px;
+		width:50px;
+	}
+/*** INIZIO FOOTER DELLA PAGINA ***/
+	.contenutoinfo{
+		max-width:1280px;
+	}
+	.infobox1{
+		width:32%;
+	}
+	.boxinfo1{
+		width:25%;
+	}
+	.boxinfo{
+		width:23%;
+	}
+	.boxinfo2{
+		width:23%;
+	}
+	.boxfooter{
+		max-width:1280px;
 	}
 }
 
