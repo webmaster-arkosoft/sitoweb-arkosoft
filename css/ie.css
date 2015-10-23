@@ -7,89 +7,101 @@
 }
 /*** BOX DESCRIZIONE PRODOTTO 1 ***/
 .boxprodotto1{
-background-image:url("../immagini/ie8/softshop.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
 .boxprodotto2{
 background-image:url("../immagini/ie8/ristomanager.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto2{
-top: 100px!important;
+top: 130px!important;
 }
 .boxprodotto2 .bottonegiu{
-bottom: 15%!important;
+bottom: 23%!important;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
 .boxprodotto3{
-background-image:url("../immagini/ie8/gestionemessaggi.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto3{
 top: 100px!important;
 }
+.boxprodotto3 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
 .boxprodotto4{
-background-image:url("../immagini/ie8/sadmin.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto4{
 top: 100px!important;
 }
+.boxprodotto4 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE PRODOTTO 5 ***/
 .boxprodotto5{
-background-image:url("../immagini/ie8/trovapassword.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto5{
 top: 100px!important;
 }
+.boxprodotto5 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE PRODOTTO 6 ***/
 .boxprodotto6{
-background-image:url("../immagini/ie8/roulette.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto6{
 top: 100px!important;
 }
+.boxprodotto6 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
 .boxprodotto7{
-background-image:url("../immagini/ie8/spaccio.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto7{
 top: 100px!important;
 }
+.boxprodotto7 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE PRODOTTO 8 ***/
 .boxprodotto8{
-background-image:url("../immagini/ie8/security.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto8{
 top: 100px!important;
 }
+.boxprodotto8 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE PRODOTTO 9 ***/
 .boxprodotto9{
-background-image:url("../immagini/ie8/battery.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto9{
 top: 100px!important;
 }
+.boxprodotto9 .bottonegiu{
+bottom: 23%!important;
+}
 
 /*** BOX DESCRIZIONE CONTATTI ***/
 .boxprodotto-contatti{
-background-image:url("../immagini/ie8/contatti.jpg")!important;
-background-position:left bottom!important;
+background-position:center bottom!important;
 }
 .contenutoprodotto-contatti{
 top: 120px!important;

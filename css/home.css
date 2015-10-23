@@ -74,7 +74,7 @@ overflow:hidden;
 }
 .contenutoprodotto{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 5px;
 position:relative;
@@ -106,7 +106,7 @@ margin-left:-130px;
 }
 
 .boxprodotto1 .bottonegiu{
-bottom: 20%;
+bottom: 10%;
 color: #000000;
 font-family: "Roboto Slab",serif;
 font-size: 12px;
@@ -135,7 +135,7 @@ overflow:hidden;
 
 .contenutoprodotto2{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 50px;
 position:relative;
@@ -145,7 +145,7 @@ text-align:left;
 .textprodotto2{
 width:70%;
 height:auto;
-margin:20px 0px;
+margin:35px 0px;
 }
 
 .textprodotto2 p{
@@ -196,7 +196,7 @@ overflow:hidden;
 
 .contenutoprodotto3{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;
@@ -257,7 +257,7 @@ overflow:hidden;
 
 .contenutoprodotto4{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;
@@ -322,7 +322,7 @@ overflow:hidden;
 
 .contenutoprodotto5{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;
@@ -383,7 +383,7 @@ overflow:hidden;
 
 .contenutoprodotto6{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;
@@ -448,7 +448,7 @@ overflow:hidden;
 
 .contenutoprodotto7{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;
@@ -509,7 +509,7 @@ overflow:hidden;
 
 .contenutoprodotto8{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;
@@ -566,7 +566,7 @@ overflow:hidden;
 
 .contenutoprodotto9{
 width:60%;
-height:100%;
+height:auto;
 margin-left:20px;
 top: 65px;
 position:relative;

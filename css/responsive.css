@@ -1,21 +1,30 @@
+@media only screen and (min-width: 1270px) {
+	.boxprodotto2 .bottonegiu{
+		bottom: 1%!important;
+	}
+/*** MODULO DI COMPILAZIONE ***/
+	.iframemaps{
+		right: 213px;
+	}
+}
 @media only screen and (min-width: 795px) {
 	.contenutoprodotto2{
 		top: 120px;
 	}
 	.boxprodotto2 .bottonegiu{
-		bottom: 20%;
+		bottom: 7%;
 	}
 	.contenutoprodotto3{
 		top: 110px;
 	}
 	.boxprodotto3 .bottonegiu{
-		bottom: 18%;
+		bottom: 10%;
 	}
 	.contenutoprodotto4{
 		top: 110px;
 	}
 	.boxprodotto4 .bottonegiu{
-		bottom: 18%;
+		bottom: 10%;
 	}
 	.oggsadmin{
 		margin-left:-80px;
@@ -24,7 +33,7 @@
 		top: 110px;
 	}
 	.boxprodotto5 .bottonegiu{
-		bottom: 18%;
+		bottom: 10%;
 	}
 	.oggpassword{
 		margin-left:-80px;
@@ -33,19 +42,19 @@
 		top: 110px;
 	}
 	.boxprodotto6 .bottonegiu{
-		bottom: 18%;
+		bottom: 10%;
 	}
 	.contenutoprodotto7{
 		top: 110px;
 	}
 	.boxprodotto7 .bottonegiu{
-		bottom: 18%;
+		bottom: 15%;
 	}
 	.contenutoprodotto8{
 		top: 110px;
 	}
 	.boxprodotto8 .bottonegiu{
-		bottom: 18%;
+		bottom: 10%;
 	}
 	.contenutoprodotto9{
 		top: 110px;
@@ -54,7 +63,7 @@
 		display:block;
 	}
 	.boxprodotto9 .bottonegiu{
-		bottom: 18%;
+		bottom: 10%;
 	}
 }
 @media only screen and (max-width: 795px) {
