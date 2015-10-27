@@ -420,17 +420,17 @@
 	}
 }
 @media only screen and (min-width: 795px) {
-	.contenutoprodotto2{
-		top: 120px;
-	}
+	/*.contenutoprodotto2{
+		top: 110px;
+	}*/
 	.boxprodotto2 .bottonegiu{
-		bottom: 7%;
+		bottom: 1%;
 	}
 	.contenutoprodotto3{
 		top: 110px;
 	}
 	.boxprodotto3 .bottonegiu{
-		bottom: 10%;
+		bottom: 12%;
 	}
 	.contenutoprodotto4{
 		top: 110px;
@@ -438,17 +438,11 @@
 	.boxprodotto4 .bottonegiu{
 		bottom: 10%;
 	}
-	.oggsadmin{
-		margin-left:-80px;
-	}
 	.contenutoprodotto5{
 		top: 110px;
 	}
 	.boxprodotto5 .bottonegiu{
 		bottom: 10%;
-	}
-	.oggpassword{
-		margin-left:-80px;
 	}
 	.contenutoprodotto6{
 		top: 110px;
@@ -466,7 +460,7 @@
 		top: 110px;
 	}
 	.boxprodotto8 .bottonegiu{
-		bottom: 10%;
+		bottom: 12%;
 	}
 	.contenutoprodotto9{
 		top: 110px;
@@ -475,7 +469,7 @@
 		display:block;
 	}
 	.boxprodotto9 .bottonegiu{
-		bottom: 10%;
+		bottom: 12%;
 	}
 }
 @media only screen and (max-width: 795px) {
