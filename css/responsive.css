@@ -441,11 +441,11 @@
 	.boxprodotto8 .bottonegiu{
 		bottom: 2%;
 	}
+	.boxprodotto9 .bottonegiu{
+		bottom: 2%;
+	}
 	.iframemaps{
 		display:block;
-	}
-	.boxprodotto9 .bottonegiu{
-		bottom: 12%;
 	}
 }
 @media only screen and (max-width: 795px) {
