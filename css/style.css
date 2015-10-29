@@ -84,7 +84,10 @@ margin:0px auto;
 }
 
 .ricerca .lente{
-	background:#B9B9B9 url(../immagini/lente.jpg) no-repeat center;
+	background-image:url(../immagini/lente.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#B9B9B9;
 	width:15%;
 	height:35px;
 	float:left;
@@ -180,7 +183,10 @@ display: none;
 }
 
 #cd-logo img:hover{
-background:url("../immagini/colorhover.png") repeat-x center center;
+background-image:url("../immagini/colorhover.png");
+background-repeat:repeat-x;
+background-position:center;
+
 }
 
 #cd-top-nav {
@@ -342,7 +348,10 @@ background:#B9B9B9;
 }
 
 #cd-lateral-nav .cd-navigation .ricerca .lente{
-	background:#B9B9B9 url(../immagini/lente.jpg) no-repeat center;
+	background:url(../immagini/lente.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#B9B9B9;
 	width:15%;
 	height:35px;
 	float:left;
@@ -409,7 +418,9 @@ bottom: auto;
 -o-transform: translateY(-50%);
 transform: translateY(-50%);
 right: 1em;
-background: url("../img/cd-arrow.svg") no-repeat center center;
+background-image: url("../img/cd-arrow.svg");
+background-repeat:no-repeat;
+background-position:center;
 background-size: 8px 11px;
 -webkit-transition-property: -webkit-transform;
 -moz-transition-property: -moz-transform;
@@ -528,7 +539,9 @@ margin-left:15px;
 }
 
 .infobox1 p{
-background:url("../immagini/footerchiuso.jpg") no-repeat right center;
+background:url("../immagini/footerchiuso.jpg");
+background-repeat:no-repeat;
+background-position: right center;
 margin:15px 0px;
 }
 
@@ -728,12 +741,15 @@ margin: 15px 10px;
 
 /*** ANIMAZIONE HEADER APERTO-CHIUSO ***/
 #nav li.sfondolist:hover{
-background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
+background:url("../immagini/colorhover.png");
+background-repeat:repeat-x;
+background-position:center;
+background-color:#095F8F;
 }
 
 /*** PRIMO BLOCCO LIST GENERALE ***/
 #nav li ul.sub
-{position:absolute; display:none; left:0px; top:110px; width:100%; height:auto; margin:0px; padding:0; list-style:none; background:#0A5F8F url("../immagini/headeraperto.jpg") no-repeat center bottom;}
+{position:absolute; display:none; left:0px; top:110px; width:100%; height:auto; margin:0px; padding:0; list-style:none; background:url("../immagini/headeraperto.jpg");background-repeat:no-repeat;background-position:center bottom;background-color:#0A5F8F;}
 #nav li ul.sub li.box2li
 {width:100%; max-width:1024px; height:auto; display:block; margin:0px auto;}
 
@@ -777,8 +793,6 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 {color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover .icona
 {width:80px; height:80px; margin:0px auto; padding-top:0px;}
-#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover .icona img
-{background:rgba(255,255,255,0.2);}
 /*** HOVER IMMAGINI MONDO ARKOSOFT ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a img:hover
 {width:75px; height:auto;}
@@ -796,8 +810,6 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 {color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover .icona
 {width:80px; height:80px; margin:0px auto; padding-top:0px;}
-#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover .icona img
-{background:rgba(255,255,255,0.2);}
 /*** HOVER IMMAGINI CHIEDI AIUTO ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a img:hover
 {width:75px; height:auto;}
@@ -814,7 +826,7 @@ background:#095F8F url("../immagini/colorhover.png") repeat-x center center;
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a:hover
 {color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1
-{width:230px; height:auto; text-align:left; float:left; colo:#ffffff; font-weight:bold; margin-top:0px; margin-left:5px; padding:0px; font-size:13px;}
+{width:230px; height:auto; text-align:left; float:left; color:#ffffff; font-weight:bold; margin-top:0px; margin-left:5px; padding:0px; font-size:13px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a
 {margin:2px 0px; padding:0px; border:0px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a:hover
