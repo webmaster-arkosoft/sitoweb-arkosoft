@@ -1,15 +1,16 @@
 /*** BOX GENERALE DELLA DESCRIZIONE E BOTTONE DEL PRODOTTO ***/
 
 .boxdescrizione{
-	width:100%;
+	width:960px;
 	height:100%;
-	float:left;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .boxbottone{
 	width:100%;
 	height:auto;
-	margin:50px 0px 0px 20px;
+	margin:20px 0px;
 }
 
 .contbottone{
@@ -58,7 +59,12 @@
 /*** BOX DESCRIZIONE PRODOTTO 1 ***/
 .boxprodotto1{
 	background-color:#ffffff;
-	height:100%;
+	background-image:url("../immagini/1024x768/softshop.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
 	width:100%;
 	position:relative;
 	top:0;
@@ -67,7 +73,7 @@
 	float:left;
 }
 .contenutoprodotto{
-	width:40%;
+	width:50%;
 	height:100%;
 	top: 0px;
 	left: 0px;
@@ -77,20 +83,19 @@
 }
 
 .contenutoprodotto h2{
-	margin-left: 20px;
 	margin-top: 10px;
 }
 
 .textprodotto{
-	width:95%;
+	width:100%;
 	height:auto;
-	margin:20px 0px 20px 20px;
+	margin:20px 0px;
 }
 
 .textprodotto p{
 	margin:0px;
 	font-family: 'Roboto Slab', serif;
-	font-size:16px;
+	font-size:20px;
 	font-weight:normal;
 	color:#000000;
 }
@@ -101,51 +106,34 @@
 	background-position:left top;
 	width:100%;
 	height:335px;
-	margin-left:0px;
+	margin-left:-100px;
 }
 
 .boxprodotto1 .bottonegiu{
-	bottom: 20%;
+	bottom: 50px;
 	color: #000000;
 	font-family: "Roboto Slab",serif;
-	font-size: 12px;
+	font-size: 18px;
 	height: auto;
 	right: 0%;
 	position: absolute;
 	text-align: center;
-	width: 50%;
+	width: 100%;
 }
 
-.contenutoprodotto1-1{
-	width:60%;
-	height:100%;
-	top: 0px;
-	left: 0px;
-	position:relative;
-	text-align:left;
-	float:left;
-}
-
-.contenutoprodotto1-1 .sfondo-box{
-	background-image:url("../immagini/1024x768/softshop.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
+.boxprodotto1 .bottonegiu img{
+	margin-top:20px;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
 .boxprodotto2{
-	background-image:url("../immagini/1024x768/ristomanager-sfondo.jpg");
-	background-repeat:repeat-x;
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/ristomanager.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
 	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
+	background-size:cover;
+	height:900px;
 	width:100%;
 	position:relative;
 	top:0;
@@ -153,11 +141,10 @@
 	overflow:hidden;
 	float:left;
 }
-
 .contenutoprodotto2{
-	width:40%;
+	width:50%;
 	height:100%;
-	top: 0px;
+	top: 110px;
 	left: 0px;
 	position:relative;
 	text-align:left;
@@ -165,20 +152,19 @@
 }
 
 .contenutoprodotto2 h2{
-	margin-top:125px;
-	margin-left:20px;
+	margin-top: 10px;
 }
 
 .textprodotto2{
-	width:75%;
+	width:100%;
 	height:auto;
-	margin:20px 0px 20px 20px;
+	margin:20px 0px;
 }
 
 .textprodotto2 p{
 	margin:0px;
 	font-family: 'Roboto Slab', serif;
-	font-size:16px;
+	font-size:20px;
 	font-weight:normal;
 	color:#000000;
 }
@@ -189,47 +175,33 @@
 	background-position:left top;
 	width:100%;
 	height:335px;
-	margin-left:0px;
+	margin-left:-100px;
 }
 
 .boxprodotto2 .bottonegiu{
-	bottom: 15%;
+	bottom: 160px;
 	color: #000000;
 	font-family: "Roboto Slab",serif;
-	font-size: 12px;
+	font-size: 18px;
 	height: auto;
 	right: 0%;
 	position: absolute;
 	text-align: center;
-	width: 50%;
+	width: 100%;
 }
 
-.contenutoprodotto2-2{
-	width:60%;
-	height:100%;
-	top: 0px;
-	left: 0px;
-	position:relative;
-	text-align:left;
-	float:left;
-}
-
-.contenutoprodotto2-2 .sfondo-box{
-	background-image:url("../immagini/1024x768/ristomanager.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
+.boxprodotto2 .bottonegiu img{
+	margin-top:20px;
 }
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
 .boxprodotto3{
-	background-color:#FFFFFF;
-	height:100%;
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/gestionemessaggi.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
 	width:100%;
 	position:relative;
 	top:0;
@@ -237,11 +209,10 @@
 	overflow:hidden;
 	float:left;
 }
-
 .contenutoprodotto3{
-	width:40%;
+	width:50%;
 	height:100%;
-	top: 0px;
+	top: 110px;
 	left: 0px;
 	position:relative;
 	text-align:left;
@@ -249,20 +220,19 @@
 }
 
 .contenutoprodotto3 h2{
-	margin-top:110px;
-	margin-left:20px;
+	margin-top: 10px;
 }
 
 .textprodotto3{
-	width:75%;
+	width:100%;
 	height:auto;
-	margin:20px 0px 20px 20px;
+	margin:20px 0px;
 }
 
 .textprodotto3 p{
 	margin:0px;
 	font-family: 'Roboto Slab', serif;
-	font-size:16px;
+	font-size:20px;
 	font-weight:normal;
 	color:#000000;
 }
@@ -273,42 +243,23 @@
 	background-position:left top;
 	width:100%;
 	height:335px;
-	margin-left:0px;
+	margin-left:-100px;
 }
 
 .boxprodotto3 .bottonegiu{
-	bottom: 15%;
+	bottom: 160px;
 	color: #000000;
 	font-family: "Roboto Slab",serif;
-	font-size: 12px;
+	font-size: 18px;
 	height: auto;
 	right: 0%;
 	position: absolute;
 	text-align: center;
-	width: 50%;
+	width: 100%;
 }
 
-.contenutoprodotto3-2{
-	width:60%;
-	height:100%;
-	top: 0px;
-	left: 0px;
-	position:relative;
-	text-align:left;
-	float:left;
-}
-
-.contenutoprodotto3-2 .sfondo-box{
-	background-image:url("../immagini/1024x768/gestionemessaggi.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
+.boxprodotto3 .bottonegiu img{
+	margin-top:20px;
 }
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
 .boxprodotto4{
