@@ -121,8 +121,17 @@
 	width: 100%;
 }
 
-.boxprodotto1 .bottonegiu img{
-	margin-top:20px;
+.boxprodotto1 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto1 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 2 ***/
@@ -190,8 +199,17 @@
 	width: 100%;
 }
 
-.boxprodotto2 .bottonegiu img{
-	margin-top:20px;
+.boxprodotto2 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto2 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
 }
 /*** BOX DESCRIZIONE PRODOTTO 3 ***/
 .boxprodotto3{
@@ -258,16 +276,27 @@
 	width: 100%;
 }
 
-.boxprodotto3 .bottonegiu img{
-	margin-top:20px;
+.boxprodotto3 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto3 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
 }
 /*** BOX DESCRIZIONE PRODOTTO 4 ***/
 .boxprodotto4{
+	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/sadmin.jpg");
 	background-repeat:no-repeat;
+	background-position:center top;
 	background-attachment:fixed;
-	background-position:center bottom;
-	height:100%;
+	background-size:cover;
+	height:900px;
 	width:100%;
 	position:relative;
 	top:0;
@@ -275,11 +304,10 @@
 	overflow:hidden;
 	float:left;
 }
-
 .contenutoprodotto4{
-	width:40%;
+	width:50%;
 	height:100%;
-	top: 0px;
+	top: 110px;
 	left: 0px;
 	position:relative;
 	text-align:left;
@@ -287,30 +315,412 @@
 }
 
 .contenutoprodotto4 h2{
-	margin-top:110px;
-	margin-left:20px;
+	margin-top: 10px;
 }
 
 .textprodotto4{
-	width:75%;
+	width:100%;
 	height:auto;
-	margin:20px 0px 20px 20px;
+	margin:20px 0px;
 }
 
 .textprodotto4 p{
 	margin:0px;
 	font-family: 'Roboto Slab', serif;
-	font-size:16px;
+	font-size:20px;
 	font-weight:normal;
 	color:#000000;
 }
 
-.contenutoprodotto4 .contenutogiu {
-	color:#ffffff;	
-}
-
 .oggsadmin{
 	background-image:url("../immagini/1024x768/oggettos-admin.png");
+	background-repeat:no-repeat;
+	background-position:right top;
+	width:100%;
+	height:335px;
+	margin-left:-90px;
+}
+
+.boxprodotto4 .bottonegiu{
+	bottom: 160px;
+	color: #FFFFFF;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
+	height: auto;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.boxprodotto4 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto4 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #FFFFFF;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 5 ***/
+.boxprodotto5{
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/trovapassword.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	overflow:hidden;
+	float:left;
+}
+.contenutoprodotto5{
+	width:50%;
+	height:100%;
+	top: 110px;
+	left: 0px;
+	position:relative;
+	text-align:left;
+	float:left;
+}
+
+.contenutoprodotto5 h2{
+	margin-top: 10px;
+}
+
+.textprodotto5{
+	width:100%;
+	height:auto;
+	margin:20px 0px;
+}
+
+.textprodotto5 p{
+	margin:0px;
+	font-family: 'Roboto Slab', serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#000000;
+}
+
+.oggpassword{
+	background-image:url("../immagini/1024x768/oggettopassword.png");
+	background-repeat:no-repeat;
+	background-position:right top;
+	width:100%;
+	height:335px;
+	margin-left:-50px;
+}
+
+.boxprodotto5 .bottonegiu{
+	bottom: 160px;
+	color: #000000;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
+	height: auto;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.boxprodotto5 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto5 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 6 ***/
+.boxprodotto6{
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/roulette.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	overflow:hidden;
+	float:left;
+}
+.contenutoprodotto6{
+	width:50%;
+	height:100%;
+	top: 110px;
+	left: 0px;
+	position:relative;
+	text-align:left;
+	float:left;
+}
+
+.contenutoprodotto6 h2{
+	margin-top: 10px;
+}
+
+.textprodotto6{
+	width:100%;
+	height:auto;
+	margin:20px 0px;
+}
+
+.textprodotto6 p{
+	margin:0px;
+	font-family: 'Roboto Slab', serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#000000;
+}
+
+.oggroulette{
+	background-image:url("../immagini/1024x768/oggettoroulette.png");
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:100%;
+	height:335px;
+	margin-left:-50px;
+}
+
+.boxprodotto6 .bottonegiu{
+	bottom: 160px;
+	color: #000000;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
+	height: auto;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.boxprodotto6 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto6 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 7 ***/
+.boxprodotto7{
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/spaccio.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	overflow:hidden;
+	float:left;
+}
+.contenutoprodotto7{
+	width:50%;
+	height:100%;
+	top: 110px;
+	left: 0px;
+	position:relative;
+	text-align:left;
+	float:left;
+}
+
+.contenutoprodotto7 h2{
+	margin-top: 10px;
+}
+
+.textprodotto7{
+	width:100%;
+	height:auto;
+	margin:20px 0px;
+}
+
+.textprodotto7 p{
+	margin:0px;
+	font-family: 'Roboto Slab', serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#000000;
+}
+
+.oggspaccio{
+	background-image:url("../immagini/1024x768/oggettospaccio.png");
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:100%;
+	height:335px;
+	margin-left:-50px;
+}
+
+.boxprodotto7 .bottonegiu{
+	bottom: 160px;
+	color: #000000;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
+	height: auto;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.boxprodotto7 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto7 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 8 ***/
+.boxprodotto8{
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/security.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	overflow:hidden;
+	float:left;
+}
+.contenutoprodotto8{
+	width:50%;
+	height:100%;
+	top: 110px;
+	left: 0px;
+	position:relative;
+	text-align:left;
+	float:left;
+}
+
+.contenutoprodotto8 h2{
+	margin-top: 10px;
+}
+
+.textprodotto8{
+	width:100%;
+	height:auto;
+	margin:20px 0px;
+}
+
+.textprodotto8 p{
+	margin:0px;
+	font-family: 'Roboto Slab', serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#000000;
+}
+
+.oggsecurity{
+	width:100%;
+	height:335px;
+	margin-left:0px;
+}
+
+.boxprodotto8 .bottonegiu{
+	bottom: 160px;
+	color: #000000;
+	font-family: "Roboto Slab",serif;
+	font-size: 18px;
+	height: auto;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.boxprodotto8 .bottonegiu p{
+	margin-bottom:20px;
+}
+
+.boxprodotto8 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
+}
+
+/*** BOX DESCRIZIONE PRODOTTO 9 ***/
+.boxprodotto9{
+	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/battery.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
+	height:900px;
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	overflow:hidden;
+	float:left;
+}
+.contenutoprodotto9{
+	width:50%;
+	height:100%;
+	top: 110px;
+	left: 0px;
+	position:relative;
+	text-align:left;
+	float:left;
+}
+
+.contenutoprodotto9 h2{
+	margin-top: 10px;
+}
+
+.textprodotto9{
+	width:100%;
+	height:auto;
+	margin:20px 0px;
+}
+
+.textprodotto9 p{
+	margin:0px;
+	font-family: 'Roboto Slab', serif;
+	font-size:20px;
+	font-weight:normal;
+	color:#000000;
+}
+
+.oggbattery{
+	background-image:url("../immagini/1024x768/oggettobattery.png");
 	background-repeat:no-repeat;
 	background-position:left top;
 	width:100%;
@@ -318,422 +728,51 @@
 	margin-left:0px;
 }
 
-.boxprodotto4 .bottonegiu{
-	bottom: 15%;
-	color: #FFFFFF;
+.boxprodotto9 .bottonegiu{
+	bottom: 160px;
+	color: #000000;
 	font-family: "Roboto Slab",serif;
-	font-size: 12px;
+	font-size: 18px;
 	height: auto;
 	right: 0%;
 	position: absolute;
 	text-align: center;
-	width: 50%;
+	width: 100%;
 }
 
-/*** BOX DESCRIZIONE PRODOTTO 5 ***/
-.boxprodotto5{
-	background-image:url("../immagini/1024x768/trovapassword-sfondo.jpg");
-	background-repeat:repeat-x;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
-	float:left;
+.boxprodotto9 .bottonegiu p{
+	margin-bottom:20px;
 }
 
-.contenutoprodotto5{
-	float: left;
-    height: 100%;
-    left: 0;
-    position: relative;
-    text-align: left;
-    top: 0;
-    width: 40%;
-}
-
-
-.contenutoprodotto5 h2 {
-    margin-left: 20px;
-    margin-top: 125px;
-}
-
-.textprodotto5{
-	height: auto;
-    margin: 20px 0 20px 20px;
-    width: 75%;
-}
-
-.textprodotto5 p{
-	color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.oggpassword{
-	background-image:url("../immagini/1024x768/oggettopassword.png");
-	background-position: left top;
-    background-repeat: no-repeat;
-    height: 335px;
-    margin-left: 0;
-    width: 100%;
-}
-
-.boxprodotto5 .bottonegiu{
-	bottom: 15%;
-	color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 12px;
-    height: auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 50%;
-}
-
-.contenutoprodotto5-2{
-	width:60%;
-	height:100%;
-	top: 0px;
-	left: 0px;
-	position:relative;
-	text-align:left;
-	float:left;
-}
-
-.contenutoprodotto5-2 .sfondo-box{
-	background-image:url("../immagini/1024x768/trovapassword.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
-}
-
-/*** BOX DESCRIZIONE PRODOTTO 6 ***/
-.boxprodotto6{
-	background-color:#319931;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
-	float:left;
-}
-
-.contenutoprodotto6{
-	float: left;
-    height: 100%;
-    left: 0;
-    position: relative;
-    text-align: left;
-    top: 0;
-    width: 40%;
-}
-
-.contenutoprodotto6 h2 {
-    margin-left: 20px;
-    margin-top: 125px;
-}
-
-.textprodotto6{
-	height: auto;
-	margin: 20px 0 20px 20px;
-	width: 75%;
-}
-
-.textprodotto6 p{
-	color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.contenutoprodotto6 .contenutogiu {
-	color:#ffffff;	
-}
-
-.oggroulette{
-	background-image:url("../immagini/1024x768/oggettoroulette.jpg");
-	background-position: left top;
-    background-repeat: no-repeat;
-    height: 335px;
-    margin-left: 0;
-    width: 100%;
-}
-
-.boxprodotto6 .bottonegiu{
-	bottom: 15%;
-    color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 12px;
-    height: auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 50%;
-}
-
-.contenutoprodotto6-2{
-	width:60%;
-	height:100%;
-	top: 0px;
-	left: 0px;
-	position:relative;
-	text-align:left;
-	float:left;
-}
-
-.contenutoprodotto6-2 .sfondo-box{
-	background-image:url("../immagini/1024x768/roulette.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
-}
-
-/*** BOX DESCRIZIONE PRODOTTO 7 ***/
-.boxprodotto7{
-	background-image:url("../immagini/1024x768/spaccio.jpg");
-	background-attachment:fixed;
-	background-position: center bottom;
-    background-repeat: no-repeat;
-    float: left;
-    height: 100%;
-    left: 0;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 100%;
-}
-
-.contenutoprodotto7{
-	float: left;
-	height: 100%;
-	left: 0;
-	position: relative;
-	text-align: left;
-	top: 0;
-	width: 40%;
-}
-
-.contenutoprodotto7 h2 {
-    margin-left: 20px;
-    margin-top: 110px;
-}
-
-.textprodotto7{
-	height: auto;
-    margin: 20px 0 20px 20px;
-    width: 75%;
-}
-
-.textprodotto7 p{
-	color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.oggspaccio{
-	background-image:url("../immagini/1024x768/oggettospaccio.png");
-	background-position: left top;
-    background-repeat: no-repeat;
-    height: 335px;
-    margin-left: 0;
-    width: 100%;
-}
-
-.boxprodotto7 .bottonegiu{
-	bottom: 15%;
-    color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 12px;
-    height: auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 50%;
-}
-
-/*** BOX DESCRIZIONE PRODOTTO 8 ***/
-.boxprodotto8{
-	background-image:url("../immagini/1024x768/security.jpg");
-	background-attachment:fixed;
-	background-position: center bottom;
-    background-repeat: no-repeat;
-    float: left;
-    height: 100%;
-    left: 0;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 100%;
-}
-
-.contenutoprodotto8{
-	float: left;
-	height: 100%;
-	left: 0;
-	position: relative;
-	text-align: left;
-	top: 0;
-	width: 40%;
-}
-
-.contenutoprodotto8 h2 {
-    margin-left: 20px;
-    margin-top: 110px;
-}
-
-.textprodotto8{
-	height: auto;
-    margin: 20px 0 20px 20px;
-    width: 75%;
-}
-
-.textprodotto8 p{
-	color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.oggsecurity{
-	height: 335px;
-    margin-left: 0;
-    width: 100%;
-}
-
-.boxprodotto8 .bottonegiu{
-	bottom: 15%;
-    color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 12px;
-    height: auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 50%;
-}
-
-/*** BOX DESCRIZIONE PRODOTTO 9 ***/
-.boxprodotto9{
-	float: left;
-    height: 100%;
-    left: 0;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 100%;
-	background-color:#79BCA6;
-}
-
-.contenutoprodotto9{
-	float: left;
-	height: 100%;
-	left: 0;
-	position: relative;
-	text-align: left;
-	top: 0;
-	width: 40%;
-}
-
-.contenutoprodotto9 h2 {
-    margin-left: 20px;
-    margin-top: 110px;
-}
-
-.textprodotto9{
-	height: auto;
-    margin: 20px 0 20px 20px;
-    width: 75%;
-}
-
-.textprodotto9 p{
-	color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.oggbattery{
-	background-image:url("../immagini/1024x768/oggettobattery.jpg");
-	background-position: left top;
-    background-repeat: no-repeat;
-    height: 335px;
-    margin-left: 0;
-    width: 100%;
-}
-
-.boxprodotto9 .bottonegiu{
-	bottom: 15%;
-    color: #000000;
-    font-family: "Roboto Slab",serif;
-    font-size: 12px;
-    height: auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 50%;
-}
-
-.contenutoprodotto9-2{
-	width:60%;
-	height:100%;
-	top: 0px;
-	left: 0px;
-	position:relative;
-	text-align:left;
-	float:left;
-}
-
-.contenutoprodotto9-2 .sfondo-box{
-	background-image:url("../immagini/1024x768/battery.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right bottom;
-	height:100%;
-	width:100%;
-	position:relative;
-	top:0;
-	left:0;
-	overflow:hidden;
+.boxprodotto9 .freccia-giu {
+	width:80px;
+	height:80px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	border:2px solid #000000;
 }
 
 /*** BOX DESCRIZIONE CONTATTI ***/
 .boxprodotto-contatti{
 	background-color:#ffffff;
+	background-image:url("../immagini/1024x768/contatti.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+	background-size:cover;
 	height:650px;
 	width:100%;
 	position:relative;
 	top:0;
 	left:0;
 	overflow:hidden;
+	float:left;
 	font-family: 'Roboto Slab', serif;
 }
 
 .contenutoprodotto-contatti{
-	width:40%;
+	width:50%;
 	height:100%;
 	top: 0px;
 	position:relative;
@@ -743,7 +782,6 @@
 
 .contenutoprodotto-contatti h3{
 	margin-top:120px;
-	margin-left:20px;
 	font-size:25px;	
 	color:#969595;
 }
@@ -751,7 +789,7 @@
 .textprodotto-contatti{
 	width:100%;
 	height:auto;
-	margin:10px 0px 10px 20px;
+	margin:10px 0px;
 }
 
 .textprodotto-contatti p{
@@ -773,7 +811,6 @@
 	height:300px;
 	color:#262626;
 	font-size:15px;
-	margin-left:20px;
 }
 
 .camponome, .campocognome, .campocitta, .campotel, .campoemail, .textarea{
@@ -863,34 +900,29 @@
 }
 
 .container-box-maps{
-	background-image:url("../immagini/1024x768/contatti.jpg");
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:right top;
 	float: left;
 	height: 100%;
-	width:60%;
+	width:50%;
 }
 
 .box-maps{
 	background: rgba(0, 0, 0, 0) url("../immagini/1024x768/maps.png");
 	background-repeat:no-repeat;
 	background-attachment:scroll;
-	background-position:center bottom;
-	background-size:100% auto;
+	background-position:left bottom;
+	background-size:100%;
 	float: left;
 	height: 100%;
-	max-width: 570px;
 	width:100%;
 }
 
 .iframemaps{
-	bottom: 15px;
-	display: none;
-	height: 325px;
-	position: absolute;
-	right: 58px;
-	width: 525px;
+	bottom: 10px;
+    display: none;
+    height: 256px;
+    position: absolute;
+    right: 74px;
+    width: 403px;
 }
 /*** BOX SOCIAL ***/
 .boxsocial{
