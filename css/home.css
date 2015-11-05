@@ -37,12 +37,6 @@
 	background:#F5A101;
 }
 
-@media only screen and (max-width: 795px) {
-	.contbottone{
-		margin:30px auto;
-	}
-}
-
 .bottonegiu p{
 	margin:0px;
 }
@@ -791,12 +785,10 @@
 }
 
 /*** MODULO DI COMPILAZIONE ***/
-
 .boxmodulo{
 	width:100%;
 	height:auto;
 }
-
 .modulo{
 	width:100%;
 	max-width:350px;
@@ -804,68 +796,58 @@
 	color:#262626;
 	font-size:15px;
 }
-
-.camponome, .campocognome, .campocitta, .campotel, .campoemail, .textarea{
+.camponome, .campocognome, .campocitta, .campotel, .campoemail {
 	width:50%;
 	height:auto;
 	text-align:left;
 	float:left;
 	margin-top:0px;
 }
-
 .modulo input{
 	max-width:146px;
 	height:20px;
 }
-
 .campocitta{
 	width:100% !important;
 }
-
 .campocitta input{
 	width:100%;
 	max-width:322px;
 	height:20px;
 }
-
 .textarea{
 	width:100%;
 	height:auto;
+	text-align:left;
+	float:left;
 }
-
 .textarea textarea{
 	width:322px;
 	height:100px;
 	resize: none;
 }
-
 .boxprivacy{
 	width:100%;
 	height:auto;
 	margin-top:5px;
 	float:left;
 }
-
 .boxprivacy p{
 	margin:0px;	
 }
-
 .boxprivacy a{
 	color:#0098D0;	
 }
-
 .boxprivacy input{
 	height:auto;
 	width:auto;	
 }
-
 .modulo .boxbottone{
 	width:100%;
 	height:auto;
 	float:left;
 	margin:0px;
 }
-
 .modulo .contbottone{
 	width:150px;
 	height:auto;
@@ -878,31 +860,28 @@
 	font-weight:bold;
 	margin-top:5px;
 }
-
 .modulo .contbottone a{
 	display:block;
 	cursor:pointer;
 	color:#FFFFFF;
 	padding:10px 5px;
 }
-
 .modulo .contbottone a:hover{
 	color:#ffffff;
 	background:#F5A101;
 }
 
+/*** FOOTER ***/
 .container-box-maps{
 	float: left;
 	height: 100%;
 	width:50%;
 }
-
 .box-maps{
 	float: left;
 	height: 100%;
 	width:100%;
 }
-
 .iframemaps{
 	bottom: 257px;
     display: none;
@@ -911,6 +890,7 @@
     right: 62px;
     width: 416px;
 }
+
 /*** BOX SOCIAL ***/
 .boxsocial{
 	width:100%;
@@ -921,21 +901,21 @@
 }
 
 hr{
-width:200px;
-height:2px;
-margin: 0px auto;
-background-color:#d4d4d4;
-border:0px;
+	width:200px;
+	height:2px;
+	margin: 0px auto;
+	background-color:#d4d4d4;
+	border:0px;
 }
 
 .boxsocial p{
-color:#000000;
-font-size:18px;
-margin:5px 0px;
+	color:#000000;
+	font-size:18px;
+	margin:5px 0px;
 }
 
 .bottonisocial{
-	width:70%;
+	width:240px;
 	height:auto;
 	text-align:center;
 	margin:0px auto;
