@@ -47,13 +47,6 @@
 	margin:0px;
 }
 
-@media only screen and (max-width: 795px) {
-	.bottonegiu img{
-		width:40px;
-		height:40px;
-	}
-}
-
 .img-nascosto{display:none;}
 
 /*** BOX DESCRIZIONE PRODOTTO 1 ***/
