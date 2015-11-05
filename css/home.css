@@ -920,11 +920,11 @@
 }
 /*** BOX SOCIAL ***/
 .boxsocial{
-width:100%;
-height:auto;
-float:left;
-margin-top: 10px;
-text-align:center;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top: 10px;
+	text-align:center;
 }
 
 hr{

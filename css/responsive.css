@@ -907,7 +907,7 @@
 	}
 /*** BOX DESCRIZIONE CONTATTI ***/
 	.boxprodotto-contatti{
-		background-position:center top;
+		height:760px;
 	}
 /*** MODULO DI COMPILAZIONE ***/
 	.iframemaps{
@@ -928,5 +928,68 @@
 	}
 	.boxinfo2{
 		width:23%;
+	}
+}
+
+@media only screen and (min-width: 1366px) and (max-height: 768px){
+/*** BOX DESCRIZIONE PRODOTTO 2 ***/
+	.contenutoprodotto2 h2 {
+		margin-top:0px;
+		margin-bottom:25px;
+	}
+/*** BOX DESCRIZIONE CONTATTI ***/
+	.contenutoprodotto-contatti h3{
+		font-size:25px;	
+	}
+	.textprodotto-contatti p{
+		font-size:16px;
+	}
+/*** MODULO DI COMPILAZIONE ***/
+	.modulo{
+		width:100%;
+		max-width:350px;
+		height:300px;
+	}
+	.modulo input{
+		max-width:146px;
+		height:20px;
+	}
+	.campocitta input{
+		width:100%;
+		max-width:322px;
+		height:20px;
+	}
+	.textarea textarea{
+		width:322px;
+		height:100px;
+		resize: none;
+	}
+	.bottonisocial{
+		width:70%;
+	}
+	.iframemaps{
+		bottom: 102px;
+		height: 224px;
+		right: 166px;
+		width: 480px;
+	}
+}
+
+@media only screen and (min-width: 1920px) and (max-height: 1080px){
+/*** BOX DESCRIZIONE PRODOTTO 2 ***/
+	.contenutoprodotto2 h2 {
+		margin-bottom: 75px;
+		margin-top: 60px;
+	}
+/*** MODULO DI COMPILAZIONE ***/
+	.iframemaps{
+		bottom: 0px;
+		height: 284px;
+		right: 233px;
+		width: 678px;
+	}
+/*** INIZIO FOOTER DELLA PAGINA ***/
+	.infobox1 {
+		width: 21%;
 	}
 }
