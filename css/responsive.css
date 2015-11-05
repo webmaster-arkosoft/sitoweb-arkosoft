@@ -22,6 +22,9 @@
 	.cd-main-content {
 		padding-top: 65px;
 	}
+	.contbottone {
+		margin: 0 auto;
+	}
 	.boxbottone {
 		margin: 20px auto;
 	}
@@ -89,7 +92,7 @@
 		margin: 0 auto;
 		text-align: center;
 		width: 100%;
-		top:90px;
+		top:60px;
 	}
 	.contenutoprodotto2 h2 img{
 		width:90%;
@@ -571,7 +574,7 @@
 
 @media only screen and (max-width: 400px) {
 	.contenutoprodotto2{
-		top:55px;
+		top:15px;
 	}
 	.contenutoprodotto2 h2 {
 		margin-top: 60px;
