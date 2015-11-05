@@ -761,14 +761,13 @@
 	background-position:center top;
 	background-attachment:fixed;
 	background-size:cover;
-	height:650px;
+	height:900px;
 	width:100%;
 	position:relative;
 	top:0;
 	left:0;
 	overflow:hidden;
 	float:left;
-	font-family: 'Roboto Slab', serif;
 }
 
 .contenutoprodotto-contatti{
@@ -906,23 +905,18 @@
 }
 
 .box-maps{
-	background: rgba(0, 0, 0, 0) url("../immagini/1024x768/maps.png");
-	background-repeat:no-repeat;
-	background-attachment:scroll;
-	background-position:left bottom;
-	background-size:100%;
 	float: left;
 	height: 100%;
 	width:100%;
 }
 
 .iframemaps{
-	bottom: 10px;
+	bottom: 257px;
     display: none;
-    height: 256px;
+    height: 264px;
     position: absolute;
-    right: 74px;
-    width: 403px;
+    right: 62px;
+    width: 416px;
 }
 /*** BOX SOCIAL ***/
 .boxsocial{

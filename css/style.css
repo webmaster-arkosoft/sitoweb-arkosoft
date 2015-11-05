@@ -525,7 +525,6 @@ float:left;
 }
 
 .contenutoinfo{
-max-width:1024px;
 height:auto;
 margin:0px auto;
 display:block;
@@ -629,7 +628,6 @@ color:#8fdffd;
 }
 
 .boxfooter{
-max-width:1024px;
 margin:0px auto;
 }
 
@@ -871,8 +869,10 @@ background-color:#095F8F;
 /*** QUARTO BLOCCO LIST A DESTRA DEI SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub4
 {width:auto; height:100%; display:block; margin-top:0px; margin-bottom:30px; padding:0px;}
+#nav li:hover ul.sub li.box2li ul.sub4 .title
+{margin:0px; padding:0px; text-align:center; width:250px; height:20px;}
 #nav li:hover ul.sub li.box2li ul.sub4 li
-{margin:0px 0px 0px 10px; padding:0px; text-align:left; width:200px; height:10px;}
+{margin:0px 0px 0px 10px; padding:0px; text-align:left; width:240px; height:10px;}
 #nav li:hover ul.sub li.box2li ul.sub4 li a
 {color:#ffffff; display:block; padding:5px 0px;}
 #nav li:hover ul.sub li.box2li ul.sub4 li a:hover
