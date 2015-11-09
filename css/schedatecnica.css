@@ -118,16 +118,13 @@ MA SONO COMUNQUE DIVISI CON I PROPRI NOMI PER LE VARIE MODIFICHE FATTE PER OGNI 
 .box-descrizione2 .desc-softw{
 	text-align:left;
 }
-.slidescheda-nasco{
-	display:none;
-}
 
 /* SCEHDA TECNICA: SOFTSHOP */
 .softshop{
 	border-bottom:2px solid #EFCA5F;
+	background: url("../immagini/slidesoftshop1.jpg") no-repeat center top;
 }
 .slidesoftshop1{
-	background: url("../immagini/slidesoftshop1.jpg") no-repeat center top;
 	width:100%;
 	height:100%;
 	max-width:1024px;
@@ -154,8 +151,11 @@ MA SONO COMUNQUE DIVISI CON I PROPRI NOMI PER LE VARIE MODIFICHE FATTE PER OGNI 
 	font-weight:700;
 	padding:5px 9px 5px 10px;
 }
-.slidesoftshop2{
+.softshop2{
+	border-bottom:2px solid #EFCA5F;
 	background: url("../immagini/slidesoftshop2.jpg") no-repeat center top;
+}
+.slidesoftshop2{
 	width:100%;
 	height:100%;
 	max-width:1024px;
@@ -177,8 +177,11 @@ MA SONO COMUNQUE DIVISI CON I PROPRI NOMI PER LE VARIE MODIFICHE FATTE PER OGNI 
 	font-size:18px;
 	color:#000000;
 }
-.slidesoftshop3{
+.softshop3{
+	border-bottom:2px solid #EFCA5F;
 	background: url("../immagini/slidesoftshop3.jpg") no-repeat center top;
+}
+.slidesoftshop3{
 	width:100%;
 	height:100%;
 	max-width:1024px;

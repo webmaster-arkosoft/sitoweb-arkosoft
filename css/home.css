@@ -88,22 +88,23 @@
 }
 
 .oggsoft{
-	background-image:url("../immagini/1024x768/oggettosoftshop.jpg");
+	/*background-image:url("../immagini/1024x768/oggettosoftshop.jpg");
 	background-repeat:no-repeat;
-	background-position:left top;
+	background-position:left top;*/
 	width:100%;
 	height:335px;
-	margin-left:-100px;
+	margin-top:50px;
+	/*margin-left:-100px;*/
 }
 
 .boxprodotto1 .bottonegiu{
-	bottom: 50px;
+	/*bottom: 50px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -113,8 +114,8 @@
 }
 
 .boxprodotto1 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -166,22 +167,23 @@
 }
 
 .oggristo{
-	background-image:url("../immagini/1024x768/oggettoristo.png");
+	/*background-image:url("../immagini/1024x768/oggettoristo.png");
 	background-repeat:no-repeat;
-	background-position:left top;
+	background-position:left top;*/
 	width:100%;
 	height:335px;
-	margin-left:-100px;
+	margin-top:60px;
+	/*margin-left:-100px;*/
 }
 
 .boxprodotto2 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -191,8 +193,8 @@
 }
 
 .boxprodotto2 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -243,22 +245,23 @@
 }
 
 .oggmex{
-	background-image:url("../immagini/1024x768/oggettomex.jpg");
+	/*background-image:url("../immagini/1024x768/oggettomex.jpg");
 	background-repeat:no-repeat;
-	background-position:left top;
+	background-position:left top;*/
 	width:100%;
 	height:335px;
-	margin-left:-100px;
+	margin-top:30px;
+	/*margin-left:-100px;*/
 }
 
 .boxprodotto3 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -268,8 +271,8 @@
 }
 
 .boxprodotto3 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -320,22 +323,23 @@
 }
 
 .oggsadmin{
-	background-image:url("../immagini/1024x768/oggettos-admin.png");
+	/*background-image:url("../immagini/1024x768/oggettos-admin.png");
 	background-repeat:no-repeat;
-	background-position:right top;
+	background-position:right top;*/
 	width:100%;
 	height:335px;
-	margin-left:-90px;
+	margin-top:50px;
+	/*margin-left:-90px;*/
 }
 
 .boxprodotto4 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #FFFFFF;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -345,8 +349,8 @@
 }
 
 .boxprodotto4 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -398,22 +402,23 @@
 }
 
 .oggpassword{
-	background-image:url("../immagini/1024x768/oggettopassword.png");
+	/*background-image:url("../immagini/1024x768/oggettopassword.png");
 	background-repeat:no-repeat;
-	background-position:right top;
+	background-position:right top;*/
 	width:100%;
 	height:335px;
-	margin-left:-50px;
+	margin-top: 30px;
+	/*margin-left:-50px;*/
 }
 
 .boxprodotto5 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -423,8 +428,8 @@
 }
 
 .boxprodotto5 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -476,22 +481,23 @@
 }
 
 .oggroulette{
-	background-image:url("../immagini/1024x768/oggettoroulette.png");
+	/*background-image:url("../immagini/1024x768/oggettoroulette.png");
 	background-repeat:no-repeat;
-	background-position:left top;
+	background-position:left top;*/
 	width:100%;
 	height:335px;
-	margin-left:-50px;
+	margin-top:30px;
+	/*margin-left:-50px;*/
 }
 
 .boxprodotto6 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -501,8 +507,8 @@
 }
 
 .boxprodotto6 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -554,22 +560,23 @@
 }
 
 .oggspaccio{
-	background-image:url("../immagini/1024x768/oggettospaccio.png");
+	/*background-image:url("../immagini/1024x768/oggettospaccio.png");
 	background-repeat:no-repeat;
-	background-position:left top;
+	background-position:left top;*/
 	width:100%;
 	height:335px;
-	margin-left:-50px;
+	margin-top:30px;
+	/*margin-left:-50px;*/
 }
 
 .boxprodotto7 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -579,8 +586,8 @@
 }
 
 .boxprodotto7 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -634,17 +641,18 @@
 .oggsecurity{
 	width:100%;
 	height:335px;
+	margin-top:100px;
 	margin-left:0px;
 }
 
 .boxprodotto8 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -654,8 +662,8 @@
 }
 
 .boxprodotto8 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
@@ -707,22 +715,23 @@
 }
 
 .oggbattery{
-	background-image:url("../immagini/1024x768/oggettobattery.png");
+	/*background-image:url("../immagini/1024x768/oggettobattery.png");
 	background-repeat:no-repeat;
-	background-position:left top;
+	background-position:left top;*/
 	width:100%;
 	height:335px;
+	margin-top:30px;
 	margin-left:0px;
 }
 
 .boxprodotto9 .bottonegiu{
-	bottom: 160px;
+	/*bottom: 160px;*/
 	color: #000000;
 	font-family: "Roboto Slab",serif;
 	font-size: 18px;
 	height: auto;
 	right: 0%;
-	position: absolute;
+	/*position: absolute;*/
 	text-align: center;
 	width: 100%;
 }
@@ -732,8 +741,8 @@
 }
 
 .boxprodotto9 .freccia-giu {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
