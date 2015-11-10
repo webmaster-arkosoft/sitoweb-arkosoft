@@ -338,3 +338,16 @@
 	border-bottom:2px solid #EFCA5F;
 	background: url("../immagini/slidesoftshop3.jpg") no-repeat center top/ cover;
 }
+/* SCEHDA TECNICA: RISTOMANAGER */
+.ristomanager{
+	border-bottom:2px solid #D12424;
+	background: url("../immagini/slideristo1.jpg") no-repeat center top/ cover;
+}
+.ristomanager2{
+	border-bottom:2px solid #D12424;
+	background: url("../immagini/slideristo2.jpg") no-repeat center bottom/ cover;
+}
+.ristomanager3{
+	border-bottom:2px solid #D12424;
+	background: url("../immagini/slideristo3.jpg") no-repeat center top/ cover;
+}
