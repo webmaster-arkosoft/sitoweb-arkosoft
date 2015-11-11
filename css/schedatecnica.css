@@ -390,3 +390,29 @@
 	border-bottom:2px solid #323A45;
 	background: url("../immagini/slidepassword3.jpg") no-repeat center top/ cover;
 }
+/* SCEHDA TECNICA: ROULETTE ANALYTICS */
+.roulette{
+	border-bottom:2px solid #3C9E3C;
+	background: url("../immagini/slideroulette1.jpg") no-repeat center top/ cover;
+}
+.roulette2{
+	border-bottom:2px solid #3C9E3C;
+	background: url("../immagini/slideroulette2.jpg") no-repeat center bottom/ cover;
+}
+.roulette3{
+	border-bottom:2px solid #3C9E3C;
+	background: url("../immagini/slideroulette3.jpg") no-repeat center top/ cover;
+}
+/* SCEHDA TECNICA: SPACCIO WORLD */
+.spaccio{
+	border-bottom:2px solid #DB8AC8;
+	background: url("../immagini/slidespaccio1.jpg") no-repeat center top/ cover;
+}
+.spaccio2{
+	border-bottom:2px solid #DB8AC8;
+	background: url("../immagini/slidespaccio2.jpg") no-repeat center bottom/ cover;
+}
+.spaccio3{
+	border-bottom:2px solid #DB8AC8;
+	background: url("../immagini/slidespaccio3.jpg") no-repeat center top/ cover;
+}
