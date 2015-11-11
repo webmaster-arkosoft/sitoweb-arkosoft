@@ -416,3 +416,29 @@
 	border-bottom:2px solid #DB8AC8;
 	background: url("../immagini/slidespaccio3.jpg") no-repeat center top/ cover;
 }
+/* SCEHDA TECNICA: SECURITY HOST */
+.security{
+	border-bottom:2px solid #7BC4F8;
+	background: url("../immagini/slidesecurity1.jpg") no-repeat center top/ cover;
+}
+.security2{
+	border-bottom:2px solid #7BC4F8;
+	background: url("../immagini/slidesecurity2.jpg") no-repeat center bottom/ cover;
+}
+.security3{
+	border-bottom:2px solid #7BC4F8;
+	background: url("../immagini/slidesecurity3.jpg") no-repeat center top/ cover;
+}
+/* SCEHDA TECNICA: BATTERY ALERT */
+.batery{
+	border-bottom:2px solid #488FCD;
+	background: url("../immagini/slidebattery1.jpg") no-repeat center top/ cover;
+}
+.batery2{
+	border-bottom:2px solid #488FCD;
+	background: url("../immagini/slidebattery2.jpg") no-repeat center bottom/ cover;
+}
+.batery3{
+	border-bottom:2px solid #488FCD;
+	background: url("../immagini/slidebattery3.jpg") no-repeat center top/ cover;
+}
