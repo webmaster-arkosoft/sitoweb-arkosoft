@@ -351,3 +351,42 @@
 	border-bottom:2px solid #D12424;
 	background: url("../immagini/slideristo3.jpg") no-repeat center top/ cover;
 }
+/* SCEHDA TECNICA: GESTIONEMESSAGGI */
+.gestionemssaggi{
+	border-bottom:2px solid #FFBF2E;
+	background: url("../immagini/slidegmex1.jpg") no-repeat center top/ cover;
+}
+.gestionemssaggi2{
+	border-bottom:2px solid #FFBF2E;
+	background: url("../immagini/slidegmex2.jpg") no-repeat center bottom/ cover;
+}
+.gestionemssaggi3{
+	border-bottom:2px solid #FFBF2E;
+	background: url("../immagini/slidegmex3.jpg") no-repeat center top/ cover;
+}
+/* SCEHDA TECNICA: S-ADMIN */
+.sadmin{
+	border-bottom:2px solid #5788AF;
+	background: url("../immagini/slidesadmin1.jpg") no-repeat center top/ cover;
+}
+.sadmin2{
+	border-bottom:2px solid #5788AF;
+	background: url("../immagini/slidesadmin2.jpg") no-repeat center bottom/ cover;
+}
+.sadmin3{
+	border-bottom:2px solid #5788AF;
+	background: url("../immagini/slidesadmin3.jpg") no-repeat center top/ cover;
+}
+/* SCEHDA TECNICA: TROVAPASSWORD */
+.password{
+	border-bottom:2px solid #323A45;
+	background: url("../immagini/slidepassword1.jpg") no-repeat center top/ cover;
+}
+.password2{
+	border-bottom:2px solid #323A45;
+	background: url("../immagini/slidepassword2.jpg") no-repeat center bottom/ cover;
+}
+.password3{
+	border-bottom:2px solid #323A45;
+	background: url("../immagini/slidepassword3.jpg") no-repeat center top/ cover;
+}
