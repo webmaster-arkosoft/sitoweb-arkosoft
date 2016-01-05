@@ -88,16 +88,28 @@
 }
 
 .textprodotto .linea1{
-	font-size:18px;
+	font-size:20px;
 	font-weight:bold;
 }
 .textprodotto .linea2{
-	font-size:15px;
+	font-size:17px;
 	font-weight:normal;
 }
 .textprodotto .linea3{
-	font-size:15px;
+	font-size:17px;
 	font-weight:bold;
+}
+
+.textprodotto ul{
+	margin:0px;
+	padding-left:25px;
+	list-style:inherit;
+	color:#000000;
+	font-size:17px;
+	font-weight:italic;
+}
+.textprodotto ul li{
+	margin:10px 0px;
 }
 
 .oggsoft{
@@ -178,7 +190,15 @@
 }
 
 .textprodotto2 .linea1{
-	font-size:18px;
+	font-size:20px;
+	font-weight:bold;
+}
+.textprodotto2 .linea2{
+	font-size:17px;
+	font-weight:normal;
+}
+.textprodotto2 .linea3{
+	font-size:17px;
 	font-weight:bold;
 }
 
@@ -200,7 +220,7 @@
 	background-position:left top;*/
 	width:100%;
 	height:335px;
-	margin-top:60px;
+	margin-top:20px;
 	/*margin-left:-100px;*/
 }
 
@@ -271,16 +291,28 @@
 }
 
 .textprodotto3 .linea1{
-	font-size:16px;
-	font-weight:normal;
-}
-.textprodotto3 .linea2{
 	font-size:20px;
 	font-weight:bold;
 }
-.textprodotto3 .linea3{
-	font-size:16px;
+.textprodotto3 .linea2{
+	font-size:17px;
 	font-weight:normal;
+}
+.textprodotto3 .linea3{
+	font-size:17px;
+	font-weight:bold;
+}
+
+.textprodotto3 ul{
+	margin:0px;
+	padding-left:25px;
+	list-style:inherit;
+	color:#000000;
+	font-size:15px;
+	font-weight:italic;
+}
+.textprodotto3 ul li{
+	margin:10px 0px;
 }
 
 .oggmex{
@@ -359,6 +391,19 @@
 	font-size:18px;
 	font-weight:normal;
 	color:#ffffff;
+}
+
+.textprodotto4 .linea1{
+	font-size:20px;
+	font-weight:bold;
+}
+.textprodotto4 .linea2{
+	font-size:17px;
+	font-weight:normal;
+}
+.textprodotto4 .linea3{
+	font-size:17px;
+	font-weight:bold;
 }
 
 .oggsadmin{
@@ -440,6 +485,19 @@
 	color:#000000;
 }
 
+.textprodotto5 .linea1{
+	font-size:20px;
+	font-weight:bold;
+}
+.textprodotto5 .linea2{
+	font-size:17px;
+	font-weight:normal;
+}
+.textprodotto5 .linea3{
+	font-size:17px;
+	font-weight:bold;
+}
+
 .oggpassword{
 	/*background-image:url("../immagini/1024x768/oggettopassword.png");
 	background-repeat:no-repeat;
@@ -519,6 +577,19 @@
 	color:#ffffff;
 }
 
+.textprodotto6 .linea1{
+	font-size:20px;
+	font-weight:bold;
+}
+.textprodotto6 .linea2{
+	font-size:17px;
+	font-weight:normal;
+}
+.textprodotto6 .linea3{
+	font-size:17px;
+	font-weight:bold;
+}
+
 .oggroulette{
 	/*background-image:url("../immagini/1024x768/oggettoroulette.png");
 	background-repeat:no-repeat;
@@ -531,7 +602,7 @@
 
 .boxprodotto6 .bottonegiu{
 	/*bottom: 160px;*/
-	color: #000000;
+	color: #FFFFFF;
 	font-family: "Roboto Slab",serif;
 	font-size: 14px;
 	height: auto;
@@ -551,7 +622,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	border-radius:10px;
-	border:2px solid #000000;
+	border:2px solid #FFFFFF;
 }
 
 /*** BOX DESCRIZIONE PRODOTTO 7 ***/
@@ -598,17 +669,17 @@
 	color:#000000;
 }
 
-.boxprodotto7 .linea1{
+.textprodotto7 .linea1{
+	font-size:20px;
 	font-weight:bold;
 }
-.boxprodotto7 .linea2{
-	font-size:14px;
+.textprodotto7 .linea2{
+	font-size:17px;
+	font-weight:normal;
 }
-.boxprodotto7 .linea3{
+.textprodotto7 .linea3{
+	font-size:17px;
 	font-weight:bold;
-}
-.boxprodotto7 .linea4{
-	font-size:14px;
 }
 
 .oggspaccio{
@@ -691,10 +762,28 @@
 }
 
 .textprodotto8 .linea1{
+	font-size:20px;
 	font-weight:bold;
 }
 .textprodotto8 .linea2{
-	font-size:15px;
+	font-size:17px;
+	font-weight:normal;
+}
+.textprodotto8 .linea3{
+	font-size:17px;
+	font-weight:bold;
+}
+
+.textprodotto8 ul{
+	margin:0px;
+	padding-left:25px;
+	list-style:inherit;
+	color:#000000;
+	font-size:17px;
+	font-weight:italic;
+}
+.textprodotto8 ul li{
+	margin:10px 0px;
 }
 
 .oggsecurity{
@@ -773,6 +862,19 @@
 	color:#000000;
 }
 
+.textprodotto9 .linea1{
+	font-size:20px;
+	font-weight:bold;
+}
+.textprodotto9 .linea2{
+	font-size:17px;
+	font-weight:normal;
+}
+.textprodotto9 .linea3{
+	font-size:17px;
+	font-weight:bold;
+}
+
 .oggbattery{
 	/*background-image:url("../immagini/1024x768/oggettobattery.png");
 	background-repeat:no-repeat;
@@ -816,7 +918,7 @@
 	background-position:bottom center;
 	background-attachment:fixed;
 	background-size:cover;
-	height:900px;
+	height:700px;
 	width:100%;
 	position:relative;
 	top:0;
@@ -951,12 +1053,12 @@
 	width:100%;
 }
 .iframemaps{
-	bottom: 257px;
-    display: none;
-    height: 264px;
-    position: absolute;
-    right: 62px;
-    width: 416px;
+	bottom: 102px;
+	display: none;
+	height: 293px;
+	position: absolute;
+	right: 5px;
+	width: 471px;
 }
 
 /*** BOX SOCIAL ***/
