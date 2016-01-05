@@ -48,7 +48,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/softshop.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -140,7 +140,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/ristomanager.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -233,7 +233,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/gestionemessaggi.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -322,7 +322,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/sadmin.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -401,7 +401,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/trovapassword.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -480,7 +480,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/roulette.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -559,7 +559,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/spaccio.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -651,7 +651,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/security.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -734,7 +734,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/battery.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center bottom;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
@@ -813,7 +813,7 @@
 	background-color:#ffffff;
 	background-image:url("../immagini/1024x768/contatti.jpg");
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:bottom center;
 	background-attachment:fixed;
 	background-size:cover;
 	height:900px;
