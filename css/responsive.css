@@ -299,7 +299,7 @@
 	}
 	.boxprodotto6 .bottonegiu {
 		bottom:200px;
-		color: #000000;
+		color: #FFFFFF;
 		font-family: "Roboto Slab",serif;
 		font-size: 16px;
 		height: auto;
@@ -452,6 +452,8 @@
 	.boxprodotto-contatti{
 		background-color:#ffffff;
 		background-image:none;
+		height:auto;
+		padding-bottom:10px;
 	}
 	.contenutoprodotto-contatti{
 		float: none;
