@@ -330,6 +330,7 @@ margin: 10px 0 16px;
 #cd-lateral-nav .cd-navigation li{
 	float:left;
 	margin-top:10px;
+	width:90%;
 }
 
 #cd-lateral-nav .cd-navigation .ricerca{
