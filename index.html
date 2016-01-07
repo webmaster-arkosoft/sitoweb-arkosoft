@@ -4,587 +4,268 @@
 		<title>Prova paralasse</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			@font-face {
+			  font-family: 'Raleway';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Raleway';
+			  font-style: normal;
+			  font-weight: 700;
+			  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Roboto Slab';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Roboto Slab';
+			  font-style: normal;
+			  font-weight: 700;
+			  src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Roboto';
+			  font-style: normal;
+			  font-weight: 300;
+			  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Roboto';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Roboto';
+			  font-style: normal;
+			  font-weight: 500;
+			  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Roboto';
+			  font-style: normal;
+			  font-weight: 700;
+			  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+			}
+			html, body {height: 100%;}
+			body{color:#ffffff;margin:0px;padding:0px;font-size:18px;font-family: 'Raleway', sans-serif;}
+			a img{border:0px;cursor:pointer;}
+			a{text-decoration:none;border:0px;cursor:pointer;}
+			ol, ul {list-style: none;}
+			h1,h2,h3{margin:0px; padding:0px;}
+			.logo-arkosoft{width:100%;height:45px;margin:0px auto;background:#000000;text-align:right;display:block;}
+			.logo-arkosoft img{padding:5px 15px;}
+			.boxheader{width:100%;height:65px;margin:0px auto;}
+			.boxheader h1 a img{padding:13px 25px 12px 20px;}
+			.ricerca{float:right;height:auto;width:25%;max-width:300px;padding-top:15px !important;margin-right:10px;}
+			.ricerca .cerca{width:85%;height:35px;border:0px;color:#000000;padding-left:5px;background:#B9B9B9;float:left;}
+			.ricerca .cerca{width:80%\9;}
+			.ricerca .lente{background-image:url(immagini/lente.jpg);background-repeat:no-repeat;background-position:center;background-color:#B9B9B9;width:15%;height:35px;float:left;border:0px;cursor:pointer;}
+			.ricerca .lente{height:37px\9;}
+			.cd-img-replace {display: inline-block;overflow: hidden;text-indent: 100%;white-space: nowrap;}
+			.overflow-hidden {overflow: hidden;}
+			.cd-main-content {height:100%;width:100%;top:0;left:0;padding-top: 110px;-moz-transition-property: -moz-transform;transition-property: transform;-webkit-transition-duration: 0.4s;-moz-transition-duration: 0.4s;transition-duration: 0.4s;}
+			.cd-main-content.lateral-menu-is-open {-webkit-transform: translateX(-260px);-moz-transform: translateX(-260px);-ms-transform: translateX(-260px);-o-transform: translateX(-260px);transform: translateX(-260px);}
+			#header {position: fixed;top: 0;left: 0;height: 110px;width: 100%;background-image:url("immagini/sfondoheader.jpg");background-repeat:repeat-x;background-position:center bottom;z-index: 1;-webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-transition-property: -webkit-transform;-moz-transition-property: -moz-transform;transition-property: transform;-webkit-transition-duration: 0.4s;-moz-transition-duration: 0.4s;transition-duration: 0.4s;}
+			#header.lateral-menu-is-open {-webkit-transform: translateX(-260px);-moz-transform: translateX(-260px);-ms-transform: translateX(-260px);-o-transform: translateX(-260px);transform: translateX(-260px);}
+			#header.is-fixed {position: fixed;}
+			#cd-logo {float: left;}
+			#cd-logo .logo-mondo {display: block;}
+			#cd-logo .logo-intero {display: none;}
+			#cd-logo img:hover{background-image:url("immagini/colorhover.png");
+			background-repeat:repeat-x;background-position:center;}
+			#cd-top-nav {top: 0;right: 0px;height: 100%;display: block;}
+			#cd-top-nav ul {height: 100%;width:100%;padding: 0px;list-style:none;margin:0px;}
+			#cd-top-nav li {height:auto;display: inline-block;padding-top: 1px;font-size:15px;}
+			#cd-top-nav a {display: inline-block;padding: 23px 0.5em;color: #FFF;font-weight:600;}
+			#cd-top-nav a.current {background-color: #242e30;}
+			.no-touch #cd-top-nav a:hover {color: rgba(255, 255, 255, 0.7);}
+			@media only screen and (max-width: 795px) {
+				#cd-top-nav {display: none;}
+			}
+			#cd-menu-trigger {position: absolute;right: 0;top: 0;height: 100%;width: 50px;}
+			#cd-menu-trigger .cd-menu-text {height: 100%;color: #FFF;font-weight: 600;display: none;}
+			#cd-menu-trigger .cd-menu-icon {display: inline-block;position: absolute;left: 50%;top: 70%;bottom: auto;right: auto;-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%);-o-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);width: 18px;height: 2px;background-color: #FFF;}
+			#cd-menu-trigger .cd-menu-icon::before, #cd-menu-trigger .cd-menu-icon:after {content: '';width: 100%;height: 100%;position: absolute;background-color: inherit;left: 0;}
+			#cd-menu-trigger .cd-menu-icon::before {bottom: 5px;}
+			#cd-menu-trigger .cd-menu-icon::after {top: 5px;}
+			#cd-menu-trigger.is-clicked .cd-menu-icon {background-color: rgba(255, 255, 255, 0);}
+			#cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after {background-color: white;}
+			#cd-menu-trigger.is-clicked .cd-menu-icon::before {bottom: 0;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}
+			#cd-menu-trigger.is-clicked .cd-menu-icon::after {top: 0;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
+			#cd-lateral-nav {position: fixed;height: 100%;right: 0;top: 0;visibility: hidden;width: 260px;background-color: #242e30;overflow-y: auto;-webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;-moz-transition: -moz-transform .4s 0s, visibility 0s .4s;transition: transform .4s 0s, visibility 0s .4s;-webkit-transform: translateX(80px);-moz-transform: translateX(80px);-ms-transform: translateX(80px);-o-transform: translateX(80px);transform: translateX(80px);}
+			@media only screen and (min-width: 790px) {
+				#cd-menu-trigger {display:none;}
+			}
+			#cd-lateral-nav .cd-navigation {margin: 10px 0 16px;}
+			#cd-lateral-nav .cd-navigation li{float:left;margin-top:10px;width:90%;}
+			#cd-lateral-nav .cd-navigation .ricerca{float:left;height:auto;width:90%;}
+			#cd-lateral-nav .cd-navigation .ricerca .cerca{width:85%;height:35px;border:0px;color:#000000;padding-left:5px;background:#B9B9B9;}
+			#cd-lateral-nav .cd-navigation .ricerca .lente{background:url(immagini/lente.jpg);background-repeat:no-repeat;background-position:center;background-color:#B9B9B9;width:15%;height:35px;float:left;border:0px;cursor:pointer;}
+			#cd-lateral-nav .sub-menu {padding: 0 10px 20px 15px;display: none;}
+			#cd-lateral-nav a {display: block;line-height: 2em;padding: 0px;color: #aab5b7;}
+			#cd-lateral-nav a.current {background-color: #8fdffd;color: #FFF;}
+			.no-touch #cd-lateral-nav a:hover {color: #FFF;}
+			#cd-lateral-nav a:hover {color: #8fdffd;}
+			@media only screen and (min-width: 795px) {
+				#cd-lateral-nav .cd-navigation {margin: 20px 0;}
+			}
+			#cd-lateral-nav.lateral-menu-is-open {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);visibility: visible;-webkit-transition: -webkit-transform .4s 0s, visibility 0s 0s;-moz-transition: -moz-transform .4s 0s, visibility 0s 0s;transition: transform .4s 0s, visibility 0s 0s;-webkit-overflow-scrolling: touch;}
+			#cd-lateral-nav .item-has-children > a {position: relative;font-weight: 600;}
+			#cd-lateral-nav .item-has-children > a::after {content: '';display: block;height: 11px;width: 8px;position: absolute;top: 50%;bottom: auto;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);right: 1em;background-image: url("img/cd-arrow.svg");background-repeat:no-repeat;background-position:center;background-size: 8px 11px;-webkit-transition-property: -webkit-transform;-moz-transition-property: -moz-transform;transition-property: transform;-webkit-transition-duration: 0.2s;-moz-transition-duration: 0.2s;transition-duration: 0.2s;}
+			#cd-lateral-nav .item-has-children > a.submenu-open::after {-webkit-transform: translateY(-50%) rotate(90deg);-moz-transform: translateY(-50%) rotate(90deg);-ms-transform: translateY(-50%) rotate(90deg);-o-transform: translateY(-50%) rotate(90deg);transform: translateY(-50%) rotate(90deg);}
+			#nav li{-webkit-transition: all 0.1s ease-in-out;-moz-transition: all 0.1s ease-in-out;-ms-transition: all 0.1s ease-in-out;-o-transition: all 0.1s ease-in-out;transition: all 0.1s ease-in-out;}
+			#nav li.first {-moz-border-radius:5px 0 0 5px;-webkit-border-radius:5px 0 0 5px;border-radius:5px 0 0 5px;}
+			#nav li.last {-webkit-border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0;}
+			#nav li li.last {-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;}
+			#nav li.sfondolist:hover{background:url("immagini/colorhover.png");background-repeat:repeat-x;background-position:center;background-color:#095F8F;}
+			/*** PRIMO BLOCCO LIST GENERALE ***/
+			#nav li ul.sub
+			{position:absolute; display:none; left:0px; top:110px; width:100%; height:auto; margin:0px; padding:0; list-style:none; background:url("immagini/headeraperto.jpg");background-repeat:no-repeat;background-position:center bottom;background-color:#0A5F8F;}
+			#nav li ul.sub li.box2li
+			{width:100%; max-width:1024px; height:auto; display:block; margin:0px auto;}
+			/*** SECONDO BLOCCO LIST GENERALE CENTRATO AL PRIMO ***/
+			#nav li:hover ul.sub li.box2li ul.sub1
+			{width:75%; height:auto; display:block; margin-top:0px; margin-bottom:5px; float:left;}
+			#nav li:hover ul.sub li.box2li ul.sub1 li
+			{margin:0px; padding:0px;}
+			/*** TERZO BLOCCO LIST RIGHE CONTENUTO SOFTWARE ***/
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2
+			{width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li
+			{height:auto; width:100px; padding:0px; text-align:center; margin:0px 20px; }
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li div
+			{width:70px; height:70px; margin:0px auto; padding-top:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li p
+			{margin:0px;font-size:12px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li a
+			{color:#ffffff; text-decoration:none; display:block;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 li a:hover 
+			{color:#8fdffd;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover div
+			{width:60px; height:60px; margin-bottom:10px; margin:5px auto;}
+			/*** HOVER PER LE IMMAGINI NELLA LISTA PRODOTTI ***/
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover a img:hover
+			{width:63px; height:auto;}
+			/*** MONDO ARKOSOFT ***/
+			#nav li:hover ul.sub li.box2li ul.mondo1
+			{width:100%; height:auto; display:block; margin-top:0px; margin-bottom:5px; float:left;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo
+			{width:100%; height:auto; border-right:0px; display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover
+			{height:auto; width:150px; padding:0px; text-align:center; margin:0px 0px 15px 10px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover p
+			{margin:5px 0px; font-size:14px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a
+			{color:#ffffff; text-decoration:none; display:block; margin:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a:hover 
+			{color:#8fdffd;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover .icona
+			{width:80px; height:80px; margin:0px auto; padding-top:0px;}
+			/*** HOVER IMMAGINI MONDO ARKOSOFT ***/
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a img:hover
+			{width:75px; height:auto;}
+			/*** CHIEDI AIUTO ***/
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto
+			{width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover
+			{height:auto; width:185px; padding:0px; text-align:center; margin:0px 0px 15px 0px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover p
+			{margin:5px 0px; font-size:14px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a
+			{color:#ffffff; text-decoration:none; display:block; margin:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a:hover 
+			{color:#8fdffd;}
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover .icona
+			{width:80px; height:80px; margin:0px auto; padding-top:0px;}
+			/*** HOVER IMMAGINI CHIEDI AIUTO ***/
+			#nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a img:hover
+			{width:75px; height:auto;}
+			/*** QUINTO BLOCCO LIST ***/
+			#nav li:hover ul.sub li.box2li ul.sub5
+			{width:100%; height:auto; margin-left:20px; display:block; float:left;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale
+			{width:320px; height:50px; text-align:left; float:left; margin:10px 0px;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content
+			{width:auto; height:100%; margin-left:0px; float:left; padding:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a
+			{margin:0px; padding:0px; border:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content a:hover
+			{color:#8fdffd;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1
+			{width:230px; height:auto; text-align:left; float:left; color:#ffffff; font-weight:bold; margin-top:0px; margin-left:5px; padding:0px; font-size:13px;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a
+			{margin:2px 0px; padding:0px; border:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a:hover
+			{color:#8fdffd;}
+			/*** MONDO ARKOSOFT 2 ***/
+			#nav li:hover ul.sub li.box2li ul.mondo2
+			{width:100%; height:auto; margin-left:0px; display:block; float:left;}
+			#nav li:hover ul.sub li.box2li ul.mondo2 .sub-generale
+			{width:30%; height:auto; text-align:center; float:left; margin:10px 10px;}
+			#nav li:hover ul.sub li.box2li ul.mondo2 .sub-generale .sub-content
+			{width:40%; height:auto; margin:5px; float:left; padding:0px; background:rgba(255,255,255,0.2);}
+			#nav li:hover ul.sub li.box2li ul.mondo2 .sub-generale .sub-content1
+			{width:50%; height:auto; margin:5px; float:left; padding:0px; background:rgba(255,255,255,0.2);}
+			#nav li:hover ul.sub li.box2li ul.mondo2 .sub-generale .sub-content1 span
+			{text-align:center; font-size:15px;}
+			#nav li:hover ul.sub li.box2li ul.mondo2 .sub-generale .sub-content1 p
+			{text-align:left; font-size:12px; margin:5px;}
+			/*** DIV CONDIVIDI ***/
+			#nav li:hover ul.sub li.box2li ul.sub-condividi
+			{width:100%; height:50px; margin:0px auto; float:left; display:block;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi li
+			{width:96%; height:100%; margin:0px 10px; padding:0px; color:#ffffff;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi div
+			{float:left; margin:10px 10px; width:auto; height:100%;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi span
+			{padding-top:5px; display:block; font-weight:bold; font-size:18px;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi div a
+			{padding:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi div a:hover
+			{color:#8fdffd;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi .testo
+			{float:right;}
+			#nav li:hover ul.sub li.box2li ul.sub-condividi .testo span
+			{font-size:15px; margin-top:5px; font-weight:normal;}
+			/*** DIVISORE DELLE LISTE DEI SOFTWARE ***/
+			#nav li:hover ul.sub li.box2li ul.sub3
+			{width:100%; height:2px; background:rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; float:left;}
+			/*** QUARTO BLOCCO LIST A DESTRA DEI SOFTWARE ***/
+			#nav li:hover ul.sub li.box2li ul.sub4
+			{width:auto; height:100%; display:block; margin-top:0px; margin-bottom:30px; padding:0px;}
+			#nav li:hover ul.sub li.box2li ul.sub4 .title
+			{margin:0px; padding:0px; text-align:center; width:250px; height:20px; font-style:italic;}
+			#nav li:hover ul.sub li.box2li ul.sub4 li
+			{margin:0px 0px 0px 10px; padding:0px; text-align:left; width:240px; height:10px;}
+			#nav li:hover ul.sub li.box2li ul.sub4 li a
+			{color:#ffffff; display:block; padding:5px 0px;}
+			#nav li:hover ul.sub li.box2li ul.sub4 li a:hover
+			{color:#8fdffd;}
+			#nav li:hover ul.sub li.box2li ul.sub4 li a img
+			{padding:0px 0px;}
+			/*** RENDERE INVISIBILE I BOX DELLA LISTA HEADER ***/
+			#nav ul, 
+			#nav li:hover ul ul,
+			#nav li:hover li:hover ul ul,
+			#nav li:hover li:hover li:hover ul ul,
+			#nav li:hover li:hover li:hover li:hover ul ul
+			{display:none;}
+		</style>
 		<!--[if lte IE 8]>
 			<link rel="stylesheet" type="text/css" href="css/ie.css">
 		<![endif]-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/home.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-		<script type="text/javascript" src="js/media-queries-ie.js"></script>
-		<script type="text/javascript" src="js/animatedcollapse.js"></script> <!-- Animazione footer -->
-		<script type="text/javascript" src="js/sovrapposizione.js"></script>
 	</head>
 	<body>
-		<div class="header" id="header">
-			<div class="logo-arkosoft">
-				<a href="registrazione-arkosoft.html" title="Arkosoft">
-					<img src="immagini/arkosoft-logo.jpg" alt="Logo Arkosoft" width="73" height="40">
-				</a>
-			</div>
-			<div class="boxheader">
-				<h1>
-					<a id="cd-logo" href="index.html" title="Arkosoft">
-						<img class="logo-mondo" src="immagini/icona-arkosoft.png" alt="Logo Arkosoft" width="40" height="40">
-						<img class="logo-intero" src="immagini/arkosoft-logo.png" alt="Logo Arkosoft" width="101" height="35">
-					</a>
-				</h1>
-				<div id="cd-top-nav">
-					<ul id="nav"> <!-- PRIMO BLOCCO LIST -->
-						<li class="sfondolist">
-							<a href="#0" title="I nostri Prodotti">PRODOTTI</a>
-							<ul class="sub" id="menu">
-								<li class="box2li">
-									<ul class="sub1"> <!-- SECONDO BLOCCO LIST -->
-										<li>
-											<ul class="sub2"> <!-- TERZO BLOCCO LIST -->
-												<li id="prod-hover">
-													<a href="http://softshop.it" title="SoftShop">
-														<div>
-															<img src="immagini/iconasoftshop.jpg" alt="Softshop" width="60" height="60">
-														</div>
-														<p>SOFTSHOP</p>
-														<p>&nbsp;</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="http://ristomanager.it" title="Ristomanager">
-														<div>
-															<img src="immagini/iconaristo.jpg" alt="Ristomanager" width="60" height="60">
-														</div>
-														<p>RISTO MANAGER</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="http://www.gestionemessaggi.com" title="Gestione Messaggi">
-														<div>
-															<img src="immagini/iconamex.jpg" alt="Gestione Messaggi" width="60" height="60">
-														</div>
-														<p>GESTIONE MESSAGGI</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="http://www.softwarearredamento.com" title="S-Admin">
-														<div>
-															<img src="immagini/iconasadmin.jpg" alt="S-Admin" width="60" height="60">
-														</div>
-														<p>S-ADMIN</p>
-														<p>&nbsp;</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#nogo23" title="Battery Alert">
-														<div>
-															<img src="immagini/iconabattery.jpg" alt="Battery Alert" width="60" height="60">
-														</div>
-														<p>BATTERY ALERT</p>
-													</a>
-												</li>
-											</ul>
-											<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
-												<li class="divisore"></li>
-											</ul>
-											<ul class="sub2"> <!-- TERZO BLOCCO LIST -->
-												<li id="prod-hover">
-													<a href="http://www.trovapassword.com" title="Trova Password">
-														<div>
-															<img src="immagini/iconapassword.jpg" alt="Trova Password" width="60" height="60">
-														</div>
-														<p>TROVA PASSWORD</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="https://play.google.com/store/apps/details?id=it.arkosoft.roulette&hl=it" title="Roulette">
-														<div>
-															<img src="immagini/iconaroulette.jpg" alt="Roulette" width="60" height="60">
-														</div>
-														<p>ROULETTE ANALITYCS</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="http://www.spaccioworld.com" title="Spaccioworld">
-														<div>
-															<img src="immagini/iconaspaccio.jpg" alt="Spaccioworld" width="60" height="60">
-														</div>
-														<p>SPACCIO WORlD</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="http://securityhost.it" title="Security Host">
-														<div>
-															<img src="immagini/iconasecurity.jpg" alt="Security Host" width="60" height="60">
-														</div>
-														<p>SECURITY HOST</p>
-													</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="sub4"> <!-- QUARTO BOCCO LIST -->
-										<li>
-											<a href="http://softshop.it" title="Softshop">
-												<img src="immagini/frecciadestrabianca.png" alt="Softshop" width="10" height="10">
-												<span>Softshop</span>
-											</a>
-										</li>
-										<li>
-											<a href="http://ristomanager.it" title="Ristomanager">
-												<img src="immagini/frecciadestrabianca.png" alt="Ristomanager" width="10" height="10">
-												<span>Ristomanager</span>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.gestionemessaggi.com" title="Gestione Messaggi">
-												<img src="immagini/frecciadestrabianca.png" alt="Gestione Messaggi" width="10" height="10">
-												<span>Gestioni messaggi</span>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.softwarearredamento.com" title="S-Admin">
-												<img src="immagini/frecciadestrabianca.png" alt="S-Admin" width="10" height="10">
-												<span>S-Admin</span>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.trovapassword.com" title="Trovapassword">
-												<img src="immagini/frecciadestrabianca.png" alt="Trovapassword" width="10" height="10">
-												<span>Trova Password</span>
-											</a>
-										</li>
-										<li>
-											<a href="https://play.google.com/store/apps/details?id=it.arkosoft.roulette&hl=it" title="Roulette Analytics">
-												<img src="immagini/frecciadestrabianca.png" alt="Roulette Analitycs" width="10" height="10">
-												<span>Roulette Analitycs</span>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.spaccioworld.com" title="Spaccioworld">
-												<img src="immagini/frecciadestrabianca.png" alt="Spaccioworld" width="10" height="10">
-												<span>Spaccio world</span>
-											</a>
-										</li>
-										<li>
-											<a href="http://securityhost.it" title="Security Host">
-												<img src="immagini/frecciadestrabianca.png" alt="Security Host" width="10" height="10">
-												<span>SecurityHost</span>
-											</a>
-										</li>
-										<li>
-											<a href="#0" title="Battery Alert">
-												<img src="immagini/frecciadestrabianca.png" alt="Battery Alert" width="10" height="10">
-												<span>Battery alert</span>
-											</a>
-										</li>
-									</ul>
-									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
-										<li class="divisore"></li>
-									</ul>
-									<ul class="sub-condividi"> <!-- LISTA SOCIAL -->
-										<li>
-											<div>
-												<span>Condividi su:</span>
-											</div>
-											<div>
-												<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" title="Condividi su Facebook">
-													<img src="immagini/1024x768/facebook.jpg" alt="Facebook" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<a href="https://twitter.com/arkosoft" title="Condividi su twitter">
-													<img src="immagini/1024x768/twitter.jpg" alt="Twitter" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<a href="https://plus.google.com/+ArkosoftIt/posts" title="Condividi su Google Plus">
-													<img src="immagini/1024x768/googleplus.jpg" alt="Google Plus" width="30" height="30">
-												</a>
-											</div>
-											<div>	
-												<a href="https://www.youtube.com/user/Arkosoft" title="Condividi su Youtube">
-													<img src="immagini/1024x768/youtube.jpg" alt="Youtube" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<span>#arkosoft</span>
-											</div>
-											<div class="testo">
-												<a href="#0" title="Ricevi aggiornamenti via e-mail">
-													<span>RICEVI AGGIORNAMENTI VIA E-MAIL</span>
-												</a>
-											</div>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="sfondolist">
-							<a href="#0" title="Mondo Arkosoft">MONDO ARKOSOFT</a>
-							<ul class="sub" id="menu">
-								<li class="box2li">
-									<ul class="sub1 mondo1"> <!-- SECONDO BLOCCO LIST -->
-										<li>
-											<ul class="sub2 mondo"> <!-- MONDO ARKOSOFT -->
-												<li id="prod-hover">
-													<a href="#0" title="Blog">
-														<div class="icona">
-															<img src="immagini/icona-blog.jpg" alt="icona Blog" width="70" height="70">
-														</div>
-														<p>ARKOSOFT BLOG</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="Nnotizie">
-														<div class="icona">
-															<img src="immagini/icona-notizie.jpg" alt="icona Notizie" width="70" height="70">
-														</div>
-														<p>ULTIME NOTIZIE</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="Lavora con noi">
-														<div class="icona">
-															<img src="immagini/icona-lavora.jpg" alt="icona Lavora con noi" width="70" height="70">
-														</div>
-														<p>LAVORA CON NOI</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="Chi siamo">
-														<div class="icona">
-															<img src="immagini/icona-azienda.jpg" alt="icona Azienda" width="70" height="70">
-														</div>
-														<p>AZIENDA</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="I nostri rivenditori">
-														<div class="icona">
-															<img src="immagini/icona-rivenditore.jpg" alt="icona Rivenditore" width="70" height="70">
-														</div>
-														<p>RIVENDITORI</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="I nostri traguardi">
-														<div class="icona">
-															<img src="immagini/icona-traguardi.jpg" alt="icona Traguardi" width="70" height="70">
-														</div>
-														<p>TRAGUARDI</p>
-													</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
-										<li class="divisore"></li>
-									</ul>
-									<ul class="sub5 mondo2"> <!-- MONDO ARKOSOFT 2 -->
-										<li>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<img src=".jpg" alt="immagine articolo" width="50" height="50">
-												</div>
-												<div class="sub-content1">
-													<span>TITOLO ARTICOLO</span>
-													<p>Articolo prova Articolo prova Articolo prova 
-													Articolo prova Articolo prova Articolo prova Articolo prova 
-													Articolo prova Articolo prova Articolo prova Articolo prova</p>
-												</div>
-											</div>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<img src=".jpg" alt="immagine articolo" width="50" height="50">
-												</div>
-												<div class="sub-content1">
-													<span>TITOLO ARTICOLO</span>
-													<p>Articolo prova Articolo prova Articolo prova 
-													Articolo prova Articolo prova Articolo prova Articolo prova 
-													Articolo prova Articolo prova Articolo prova Articolo prova</p>
-												</div>
-											</div>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<img src=".jpg" alt="immagine articolo" width="50" height="50">
-												</div>
-												<div class="sub-content1">
-													<span>TITOLO ARTICOLO</span>
-													<p>Articolo prova Articolo prova Articolo prova 
-													Articolo prova Articolo prova Articolo prova Articolo prova 
-													Articolo prova Articolo prova Articolo prova Articolo prova</p>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
-										<li class="divisore"></li>
-									</ul>
-									<ul class="sub-condividi"> <!-- LISTA SOCIAL -->
-										<li>
-											<div>
-												<span>Condividi su:</span>
-											</div>
-											<div>
-												<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" title="Condividi su Facebook">
-													<img src="immagini/1024x768/facebook.jpg" alt="Facebook" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<a href="https://twitter.com/arkosoft" title="Condividi su twitter">
-													<img src="immagini/1024x768/twitter.jpg" alt="Twitter" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<a href="https://plus.google.com/+ArkosoftIt/posts" title="Condividi su Google Plus">
-													<img src="immagini/1024x768/googleplus.jpg" alt="Google Plus" width="30" height="30">
-												</a>
-											</div>
-											<div>	
-												<a href="https://www.youtube.com/user/Arkosoft" title="Condividi su Youtube">
-													<img src="immagini/1024x768/youtube.jpg" alt="Youtube" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<span>#arkosoft</span>
-											</div>
-											<div class="testo">
-												<a href="#0" title="Ricevi aggiornamenti via e-mail">
-													<span>RICEVI AGGIORNAMENTI VIA E-MAIL</span>
-												</a>
-											</div>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="sfondolist">
-							<a href="#0" title="Chiedi aiuto">CHIEDI AIUTO</a>
-							<ul class="sub" id="menu">
-								<li class="box2li">
-									<ul class="sub1"> <!-- SECONDO BLOCCO LIST -->
-										<li>
-											<ul class="sub2 aiuto"> <!-- CHIEDI AIUTO -->
-												<li id="prod-hover">
-													<a href="#0" title="Assistenza online">
-														<div class="icona">
-															<img src="immagini/icona-assistenza.jpg" alt="Assistenza online" width="70" height="70">
-														</div>
-														<p>ASSISTENZA ONLINE</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="Domande frequenti">
-														<div class="icona">
-															<img src="immagini/icona-domande.jpg" alt="Domande frequenti" width="70" height="70">
-														</div>
-														<p>DOMANDE FREQUENTI</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title=" Ripara e sostituisci">
-														<div class="icona">
-															<img src="immagini/icona-ripara.jpg" alt="Ripara e sostituisci" width="70" height="70">
-														</div>
-														<p>RIPARA E SOSTITUISCI</p>
-													</a>
-												</li>
-												<li id="prod-hover">
-													<a href="#0" title="Tichet">
-														<div class="icona">
-															<img src="immagini/icona-ticket.jpg" alt="Tichet" width="70" height="70">
-														</div>
-														<p>APRI UN TICKET</p>
-													</a>
-												</li>
-											</ul>
-											<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
-												<li class="divisore"></li>
-											</ul>
-										</li>
-									</ul>
-									<ul class="sub4"> <!-- QUARTO BLOCCO LIST -->
-										<li class="title">
-											Domande frequenti
-										</li>
-										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che tipo di programmi realizzate?
-											</a>
-										</li>
-										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">E' possibile avere delle demo dei vostri programmi?
-											</a>
-										</li>
-										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Create anche programmi su misura?
-											</a>
-										</li>
-										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Realizzate anche siti internet?
-											</a>
-										</li>
-										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che tipo di assistenza offrite?
-											</a>
-										</li>
-										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che strumenti utilizzate per realizzare i vostri prodotti?
-											</a>
-										</li>
-									</ul>
-									<ul class="sub5"> <!-- QUINTO BLOCCO LIST -->
-										<li>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<a href="#0" title="SoftShop">
-														<img src="immagini/iconasoftshop1.jpg" alt="SoftShop" width="50" height="50">
-													</a>
-												</div>
-												<div class="sub-content1">
-													<a href="#0" title="Supporto Softshop">
-														<img src="immagini/frecciadestrabianca.png" alt="Supporto Softshop" width="10" height="10">
-														<span>SUPPORTO SOFTSHOP</span>
-													</a>
-													<a href="#0" title="Acquista Softshop">
-														<img src="immagini/frecciadestrabianca.png" alt="Acquista Softshop" width="10" height="10">
-														<span>Acquista Softshop</span>
-													</a>
-												</div>
-											</div>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<a href="#0" title="Ristomanager">
-														<img src="immagini/iconaristo1.jpg" alt="Ristomanager" width="50" height="50">
-													</a>
-												</div>
-												<div class="sub-content1">
-													<a href="#0" title="Supporto Ristomanager">
-														<img src="immagini/frecciadestrabianca.png" alt="Supporto Ristomanager" width="10" height="10">
-														<span>SUPPORTO RISTOMANAGER</span>
-													</a>
-													<a href="#0" title="Acquista Ristomanager">
-														<img src="immagini/frecciadestrabianca.png" alt="Acquista Ristomanager" width="10" height="10">
-														<span>Acquista Ristomanager</span>
-													</a>
-												</div>
-											</div>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<a href="#0" title="Gestione Messaggi">
-														<img src="immagini/iconamex1.jpg" alt="Gestione Messaggi" width="50" height="50">
-													</a>
-												</div>
-												<div class="sub-content1">
-													<a href="#0" title="Supporto Gestione Messaggi">
-														<img src="immagini/frecciadestrabianca.png" alt="Supporto Gestione Messaggi" width="10" height="10">
-														<span>SUPPORTO GESTIONE MESSAGGI</span>
-													</a>
-													<a href="#0" title="Acquista Gestione Messaggi">
-														<img src="immagini/frecciadestrabianca.png" alt="Acquista Gestione Messaggi" width="10" height="10">
-														<span>Acquista Gestione messaggi</span>
-													</a>
-												</div>
-											</div>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<a href="#0" title="S-Admin">
-														<img src="immagini/iconasadmin1.jpg" alt="S-Admin" width="50" height="50">
-													</a>
-												</div>
-												<div class="sub-content1">
-													<a href="#0" title="Supporto S-Admin">
-														<img src="immagini/frecciadestrabianca.png" alt="Supporto S-Admin" width="10" height="10">
-														<span>SUPPORTO S-ADMIN</span>
-													</a>
-													<a href="#0" title="Acquista S-Admin">
-														<img src="immagini/frecciadestrabianca.png" alt="Acquista S-Admin" width="10" height="10">
-														<span>Acquista S-admin</span>
-													</a>
-												</div>
-											</div>
-											<div class="sub-generale">
-												<div class="sub-content">
-													<a href="#0" title="SecurityHost">
-														<img src="immagini/iconasecurity1.jpg" alt="SecurityHost" width="50" height="50">
-													</a>
-												</div>
-												<div class="sub-content1">
-													<a href="#0" title="Supporto SecurityHost">
-														<img src="immagini/frecciadestrabianca.png" alt="Supporto SecurityHost" width="10" height="10">
-														<span>SUPPORTO SECURITYHOST</span>
-													</a>
-													<a href="#0" title="Acquista SecurityHost">
-														<img src="immagini/frecciadestrabianca.png" alt="Acquista SecurityHost" width="10" height="10">
-														<span>Acquista Securityhost</span>
-													</a>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
-										<li class="divisore"></li>
-									</ul>
-									<ul class="sub-condividi"> <!-- LISTA SOCIAL -->
-										<li>
-											<div>
-												<span>Condividi su:</span>
-											</div>
-											<div>
-												<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" title="Con su Facebook">
-													<img src="immagini/1024x768/facebook.jpg" alt="Facebook" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<a href="https://twitter.com/arkosoft" title="Condividi su Facebook">
-													<img src="immagini/1024x768/twitter.jpg" alt="Twitter" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<a href="https://plus.google.com/+ArkosoftIt/posts" title="Condividi su Google Plus">
-													<img src="immagini/1024x768/googleplus.jpg" alt="Google Plus" width="30" height="30">
-												</a>
-											</div>
-											<div>	
-												<a href="https://www.youtube.com/user/Arkosoft" title="Condividi su Youtube">
-													<img src="immagini/1024x768/youtube.jpg" alt="Youtube" width="30" height="30">
-												</a>
-											</div>
-											<div>
-												<span>#arkosoft</span>
-											</div>
-											<div class="testo">
-												<a href="#0" title="Ricevi aggiornamenti via e-mail">
-													<span>RICEVI AGGIORNAMENTI VIA E-MAIL</span>
-												</a>
-											</div>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="sfondolist">
-							<a href="#0" title="Blog">BLOG</a>
-						</li>
-						<li class="ricerca">
-							<form>
-								<input class="cerca" type="search" value="Cerchi qualcosa?">
-								<input class="lente" type="submit" value="" title="Ricerca">
-							</form>
-						</li>
-					</ul>
-				</div>
-				<a id="cd-menu-trigger" href="#0" title="Apri menù">
-					<span class="cd-menu-icon" onclick="bottoneMenu()"></span>
-				</a>
-			</div>
-		</div>
-		
 		<div class="cd-main-content" id="prodotto1">
 			
 			<div class="boxprodotto1"> <!-- SOFTSHOP -->
@@ -1087,6 +768,573 @@
 			</div>
 
 		</div> <!-- cd-main-content -->
+		
+		<div class="header" id="header">
+			<div class="logo-arkosoft">
+				<a href="registrazione-arkosoft.html" title="Arkosoft">
+					<img src="immagini/arkosoft-logo.jpg" alt="Logo Arkosoft" width="73" height="40">
+				</a>
+			</div>
+			<div class="boxheader">
+				<h1>
+					<a id="cd-logo" href="index.html" title="Arkosoft">
+						<img class="logo-mondo" src="immagini/icona-arkosoft.png" alt="Logo Arkosoft" width="40" height="40">
+						<img class="logo-intero" src="immagini/arkosoft-logo.png" alt="Logo Arkosoft" width="101" height="35">
+					</a>
+				</h1>
+				<div id="cd-top-nav">
+					<ul id="nav"> <!-- PRIMO BLOCCO LIST -->
+						<li class="sfondolist">
+							<a href="#0" title="I nostri Prodotti">PRODOTTI</a>
+							<ul class="sub" id="menu">
+								<li class="box2li">
+									<ul class="sub1"> <!-- SECONDO BLOCCO LIST -->
+										<li>
+											<ul class="sub2"> <!-- TERZO BLOCCO LIST -->
+												<li id="prod-hover">
+													<a href="http://softshop.it" title="SoftShop">
+														<div>
+															<img src="immagini/iconasoftshop.jpg" alt="Softshop" width="60" height="60">
+														</div>
+														<p>SOFTSHOP</p>
+														<p>&nbsp;</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="http://ristomanager.it" title="Ristomanager">
+														<div>
+															<img src="immagini/iconaristo.jpg" alt="Ristomanager" width="60" height="60">
+														</div>
+														<p>RISTO MANAGER</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="http://www.gestionemessaggi.com" title="Gestione Messaggi">
+														<div>
+															<img src="immagini/iconamex.jpg" alt="Gestione Messaggi" width="60" height="60">
+														</div>
+														<p>GESTIONE MESSAGGI</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="http://www.softwarearredamento.com" title="S-Admin">
+														<div>
+															<img src="immagini/iconasadmin.jpg" alt="S-Admin" width="60" height="60">
+														</div>
+														<p>S-ADMIN</p>
+														<p>&nbsp;</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#nogo23" title="Battery Alert">
+														<div>
+															<img src="immagini/iconabattery.jpg" alt="Battery Alert" width="60" height="60">
+														</div>
+														<p>BATTERY ALERT</p>
+													</a>
+												</li>
+											</ul>
+											<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
+												<li class="divisore"></li>
+											</ul>
+											<ul class="sub2"> <!-- TERZO BLOCCO LIST -->
+												<li id="prod-hover">
+													<a href="http://www.trovapassword.com" title="Trova Password">
+														<div>
+															<img src="immagini/iconapassword.jpg" alt="Trova Password" width="60" height="60">
+														</div>
+														<p>TROVA PASSWORD</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="https://play.google.com/store/apps/details?id=it.arkosoft.roulette&hl=it" title="Roulette">
+														<div>
+															<img src="immagini/iconaroulette.jpg" alt="Roulette" width="60" height="60">
+														</div>
+														<p>ROULETTE ANALITYCS</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="http://www.spaccioworld.com" title="Spaccioworld">
+														<div>
+															<img src="immagini/iconaspaccio.jpg" alt="Spaccioworld" width="60" height="60">
+														</div>
+														<p>SPACCIO WORlD</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="http://securityhost.it" title="Security Host">
+														<div>
+															<img src="immagini/iconasecurity.jpg" alt="Security Host" width="60" height="60">
+														</div>
+														<p>SECURITY HOST</p>
+													</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="sub4"> <!-- QUARTO BOCCO LIST -->
+										<li>
+											<a href="http://softshop.it" title="Softshop">
+												<img src="immagini/frecciadestrabianca.png" alt="Softshop" width="10" height="10">
+												<span>Softshop</span>
+											</a>
+										</li>
+										<li>
+											<a href="http://ristomanager.it" title="Ristomanager">
+												<img src="immagini/frecciadestrabianca.png" alt="Ristomanager" width="10" height="10">
+												<span>Ristomanager</span>
+											</a>
+										</li>
+										<li>
+											<a href="http://www.gestionemessaggi.com" title="Gestione Messaggi">
+												<img src="immagini/frecciadestrabianca.png" alt="Gestione Messaggi" width="10" height="10">
+												<span>Gestioni messaggi</span>
+											</a>
+										</li>
+										<li>
+											<a href="http://www.softwarearredamento.com" title="S-Admin">
+												<img src="immagini/frecciadestrabianca.png" alt="S-Admin" width="10" height="10">
+												<span>S-Admin</span>
+											</a>
+										</li>
+										<li>
+											<a href="http://www.trovapassword.com" title="Trovapassword">
+												<img src="immagini/frecciadestrabianca.png" alt="Trovapassword" width="10" height="10">
+												<span>Trova Password</span>
+											</a>
+										</li>
+										<li>
+											<a href="https://play.google.com/store/apps/details?id=it.arkosoft.roulette&hl=it" title="Roulette Analytics">
+												<img src="immagini/frecciadestrabianca.png" alt="Roulette Analitycs" width="10" height="10">
+												<span>Roulette Analitycs</span>
+											</a>
+										</li>
+										<li>
+											<a href="http://www.spaccioworld.com" title="Spaccioworld">
+												<img src="immagini/frecciadestrabianca.png" alt="Spaccioworld" width="10" height="10">
+												<span>Spaccio world</span>
+											</a>
+										</li>
+										<li>
+											<a href="http://securityhost.it" title="Security Host">
+												<img src="immagini/frecciadestrabianca.png" alt="Security Host" width="10" height="10">
+												<span>SecurityHost</span>
+											</a>
+										</li>
+										<li>
+											<a href="#0" title="Battery Alert">
+												<img src="immagini/frecciadestrabianca.png" alt="Battery Alert" width="10" height="10">
+												<span>Battery alert</span>
+											</a>
+										</li>
+									</ul>
+									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
+										<li class="divisore"></li>
+									</ul>
+									<ul class="sub-condividi"> <!-- LISTA SOCIAL -->
+										<li>
+											<div>
+												<span>Condividi su:</span>
+											</div>
+											<div>
+												<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" title="Condividi su Facebook">
+													<img src="immagini/1024x768/facebook.jpg" alt="Facebook" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<a href="https://twitter.com/arkosoft" title="Condividi su twitter">
+													<img src="immagini/1024x768/twitter.jpg" alt="Twitter" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<a href="https://plus.google.com/+ArkosoftIt/posts" title="Condividi su Google Plus">
+													<img src="immagini/1024x768/googleplus.jpg" alt="Google Plus" width="30" height="30">
+												</a>
+											</div>
+											<div>	
+												<a href="https://www.youtube.com/user/Arkosoft" title="Condividi su Youtube">
+													<img src="immagini/1024x768/youtube.jpg" alt="Youtube" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<span>#arkosoft</span>
+											</div>
+											<div class="testo">
+												<a href="#0" title="Ricevi aggiornamenti via e-mail">
+													<span>RICEVI AGGIORNAMENTI VIA E-MAIL</span>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="sfondolist">
+							<a href="#0" title="Mondo Arkosoft">MONDO ARKOSOFT</a>
+							<ul class="sub" id="menu">
+								<li class="box2li">
+									<ul class="sub1 mondo1"> <!-- SECONDO BLOCCO LIST -->
+										<li>
+											<ul class="sub2 mondo"> <!-- MONDO ARKOSOFT -->
+												<li id="prod-hover">
+													<a href="#0" title="Blog">
+														<div class="icona">
+															<img src="immagini/icona-blog.jpg" alt="icona Blog" width="70" height="70">
+														</div>
+														<p>ARKOSOFT BLOG</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="Nnotizie">
+														<div class="icona">
+															<img src="immagini/icona-notizie.jpg" alt="icona Notizie" width="70" height="70">
+														</div>
+														<p>ULTIME NOTIZIE</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="Lavora con noi">
+														<div class="icona">
+															<img src="immagini/icona-lavora.jpg" alt="icona Lavora con noi" width="70" height="70">
+														</div>
+														<p>LAVORA CON NOI</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="Chi siamo">
+														<div class="icona">
+															<img src="immagini/icona-azienda.jpg" alt="icona Azienda" width="70" height="70">
+														</div>
+														<p>AZIENDA</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="I nostri rivenditori">
+														<div class="icona">
+															<img src="immagini/icona-rivenditore.jpg" alt="icona Rivenditore" width="70" height="70">
+														</div>
+														<p>RIVENDITORI</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="I nostri traguardi">
+														<div class="icona">
+															<img src="immagini/icona-traguardi.jpg" alt="icona Traguardi" width="70" height="70">
+														</div>
+														<p>TRAGUARDI</p>
+													</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
+										<li class="divisore"></li>
+									</ul>
+									<ul class="sub5 mondo2"> <!-- MONDO ARKOSOFT 2 -->
+										<li>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<img src=".jpg" alt="immagine articolo" width="50" height="50">
+												</div>
+												<div class="sub-content1">
+													<span>TITOLO ARTICOLO</span>
+													<p>Articolo prova Articolo prova Articolo prova 
+													Articolo prova Articolo prova Articolo prova Articolo prova 
+													Articolo prova Articolo prova Articolo prova Articolo prova</p>
+												</div>
+											</div>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<img src=".jpg" alt="immagine articolo" width="50" height="50">
+												</div>
+												<div class="sub-content1">
+													<span>TITOLO ARTICOLO</span>
+													<p>Articolo prova Articolo prova Articolo prova 
+													Articolo prova Articolo prova Articolo prova Articolo prova 
+													Articolo prova Articolo prova Articolo prova Articolo prova</p>
+												</div>
+											</div>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<img src=".jpg" alt="immagine articolo" width="50" height="50">
+												</div>
+												<div class="sub-content1">
+													<span>TITOLO ARTICOLO</span>
+													<p>Articolo prova Articolo prova Articolo prova 
+													Articolo prova Articolo prova Articolo prova Articolo prova 
+													Articolo prova Articolo prova Articolo prova Articolo prova</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
+										<li class="divisore"></li>
+									</ul>
+									<ul class="sub-condividi"> <!-- LISTA SOCIAL -->
+										<li>
+											<div>
+												<span>Condividi su:</span>
+											</div>
+											<div>
+												<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" title="Condividi su Facebook">
+													<img src="immagini/1024x768/facebook.jpg" alt="Facebook" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<a href="https://twitter.com/arkosoft" title="Condividi su twitter">
+													<img src="immagini/1024x768/twitter.jpg" alt="Twitter" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<a href="https://plus.google.com/+ArkosoftIt/posts" title="Condividi su Google Plus">
+													<img src="immagini/1024x768/googleplus.jpg" alt="Google Plus" width="30" height="30">
+												</a>
+											</div>
+											<div>	
+												<a href="https://www.youtube.com/user/Arkosoft" title="Condividi su Youtube">
+													<img src="immagini/1024x768/youtube.jpg" alt="Youtube" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<span>#arkosoft</span>
+											</div>
+											<div class="testo">
+												<a href="#0" title="Ricevi aggiornamenti via e-mail">
+													<span>RICEVI AGGIORNAMENTI VIA E-MAIL</span>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="sfondolist">
+							<a href="#0" title="Chiedi aiuto">CHIEDI AIUTO</a>
+							<ul class="sub" id="menu">
+								<li class="box2li">
+									<ul class="sub1"> <!-- SECONDO BLOCCO LIST -->
+										<li>
+											<ul class="sub2 aiuto"> <!-- CHIEDI AIUTO -->
+												<li id="prod-hover">
+													<a href="#0" title="Assistenza online">
+														<div class="icona">
+															<img src="immagini/icona-assistenza.jpg" alt="Assistenza online" width="70" height="70">
+														</div>
+														<p>ASSISTENZA ONLINE</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="Domande frequenti">
+														<div class="icona">
+															<img src="immagini/icona-domande.jpg" alt="Domande frequenti" width="70" height="70">
+														</div>
+														<p>DOMANDE FREQUENTI</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title=" Ripara e sostituisci">
+														<div class="icona">
+															<img src="immagini/icona-ripara.jpg" alt="Ripara e sostituisci" width="70" height="70">
+														</div>
+														<p>RIPARA E SOSTITUISCI</p>
+													</a>
+												</li>
+												<li id="prod-hover">
+													<a href="#0" title="Tichet">
+														<div class="icona">
+															<img src="immagini/icona-ticket.jpg" alt="Tichet" width="70" height="70">
+														</div>
+														<p>APRI UN TICKET</p>
+													</a>
+												</li>
+											</ul>
+											<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
+												<li class="divisore"></li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="sub4"> <!-- QUARTO BLOCCO LIST -->
+										<li class="title">
+											Domande frequenti
+										</li>
+										<li>
+											<a href="#0" title="Domande più frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che programmi realizzate?
+											</a>
+										</li>
+										<li>
+											<a href="#0" title="Domande più frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Ci sono demo dei programmi?
+											</a>
+										</li>
+										<li>
+											<a href="#0" title="Domande più frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Create programmi su misura?
+											</a>
+										</li>
+										<li>
+											<a href="#0" title="Domande più frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Realizzate siti internet?
+											</a>
+										</li>
+										<li>
+											<a href="#0" title="Domande più frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che tipo di assistenza offrite?
+											</a>
+										</li>
+										<li>
+											<a href="#0" title="Domande più frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che strumenti utilizzate per i vostri prodotti?
+											</a>
+										</li>
+									</ul>
+									<ul class="sub5"> <!-- QUINTO BLOCCO LIST -->
+										<li>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<a href="#0" title="SoftShop">
+														<img src="immagini/iconasoftshop1.jpg" alt="SoftShop" width="50" height="50">
+													</a>
+												</div>
+												<div class="sub-content1">
+													<a href="#0" title="Supporto Softshop">
+														<img src="immagini/frecciadestrabianca.png" alt="Supporto Softshop" width="10" height="10">
+														<span>SUPPORTO SOFTSHOP</span>
+													</a>
+													<a href="#0" title="Acquista Softshop">
+														<img src="immagini/frecciadestrabianca.png" alt="Acquista Softshop" width="10" height="10">
+														<span>Acquista Softshop</span>
+													</a>
+												</div>
+											</div>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<a href="#0" title="Ristomanager">
+														<img src="immagini/iconaristo1.jpg" alt="Ristomanager" width="50" height="50">
+													</a>
+												</div>
+												<div class="sub-content1">
+													<a href="#0" title="Supporto Ristomanager">
+														<img src="immagini/frecciadestrabianca.png" alt="Supporto Ristomanager" width="10" height="10">
+														<span>SUPPORTO RISTOMANAGER</span>
+													</a>
+													<a href="#0" title="Acquista Ristomanager">
+														<img src="immagini/frecciadestrabianca.png" alt="Acquista Ristomanager" width="10" height="10">
+														<span>Acquista Ristomanager</span>
+													</a>
+												</div>
+											</div>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<a href="#0" title="Gestione Messaggi">
+														<img src="immagini/iconamex1.jpg" alt="Gestione Messaggi" width="50" height="50">
+													</a>
+												</div>
+												<div class="sub-content1">
+													<a href="#0" title="Supporto Gestione Messaggi">
+														<img src="immagini/frecciadestrabianca.png" alt="Supporto Gestione Messaggi" width="10" height="10">
+														<span>SUPPORTO GESTIONE MESSAGGI</span>
+													</a>
+													<a href="#0" title="Acquista Gestione Messaggi">
+														<img src="immagini/frecciadestrabianca.png" alt="Acquista Gestione Messaggi" width="10" height="10">
+														<span>Acquista Gestione messaggi</span>
+													</a>
+												</div>
+											</div>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<a href="#0" title="S-Admin">
+														<img src="immagini/iconasadmin1.jpg" alt="S-Admin" width="50" height="50">
+													</a>
+												</div>
+												<div class="sub-content1">
+													<a href="#0" title="Supporto S-Admin">
+														<img src="immagini/frecciadestrabianca.png" alt="Supporto S-Admin" width="10" height="10">
+														<span>SUPPORTO S-ADMIN</span>
+													</a>
+													<a href="#0" title="Acquista S-Admin">
+														<img src="immagini/frecciadestrabianca.png" alt="Acquista S-Admin" width="10" height="10">
+														<span>Acquista S-admin</span>
+													</a>
+												</div>
+											</div>
+											<div class="sub-generale">
+												<div class="sub-content">
+													<a href="#0" title="SecurityHost">
+														<img src="immagini/iconasecurity1.jpg" alt="SecurityHost" width="50" height="50">
+													</a>
+												</div>
+												<div class="sub-content1">
+													<a href="#0" title="Supporto SecurityHost">
+														<img src="immagini/frecciadestrabianca.png" alt="Supporto SecurityHost" width="10" height="10">
+														<span>SUPPORTO SECURITYHOST</span>
+													</a>
+													<a href="#0" title="Acquista SecurityHost">
+														<img src="immagini/frecciadestrabianca.png" alt="Acquista SecurityHost" width="10" height="10">
+														<span>Acquista Securityhost</span>
+													</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<ul class="sub3"> <!-- DIVISORE BLOCCO LIST -->
+										<li class="divisore"></li>
+									</ul>
+									<ul class="sub-condividi"> <!-- LISTA SOCIAL -->
+										<li>
+											<div>
+												<span>Condividi su:</span>
+											</div>
+											<div>
+												<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" title="Con su Facebook">
+													<img src="immagini/1024x768/facebook.jpg" alt="Facebook" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<a href="https://twitter.com/arkosoft" title="Condividi su Facebook">
+													<img src="immagini/1024x768/twitter.jpg" alt="Twitter" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<a href="https://plus.google.com/+ArkosoftIt/posts" title="Condividi su Google Plus">
+													<img src="immagini/1024x768/googleplus.jpg" alt="Google Plus" width="30" height="30">
+												</a>
+											</div>
+											<div>	
+												<a href="https://www.youtube.com/user/Arkosoft" title="Condividi su Youtube">
+													<img src="immagini/1024x768/youtube.jpg" alt="Youtube" width="30" height="30">
+												</a>
+											</div>
+											<div>
+												<span>#arkosoft</span>
+											</div>
+											<div class="testo">
+												<a href="#0" title="Ricevi aggiornamenti via e-mail">
+													<span>RICEVI AGGIORNAMENTI VIA E-MAIL</span>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="sfondolist">
+							<a href="#0" title="Blog">BLOG</a>
+						</li>
+						<li class="ricerca">
+							<form>
+								<input class="cerca" type="search" value="Cerchi qualcosa?">
+								<input class="lente" type="submit" value="" title="Ricerca">
+							</form>
+						</li>
+					</ul>
+				</div>
+				<a id="cd-menu-trigger" href="#0" title="Apri menù">
+					<span class="cd-menu-icon" onclick="bottoneMenu()"></span>
+				</a>
+			</div>
+		</div>
 
 		<div id="cd-lateral-nav">
 			<ul class="cd-navigation cd-single-item-wrapper">
@@ -1114,5 +1362,8 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
 		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 		<script src="js/funzioni.js" type="text/javascript"></script> <!-- Scroll della pagina -->
+		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- Media quares per IE -->
+		<script src="js/animatedcollapse.js" type="text/javascript"></script> <!-- Animazione footer -->
+		<script src="js/sovrapposizione.js" type="text/javascript"></script> <!-- Posazione div header -->
 	</body>
 </html>

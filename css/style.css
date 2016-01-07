@@ -14,103 +14,30 @@ html, body {
 height: 100%;
 }
 
-body{
-color:#ffffff;
-margin:0px;
-padding:0px;
-font-size:18px;
-font-family: 'Raleway', sans-serif;
-}
-
-a img{
-border:0px;
-cursor:pointer;
-}
-
-a{
-text-decoration:none;
-border:0px;
-cursor:pointer;
-}
-
+body{color:#ffffff;margin:0px;padding:0px;font-size:18px;font-family: 'Raleway', sans-serif;}
+a img{border:0px;cursor:pointer;}
+a{text-decoration:none;border:0px;cursor:pointer;}
 ol, ul {list-style: none;}
-
 h1,h2,h3{margin:0px; padding:0px;}
 
 /*** INIZIO HEADER DELLA PAGINA ***/
-.logo-arkosoft{
-width:100%;
-height:45px;
-margin:0px auto;
-background:#000000;
-text-align:right;
-display:block;
-}
-
-.logo-arkosoft img{
-	padding:5px 15px;
-}
-
-.boxheader{
-width:100%;
-height:65px;
-margin:0px auto;
-}
-
-.boxheader h1 a img{
-	padding:13px 25px 12px 20px;
-}
-
-.ricerca{
-	float:right;
-	height:auto;
-	width:25%;
-	max-width:300px;
-	padding-top:15px !important;
-	margin-right:10px;
-}
-
-.ricerca .cerca{
-	width:85%;
-	height:35px;
-	border:0px;
-	color:#000000;
-	padding-left:5px;
-	background:#B9B9B9;
-	float:left;
-}
-.ricerca .cerca{
-	width:80%\9;
-}
-
-.ricerca .lente{
-	background-image:url(../immagini/lente.jpg);
-	background-repeat:no-repeat;
-	background-position:center;
-	background-color:#B9B9B9;
-	width:15%;
-	height:35px;
-	float:left;
-	border:0px;
-	cursor:pointer;
-}
-.ricerca .lente{
-	height:37px\9;
-}
+.logo-arkosoft{width:100%;height:45px;margin:0px auto;background:#000000;text-align:right;display:block;}
+.logo-arkosoft img{padding:5px 15px;}
+.boxheader{width:100%;height:65px;margin:0px auto;}
+.boxheader h1 a img{padding:13px 25px 12px 20px;}
+.ricerca{float:right;height:auto;width:25%;max-width:300px;padding-top:15px !important;margin-right:10px;}
+.ricerca .cerca{width:85%;height:35px;border:0px;color:#000000;padding-left:5px;background:#B9B9B9;float:left;}
+.ricerca .cerca{width:80%\9;}
+.ricerca .lente{background-image:url(../immagini/lente.jpg);background-repeat:no-repeat;background-position:center;background-color:#B9B9B9;width:15%;height:35px;float:left;border:0px;cursor:pointer;}
+.ricerca .lente{height:37px\9;}
 
 /*** CSS HEADER, BODY E MENU LATERALE ***/
 
 .cd-img-replace {
 /* replace text with a background-image */
-display: inline-block;
-overflow: hidden;
-text-indent: 100%;
-white-space: nowrap;
+display: inline-block;overflow: hidden;text-indent: 100%;white-space: nowrap;
 }
-
-.overflow-hidden {
-overflow: hidden;
-}
+.overflow-hidden {overflow: hidden;}
 
 .cd-main-content {
 /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
@@ -221,9 +148,7 @@ background-color: #242e30;
 color: rgba(255, 255, 255, 0.7);
 }
 @media only screen and (max-width: 795px) {
-#cd-top-nav {
-display: none;
-}
+#cd-top-nav {display: none;}
 }
 
 #cd-menu-trigger {
@@ -320,7 +245,7 @@ transform: translateX(80px);
 }
 
 @media only screen and (min-width: 790px) {
-#cd-menu-trigger {display:none;}
+	#cd-menu-trigger {display:none;}
 }
 
 #cd-lateral-nav .cd-navigation {
@@ -745,19 +670,16 @@ background-repeat:repeat-x;
 background-position:center;
 background-color:#095F8F;
 }
-
 /*** PRIMO BLOCCO LIST GENERALE ***/
 #nav li ul.sub
 {position:absolute; display:none; left:0px; top:110px; width:100%; height:auto; margin:0px; padding:0; list-style:none; background:url("../immagini/headeraperto.jpg");background-repeat:no-repeat;background-position:center bottom;background-color:#0A5F8F;}
 #nav li ul.sub li.box2li
 {width:100%; max-width:1024px; height:auto; display:block; margin:0px auto;}
-
 /*** SECONDO BLOCCO LIST GENERALE CENTRATO AL PRIMO ***/
 #nav li:hover ul.sub li.box2li ul.sub1
 {width:75%; height:auto; display:block; margin-top:0px; margin-bottom:5px; float:left;}
 #nav li:hover ul.sub li.box2li ul.sub1 li
 {margin:0px; padding:0px;}
-
 /*** TERZO BLOCCO LIST RIGHE CONTENUTO SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2
 {width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
@@ -776,7 +698,6 @@ background-color:#095F8F;
 /*** HOVER PER LE IMMAGINI NELLA LISTA PRODOTTI ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.sub2 #prod-hover a img:hover
 {width:63px; height:auto;}
-
 /*** MONDO ARKOSOFT ***/
 #nav li:hover ul.sub li.box2li ul.mondo1
 {width:100%; height:auto; display:block; margin-top:0px; margin-bottom:5px; float:left;}
@@ -795,7 +716,6 @@ background-color:#095F8F;
 /*** HOVER IMMAGINI MONDO ARKOSOFT ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.mondo #prod-hover a img:hover
 {width:75px; height:auto;}
-
 /*** CHIEDI AIUTO ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto
 {width:755px; height:auto; border-right:2px solid rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; padding:0px; float:left;}
@@ -812,7 +732,6 @@ background-color:#095F8F;
 /*** HOVER IMMAGINI CHIEDI AIUTO ***/
 #nav li:hover ul.sub li.box2li ul.sub1 ul.aiuto #prod-hover a img:hover
 {width:75px; height:auto;}
-
 /*** QUINTO BLOCCO LIST ***/
 #nav li:hover ul.sub li.box2li ul.sub5
 {width:100%; height:auto; margin-left:20px; display:block; float:left;}
@@ -830,7 +749,6 @@ background-color:#095F8F;
 {margin:2px 0px; padding:0px; border:0px;}
 #nav li:hover ul.sub li.box2li ul.sub5 .sub-generale .sub-content1 a:hover
 {color:#8fdffd;}
-
 /*** MONDO ARKOSOFT 2 ***/
 #nav li:hover ul.sub li.box2li ul.mondo2
 {width:100%; height:auto; margin-left:0px; display:block; float:left;}
@@ -844,7 +762,6 @@ background-color:#095F8F;
 {text-align:center; font-size:15px;}
 #nav li:hover ul.sub li.box2li ul.mondo2 .sub-generale .sub-content1 p
 {text-align:left; font-size:12px; margin:5px;}
-
 /*** DIV CONDIVIDI ***/
 #nav li:hover ul.sub li.box2li ul.sub-condividi
 {width:100%; height:50px; margin:0px auto; float:left; display:block;}
@@ -862,16 +779,14 @@ background-color:#095F8F;
 {float:right;}
 #nav li:hover ul.sub li.box2li ul.sub-condividi .testo span
 {font-size:15px; margin-top:5px; font-weight:normal;}
-
 /*** DIVISORE DELLE LISTE DEI SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub3
 {width:100%; height:2px; background:rgba(255,255,255, 0.1); display:block; margin-top:5px; margin-bottom:5px; float:left;}
-
 /*** QUARTO BLOCCO LIST A DESTRA DEI SOFTWARE ***/
 #nav li:hover ul.sub li.box2li ul.sub4
 {width:auto; height:100%; display:block; margin-top:0px; margin-bottom:30px; padding:0px;}
 #nav li:hover ul.sub li.box2li ul.sub4 .title
-{margin:0px; padding:0px; text-align:center; width:250px; height:20px;}
+{margin:0px; padding:0px; text-align:center; width:250px; height:20px; font-style:italic;}
 #nav li:hover ul.sub li.box2li ul.sub4 li
 {margin:0px 0px 0px 10px; padding:0px; text-align:left; width:240px; height:10px;}
 #nav li:hover ul.sub li.box2li ul.sub4 li a
@@ -880,7 +795,6 @@ background-color:#095F8F;
 {color:#8fdffd;}
 #nav li:hover ul.sub li.box2li ul.sub4 li a img
 {padding:0px 0px;}
-
 /*** RENDERE INVISIBILE I BOX DELLA LISTA HEADER ***/
 #nav ul, 
 #nav li:hover ul ul,
