@@ -1,573 +1,117 @@
-@media only screen and (max-width: 795px) {
+@media only screen and (max-width: 760px) {
 /*** INIZIO HEADER DELLA PAGINA ***/
-	.logo-arkosoft{
-		display:none;
-	}
-	#header{
-		height:65px;
-	}
-	#cd-logo .logo-mondo {
-		display: none;
-	}
-	#cd-logo .logo-intero {
-		display: block;
-	}
-	#cd-menu-trigger .cd-menu-icon {
-		top: 50%;
-	}
-	#cd-logo img:hover{
-		background:none;
-	}
-	.cd-main-content {
-		padding-top: 65px;
-	}
-	.contbottone {
-		margin: 0 auto;
-	}
-	.boxbottone {
-		margin: 20px auto;
-	}
-	.contenutogiu{
-		top:60%;
-		left:0;
-	}
+	.logo-arkosoft{display:none;}
+	#header{height:65px;}
+	#cd-logo .logo-mondo {display: none;}
+	#cd-logo .logo-intero {display: block;}
+	#cd-menu-trigger .cd-menu-icon {top: 50%;}
+	#cd-logo img:hover{background:none;}
+	.cd-main-content {padding-top: 65px;}
+	.contbottone {margin: 0 auto;}
+	.boxbottone {margin: 20px auto;}
+	.contenutogiu{top:60%;left:0;}
 /*** BOX PRODOTTO 1 ***/
-	.boxprodotto1 {
-		background-image:none;
-		background-color:#ffffff;
-	}
-	.boxdescrizione {
-		width: 100%;
-	}
-	.contenutoprodotto {
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-	}
-	.contenutoprodotto h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.oggsoft{
-		background-image:url("../immagini/mobile/oggettosoftshop1.jpg");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto1 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}	
+	.boxprodotto1 {background-image:none;background-color:#ffffff;}
+	.boxdescrizione {width: 100%;}
+	.contenutoprodotto {float: none;margin: 0 auto;text-align: center;width: 100%;}
+	.contenutoprodotto h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto {margin: 0 auto;width: 98%;text-align:left;}
+	.oggsoft{background-image:url("../immagini/mobile/oggettosoftshop1.jpg");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto1 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}	
 /*** BOX PRODOTTO 2 ***/
-	.boxprodotto2 {
-		background-image:url("../immagini/mobile/ristomanager-sfondo.jpg");
-		background-color:#DEDEDE;
-		background-repeat:repeat-x;
-		background-size:auto 100%;
-	}
-	.contenutoprodotto2 {
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:60px;
-	}
-	.contenutoprodotto2 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto2 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto2 p {
-		font-size: 16px;
-	}
-	.boxprodotto2 .oggristo{
-		background-image:url("../immagini/mobile/oggettoristo1.png");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto2 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}	
+	.boxprodotto2 {background-image:url("../immagini/mobile/ristomanager-sfondo.jpg");background-color:#DEDEDE;background-repeat:repeat-x;background-size:auto 100%;}
+	.contenutoprodotto2 {float: none;margin: 0 auto;text-align: center;width: 100%;top:60px;}
+	.contenutoprodotto2 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto2 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto2 p {font-size: 16px;}
+	.boxprodotto2 .oggristo{background-image:url("../immagini/mobile/oggettoristo1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto2 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}	
 /*** BOX PRODOTTO 3 ***/
-	.boxprodotto3 {
-		background-image:none;
-		background-color:#ffffff;
-	}
-	.contenutoprodotto3 {
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto3 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto3 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto3 p {
-		font-size: 16px;
-	}
-	.boxprodotto3 .oggmex{
-		background-image:url("../immagini/mobile/oggettomex1.jpg");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto3 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}	
+	.boxprodotto3 {background-image:none;background-color:#ffffff;}
+	.contenutoprodotto3 {float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto3 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto3 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto3 p {font-size: 16px;}
+	.boxprodotto3 .oggmex{background-image:url("../immagini/mobile/oggettomex1.jpg");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto3 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}	
 /*** BOX PRODOTTO 4 ***/
-	.boxprodotto4 {
-		background-image:none;
-		background-color:#936543;
-	}
-	.contenutoprodotto4{
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto4 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto4 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto4 p {
-		font-size: 16px;
-	}
-	.boxprodotto4 .oggsadmin{
-		background-image:url("../immagini/mobile/oggettos-admin1.png");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto4 .bottonegiu {
-		bottom:200px;
-		color: #ffffff;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}
+	.boxprodotto4 {background-image:none;background-color:#936543;}
+	.contenutoprodotto4{float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto4 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto4 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto4 p {font-size: 16px;}
+	.boxprodotto4 .oggsadmin{background-image:url("../immagini/mobile/oggettos-admin1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto4 .bottonegiu {bottom:200px;color: #ffffff;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
 /*** BOX PRODOTTO 5 ***/
-	.boxprodotto5 {
-		background-image:url("../immagini/mobile/trovapassword-sfondo.jpg");
-		background-repeat:repeat-x;
-		background-size:auto 100%;
-	}
-	.contenutoprodotto5{
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto5 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto5 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto5 p {
-		font-size: 16px;
-	}
-	.boxprodotto5 .oggpassword{
-		background-image:url("../immagini/mobile/oggettopassword1.png");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto5 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}
+	.boxprodotto5 {background-image:url("../immagini/mobile/trovapassword-sfondo.jpg");background-repeat:repeat-x;background-size:auto 100%;}
+	.contenutoprodotto5{float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto5 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto5 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto5 p {font-size: 16px;}
+	.boxprodotto5 .oggpassword{background-image:url("../immagini/mobile/oggettopassword1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto5 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
 /*** BOX PRODOTTO 6 ***/
-	.boxprodotto6 {
-		background-image:none;
-		background-color:#319931;
-	}
-	.contenutoprodotto6{
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto6 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto6 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto6 p {
-		font-size: 16px;
-	}
-	.boxprodotto6 .oggroulette{
-		background-image:url("../immagini/mobile/oggettoroulette1.jpg");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto6 .bottonegiu {
-		bottom:200px;
-		color: #FFFFFF;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}
+	.boxprodotto6 {background-image:none;background-color:#319931;}
+	.contenutoprodotto6{float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto6 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto6 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto6 p {font-size: 16px;}
+	.boxprodotto6 .oggroulette{background-image:url("../immagini/mobile/oggettoroulette1.jpg");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto6 .bottonegiu {bottom:200px;color: #FFFFFF;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
 /*** BOX PRODOTTO 7 ***/
-	.boxprodotto7 {
-		background-image:url("../immagini/mobile/spaccio-sfondo.jpg");
-		background-repeat:no-repeat;
-		background-position:center;
-	}
-	.contenutoprodotto7{
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto7 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto7 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto7 p {
-		font-size: 16px;
-	}
-	.boxprodotto7 .oggspaccio{
-		background-image:url("../immagini/mobile/oggettospaccio1.png");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto7 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}
+	.boxprodotto7 {background-image:url("../immagini/mobile/spaccio-sfondo.jpg");background-repeat:no-repeat;background-position:center;}
+	.contenutoprodotto7{float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto7 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto7 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto7 p {font-size: 16px;}
+	.boxprodotto7 .oggspaccio{background-image:url("../immagini/mobile/oggettospaccio1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto7 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
 /*** BOX PRODOTTO 8 ***/
-	.boxprodotto8 {
-		background-image:none;
-		background-color:#E6E6E6;
-	}
-	.contenutoprodotto8{
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto8 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto8 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto8 p {
-		font-size: 16px;
-	}
-	.boxprodotto8 .oggsecurity{
-		background-image:url("../immagini/mobile/oggettosecurity1.png");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto8 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}
+	.boxprodotto8 {background-image:none;background-color:#E6E6E6;}
+	.contenutoprodotto8{float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto8 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto8 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto8 p {font-size: 16px;}
+	.boxprodotto8 .oggsecurity{background-image:url("../immagini/mobile/oggettosecurity1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto8 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
 /*** BOX PRODOTTO 9 ***/
-	.boxprodotto9 {
-		background-image:none;
-		background-color:#79BCA6;
-	}
-	.contenutoprodotto9{
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-		width: 100%;
-		top:55px;
-	}
-	.contenutoprodotto9 h2 img{
-		width:90%;
-		max-width:350px;
-		height:auto;
-		margin:0px auto;
-	}
-	.textprodotto9 {
-		margin: 0 auto;
-		width: 98%;
-		text-align:left;
-	}
-	.textprodotto9 p {
-		font-size: 16px;
-	}
-	.boxprodotto9 .oggbattery{
-		background-image:url("../immagini/mobile/oggettobattery1.png");
-		background-repeat:no-repeat;
-		background-position:center;
-		width:100%;
-		height:335px;
-		margin-left:0px;
-	}
-	.boxprodotto9 .bottonegiu {
-		bottom:200px;
-		color: #000000;
-		font-family: "Roboto Slab",serif;
-		font-size: 16px;
-		height: auto;
-		left: 0;
-		margin: 0 auto;
-		right: 0;
-		text-align: center;
-		width: 98%;
-	}
+	.boxprodotto9 {background-image:none;background-color:#79BCA6;}
+	.contenutoprodotto9{float: none;margin: 0 auto;text-align: center;width: 100%;top:55px;}
+	.contenutoprodotto9 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
+	.textprodotto9 {margin: 0 auto;width: 98%;text-align:left;}
+	.textprodotto9 p {font-size: 16px;}
+	.boxprodotto9 .oggbattery{background-image:url("../immagini/mobile/oggettobattery1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
+	.boxprodotto9 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
 /*** BOX CONTATTI ***/
-	.boxprodotto-contatti{
-		background-color:#ffffff;
-		background-image:none;
-		height:auto;
-		padding-bottom:10px;
-	}
-	.contenutoprodotto-contatti{
-		float: none;
-		width: 98%;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	.contenutoprodotto-contatti h3{
-		margin-top:70px;
-		font-size:25px;	
-		color:#969595;
-	}
+	.boxprodotto-contatti{background-color:#ffffff;background-image:none;height:auto;padding-bottom:10px;}
+	.contenutoprodotto-contatti{float: none;width: 98%;margin-left:auto;margin-right:auto;}
+	.contenutoprodotto-contatti h3{margin-top:70px;font-size:25px;	color:#969595;}
 /*** MODULO DI COMPILAZIONE ***/
-	.modulo{
-		max-width:300px;
-		height:auto;
-		margin:0px auto;
-	}
-	.camponome, .campocognome, .campocitta, .campotel, .campoemail {
-		width:100%;
-	}
-	.modulo input{
-		width:98%;
-		max-width:100%;
-		height:30px;
-	}
-	.textarea textarea{
-		width:98%;
-	}
-	.boxprivacy input{
-		height:auto;
-		width:auto;	
-	}
-	.modulo .contbottone {
-		margin: 15px auto;
-	}
+	.modulo{max-width:300px;height:auto;margin:0px auto;}
+	.camponome, .campocognome, .campocitta, .campotel, .campoemail {width:100%;}
+	.modulo input{width:98%;max-width:100%;height:30px;}
+	.textarea textarea{width:98%;}
+	.boxprivacy input{height:auto;width:auto;}
+	.modulo .contbottone {margin: 15px auto;}
 /*** GOOGLE MAPS ***/
-	.container-box-maps{
-		display:none;
-	}
+	.container-box-maps{display:none;}
 /*** FOOTER ***/
-	.footerinfo{
-		border-bottom:0px;
-	}
-
-	.contenutoinfo{
-		display:none;
-	}
-	.logofooter{
-		width:100%;
-		text-align:center;
-		margin:10px auto;
-		padding:0px;
-	}
-	.contenutologo img{
-		margin-top:20px;
-	}
-	.copyright{
-		display:none;
-	}
-	.menufooter{
-		width:100%;
-		margin-top:10px;
-	}
-	.boxfooter ul {
-		padding: 10px 0px;
-	}
-	.boxfooter li {
-		float:none;
-		border-right:0px;
-		text-align:center;
-		display:block;
-		margin:10px 0px;
-	}
-	.boxfooter a {
-		padding: 0px;
-	}
-	.boxlingua{
-		text-align:center;
-	}
-	.lingua{
-		width:100%;
-		float:none;
-		margin-right:auto;
-		margin-left:auto;
-	}
-	.lingua a{
-		padding:0px;
-		margin:0px;
-		float:none;
-	}
-	.boxlingua img{
-		float:none;
-		margin-right:0px;
-		margin-top:10px;
-	}
-
-	.imglingua{
-		float:left;
-		width:16px;
-	}
-	.copyright-nascosto{
-		float:none;
-		display:block;
-		width:95%;
-		height:auto;
-		margin:10px auto;
-		text-align:center;
-		font-size:15px;
-	}
-	.copyright-nascosto a{
-		color:#ffffff;
-		text-decoration:underline;
-	}
+	.footerinfo{border-bottom:0px;}
+	.contenutoinfo{display:none;}
+	.logofooter{width:100%;text-align:center;margin:10px auto;padding:0px;}
+	.contenutologo img{margin-top:20px;}
+	.copyright{display:none;}
+	.menufooter{width:100%;margin-top:10px;}
+	.boxfooter ul {padding: 10px 0px;}
+	.boxfooter li {float:none;border-right:0px;text-align:center;display:block;margin:10px 0px;}
+	.boxfooter a {padding: 0px;}
+	.boxlingua{text-align:center;}
+	.lingua{width:100%;float:none;margin-right:auto;margin-left:auto;}
+	.lingua a{padding:0px;margin:0px;float:none;}
+	.boxlingua img{float:none;margin-right:0px;margin-top:10px;}
+	.imglingua{float:left;width:16px;}
+	.copyright-nascosto{float:none;display:block;width:95%;height:auto;margin:10px auto;text-align:center;font-size:15px;}
+	.copyright-nascosto a{color:#ffffff;text-decoration:underline;}
 }
 
 @media only screen and (min-width: 794px) {
