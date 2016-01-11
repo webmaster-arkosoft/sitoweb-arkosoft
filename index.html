@@ -99,7 +99,7 @@
 			#cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after {background-color: white;}
 			#cd-menu-trigger.is-clicked .cd-menu-icon::before {bottom: 0;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}
 			#cd-menu-trigger.is-clicked .cd-menu-icon::after {top: 0;-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
-			#cd-lateral-nav {position: fixed;height: 100%;right: 0;top: 0;visibility: hidden;width: 260px;background-color: #242e30;overflow-y: auto;-webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;-moz-transition: -moz-transform .4s 0s, visibility 0s .4s;transition: transform .4s 0s, visibility 0s .4s;-webkit-transform: translateX(80px);-moz-transform: translateX(80px);-ms-transform: translateX(80px);-o-transform: translateX(80px);transform: translateX(80px);}
+			#cd-lateral-nav {position: fixed;height: 100%;right: 0;top: 0;visibility: hidden;width: 260px;background-color: #000;overflow-y: auto;-webkit-transform: translateZ(0);-webkit-backface-visibility: hidden;-webkit-transition: -webkit-transform .4s 0s, visibility 0s .4s;-moz-transition: -moz-transform .4s 0s, visibility 0s .4s;transition: transform .4s 0s, visibility 0s .4s;-webkit-transform: translateX(80px);-moz-transform: translateX(80px);-ms-transform: translateX(80px);-o-transform: translateX(80px);transform: translateX(80px);}
 			@media only screen and (min-width: 450px) {
 				#cd-menu-trigger {width: 110px;padding-left: 1.25em;}
 				#cd-menu-trigger .cd-menu-text {display:block; line-height: 65px;}
@@ -315,6 +315,10 @@
 			.textprodotto .linea3{font-size:17px;font-weight:bold;}
 			.textprodotto ul{margin:0px;padding-left:25px;list-style:inherit;color:#000000;font-size:17px;font-weight:italic;}
 			.textprodotto ul li{margin:10px 0px;}
+			.oggsoft{width:100%;height:335px;margin-top:20px;}
+			.boxprodotto1 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
+			.boxprodotto1 .bottonegiu p{margin-bottom:20px;}
+			.boxprodotto1 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
 			/*** BOX DESCRIZIONE PRODOTTO 2 ***/
 			.boxprodotto2{background-color:#ffffff;background-image:url("immagini/oltre1024/ristomanager.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-bottom:110px;}
 			.contenutoprodotto2{width:50%;height:100%;top: 110px;left: 0px;position:relative;text-align:left;float:left;}
@@ -450,9 +454,6 @@
 			.modulo .contbottone a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;}
 			.modulo .contbottone a:hover{color:#ffffff;background:#F5A101;}
 			/*** GOOGLE MAPS ***/
-			.container-box-maps{float: left;height: 100%;width:50%;}
-			.box-maps{float: left;height: 100%;width:100%;}
-			.iframemaps{bottom: 102px;display: block;height: 293px;position: absolute;right: 5px;width: 471px;}
 			.boxsocial{width:100%;height:auto;float:left;margin-top: 10px;text-align:center;}
 			hr{width:200px;height:2px;margin: 0px auto;background-color:#d4d4d4;border:0px;}
 			.boxsocial p{color:#000000;font-size:18px;margin:5px 0px;}
@@ -569,9 +570,6 @@
 				.textarea textarea{width:98%;}
 				.boxprivacy input{height:auto;width:auto;}
 				.modulo .contbottone {margin: 15px auto;}
-			/*** GOOGLE MAPS ***/
-				.container-box-maps{display:none;}
-				.iframemaps{display:none;}
 			/*** FOOTER ***/
 				.footerinfo{border-bottom:0px;}
 				.contenutoinfo{display:none;}
@@ -686,7 +684,14 @@
 							</div>
 						</div>
 						<div class="oggsoft">
-						&nbsp;
+							<div class="bottonegiu">
+								<p>PASSA AL PRODOTTO SUCCESSIVO</p>
+								<div class="freccia-giu">
+									<a href="#prodotto2" title="Vai al prossimo prodotto">
+										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1031,11 +1036,6 @@
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="container-box-maps">
-						<div class="box-maps">
-							<iframe frameborder="0" src="http://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Arkosoft+s.n.c.,+Via+Castello,+San+Pancrazio+Salentino&amp;aq=0&amp;sll=41.508577,12.392578&amp;sspn=23.130859,67.456055&amp;ie=UTF8&amp;hq=arkosoft+snc&amp;hnear=Via+Castello,+72026+San+Pancrazio+Salentino+Brindisi,+Puglia&amp;ll=40.418012,17.837018&amp;spn=0.006295,0.006295&amp;output=embed" marginwidth="0" marginheight="0" scrolling="no" class="iframemaps" name="maps" id="maps"></iframe>
 						</div>
 					</div>
 				</div>
