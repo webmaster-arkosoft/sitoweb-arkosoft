@@ -1,343 +1,72 @@
-.box-schedatecnica{
-	width:100%;
-	height:auto;
-	background-color:#ffffff;
-	float:left;
-	font-family: 'Bitter', serif;
-}
+.box-schedatecnica{width:100%;height:auto;background-color:#ffffff;float:left;font-family: 'Bitter', serif;}
 /* BOX PRIMA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-.box-slidescheda{
-	width:100%;
-	height:410px;
-	float:left;
-}
-.slidescheda{
-	width:100%;
-	height:100%;
-	max-width:1024px;
-	margin:0px auto;
-}
-.textslide{
-	width:100%;
-	height:auto;
-	margin-top:10%;
-	float:left;
-	font-family: 'Bitter', serif;
-}
-.textslide p{
-	margin:10px 0px;
-}
-.title{
-	background-color:rgba(0,0,0, 0.5);
-	color:#ffffff;
-	font-size:25px;
-	font-weight:400;
-	padding:5px 10px 5px 10px;
-}
-.title1{
-	background-color:rgba(0,0,0, 0.5);
-	color:#ffffff;
-	font-size:25px;
-	font-weight:700;
-	padding:5px 10px 5px 10px;
-}
-.title2{
-	background-color:rgba(0,0,0, 0.5);
-	color:#ffffff;
-	font-size:25px;
-	font-weight:700;
-	padding:5px 9px 5px 10px;
-}
-.bottoneslide{
-	width:100%;
-	height:auto;
-	float:left;
-	font-family: 'Bitter', serif;
-	font-size:18px;
-	margin-top:10px;
-}
-.bottoneslide a{
-	width:150px;
-	height:auto;
-	text-align:center;
-	color:#ffffff;
-	background:#0A5F8F;
-	padding:10px 10px;
-	border-radius:5px;
-	margin-left:10px;
-	display:inline-block;
-	font-size:20px;
-}
-.bottoneslide a:hover{
-	text-decoration:underline;
-}
+.box-slidescheda{width:100%;height:410px;float:left;}
+.slidescheda{width:100%;height:100%;max-width:1024px;margin:0px auto;}
+.textslide{width:100%;height:auto;margin-top:10%;float:left;font-family: 'Bitter', serif;}
+.textslide p{margin:10px 0px;}
+.title{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:400;padding:5px 10px 5px 10px;}
+.title1{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:700;padding:5px 10px 5px 10px;}
+.title2{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:700;padding:5px 9px 5px 10px;}
+.bottoneslide{width:100%;height:auto;float:left;font-family: 'Bitter', serif;font-size:18px;margin-top:10px;}
+.bottoneslide a{width:150px;height:auto;text-align:center;color:#ffffff;background:#0A5F8F;padding:10px 10px;border-radius:5px;margin-left:10px;display:inline-block;font-size:20px;}
+.bottoneslide a:hover{text-decoration:underline;}
 /* BOX SECONDA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-.box-slidescheda2{
-	width:100%;
-	height:410px;
-	float:left;
-}
-.slidescheda2{
-	width:100%;
-	height:100%;
-	max-width:1024px;
-	margin:0px auto;
-}
-.textslide2{
-	width:100%;
-	height:auto;
-	margin-top: 360px;
-	float:left;
-	font-family: 'Bitter', serif;
-}
-.textslide2 p{
-	margin:10px 0px;
-	text-align:center;
-}
-.textslide2 .title{
-	font-size:25px;
-	font-weight:700;
-	color:#E6624D;
-}
-.descrizione{
-	width:98%;
-	margin:10px auto;
-}
-.descrizione P{
-	color:#000000;
-	text-align:center;
-	font-family: 'Bitter', serif;
-	font-size:18px;
-}
-@media only screen and (min-width: 795px) {
+.box-slidescheda2{width:100%;height:410px;float:left;}
+.slidescheda2{width:100%;height:100%;max-width:1024px;margin:0px auto;}
+.textslide2{width:50%;height:auto;margin: 5% auto;float:left;font-family: 'Bitter', serif;background-color:rgba(255,255,255, 0.7);}
+.textslide2 p{margin:10px 0px;text-align:left;}
+.textslide2 .title{font-size:25px;font-weight:700;color:#E6624D;}
+.descrizione{width:98%;margin-left:10px;}
+.descrizione P{color:#000000;text-align:center;font-family: 'Bitter', serif;font-size:18px;}
+@media only screen and (max-width: 790px) {
 /* BOX SECONDA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-	.textslide2 {
-		width:50%;
-		margin: 5% auto;
-		background-color:rgba(255,255,255, 0.7);
-	}
-	.textslide2 p{
-		text-align:left;
-	}
-	.textslide2 .title{
-		background-color: rgba(0, 0, 0, 0);
-	}
-	.descrizione{
-		margin-left:10px;
-	}
+	.textslide2 {width:100%;margin-top: 360px;background-color:rgba(255,255,255, 0);}
+	.textslide2 p{text-align:center;}
+	.textslide2 .title{background-color: rgba(0, 0, 0, 0);}
+	.descrizione{margin:10px auto;}
 }
 /* BOX TERZA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-.box-slidescheda3{
-	float: left;
-    height: 410px;
-    width: 100%;
-}
-.slidescheda3{
-	height: 100%;
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 100%;
-}
-.textslide3 {
-	width:100%;
-	float: left;
-    font-family: "Bitter",serif;
-    height: auto;
-    margin-top: 353px;
-}
-.textslide3 p{
-	text-align:center;
-}
-.textslide3 .title{
-	font-size:25px;
-	font-weight:700;
-	color:#E6624D;
-}
-.descrizione2{
-	width:98%;
-	margin:10px auto;
-}
-.descrizione2 P{
-	color:#000000;
-	text-align:center;
-	font-family: 'Bitter', serif;
-	font-size:18px;
-}
-@media only screen and (min-width: 795px) {
+.box-slidescheda3{float: left;height: 410px;width: 100%;}
+.slidescheda3{height: 100%;margin: 0 auto;max-width: 1024px;width: 100%;}
+.textslide3 {width:50%;float: left;font-family: "Bitter",serif;height: auto;margin: 5% 0%;background-color:rgba(255,255,255, 0);}
+.textslide3 p{text-align:left;margin:5px 0px;}
+.textslide3 .title{font-size:25px;font-weight:700;color:#E6624D;background-color: rgba(255,255,255, 0.7);}
+.descrizione2{width:100%;margin:5px 0px;padding:5px 0px 0px 10px;background-color: rgba(255,255,255, 0.7);}
+.descrizione2 P{color:#000000;text-align:center;font-family: 'Bitter', serif;font-size:18px;}
+.textslide2 {width:50%;margin: 5% 0%;background-color:rgba(255,255,255, 0.7);}
+@media only screen and (max-width: 790px) {
 /* BOX TERZA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-	.slidescheda3{
-		float:none;
-	}
-	.textslide3 {
-		width:50%;
-		margin: 5% 0%;
-		background-color:rgba(255,255,255, 0);
-	}
-	.textslide3 p{
-		text-align:left;
-		margin:5px 0px;
-	}
-	.textslide3 .title{
-		background-color: rgba(255,255,255, 0.7);
-	}
-	.descrizione2{
-		width:100%;
-		margin:5px 0px;
-		padding:5px 0px;
-	}
-	.descrizione2{
-		padding-left:10px;
-		background-color: rgba(255,255,255, 0.7);
-	}
-	
-	.textslide2 {
-		width:50%;
-		margin: 5% 0%;
-		background-color:rgba(255,255,255, 0.7);
-	}
+	.textslide3 {width:100%;margin-top: 353px;}
+	.textslide3 p{text-align:center;}
+	.descrizione2{width:98%;margin:10px auto;}
 }
 /* BOX DESCRIZIONE DEL SOFTWARE */
-.box-descrizione{
-	width:100%;
-	max-width:1024px;
-	height:auto;
-	margin:0px auto;
-	float:left;
-	background-color:#ffffff;
-}
-.title-software{
-	text-align:center;
-	margin-top:20px;
-	font-family: 'Bitter', serif;
-	font-size:25px;
-	font-weight:700;
-	color:#E6624D;
-}
-.icona-desc{
-	margin: 20px auto;
-	width: 100%;
-	height:auto;
-	text-align:center;
-}
-.icona-desc img{
-	width:90%;
-	max-width:300px;
-	height:auto;
-}
-.desc-software{
-	width:98%;
-	margin:20px auto;
-	color:#000000;
-	text-align:center;
-	font-family: 'Bitter', serif;
-	font-size:18px;
-}
-@media only screen and (min-width: 795px) {
+.box-descrizione{width:100%;max-width:1024px;height:auto;margin:0px auto;float:none;background-color:#ffffff;}
+.title-software{width:50%;float:right;text-align:right;margin-top:20px;margin-right:10px;font-family: 'Bitter', serif;font-size:35px;font-weight:700;color:#E6624D;}
+.icona-desc{margin: 20px auto;width: 45%;height:auto;text-align:center;float:left;}
+.icona-desc img{width:90%;max-width:300px;height:auto;}
+.desc-software{width:45%;margin:20px auto;color:#000000;text-align:right;font-family: 'Bitter', serif;font-size:18px;float:right;margin-right:10px;}
+@media only screen and (max-width: 790px) {
 /* BOX DESCRIZIONE DEL SOFTWARE */
-	.box-descrizione{
-		float:none;
-	}
-	.title-software{
-		width:50%;
-		float:right;
-		text-align:right;
-		font-size:35px;
-		margin-right:10px;
-	}
-	.icona-desc{
-		width: 45%;
-		float:left;
-	}
-	.desc-software{
-		width:45%;
-		text-align:right;
-		float:right;
-		margin-right:10px;
-	}
+	.box-descrizione{float:left;}
+	.title-software{width:auto;float:none;text-align:center;font-size:25px;}
+	.icona-desc{width: 100%;float:none;}
+	.desc-software{width:98%;text-align:center;float:none;}
 }
 /* BOX SECONDA DESCRIZIONE DEL SOFTWARE */
-.box-descrizione2{
-	width:100%;
-	max-width:1024px;
-	height:auto;
-	margin-top:430px;
-	float:left;
-	background-color:#ffffff;
-}
-.title-software2{
-	text-align:center;
-	margin-top:20px;
-	font-family: 'Bitter', serif;
-	font-size:25px;
-	font-weight:700;
-	color:#E6624D;
-}
-.icona-desc2{
-	margin: 20px auto;
-	width: 100%;
-	height:auto;
-	text-align:center;
-}
-.icona-desc2 img{
-	width:90%;
-	max-width:300px;
-	height:auto;
-}
-.desc-software2{
-	width:98%;
-	margin:20px auto;
-	color:#000000;
-	text-align:center;
-	font-family: 'Bitter', serif;
-	font-size:18px;
-}
-@media only screen and (min-width: 795px) {
+	.box-descrizione2{width:100%;max-width:1024px;height:auto;margin:0px auto;float:none;background-color:#ffffff;}
+	.title-software2{width:50%;float:left;text-align:left;margin-left:10px;margin-top:20px;font-family: 'Bitter', serif;font-size:35px;font-weight:700;color:#E6624D;}
+	.icona-desc2{margin: 20px auto;width: 45%;height:auto;text-align:center;float:right;}
+	.icona-desc2 img{width:90%;max-width:300px;height:auto;}
+	.desc-software2{width:45%;margin-left:10px;float:left;color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
+@media only screen and (max-width: 790px) {
 /* BOX SECONDA DESCRIZIONE DEL SOFTWARE */
-	.box-descrizione2{
-		float:none;
-		margin:0px auto;
-	}
-	.title-software2{
-		width:50%;
-		float:left;
-		text-align:left;
-		font-size:35px;
-		margin-left:10px;
-	}
-	.icona-desc2{
-		width: 45%;
-		float:right;
-	}
-	.desc-software2{
-		width:45%;
-		float:left;
-		text-align:left;
-		margin-left:10px;
-	}
+	.box-descrizione2{float:left;margin-top:430px;}
+	.title-software2{width:100%;float:none;text-align:center;font-size:25px;margin-top:20px;}
+	.icona-desc2{width: 100%;float:none;}
+	.desc-software2{width:98%;float:none;text-align:center;margin:20px auto;}
 }
-/* FOOTER */
-.footer {
-    margin-top: 260px;
-}
-@media only screen and (min-width: 795px) {
-/* FOOTER */
-	.footer {
-		margin-top: 0px;
-	}
-}
-/* SCEHDA TECNICA: SOFTSHOP */
-.softshop{
-	border-bottom:2px solid #EFCA5F;
-	background: url("../immagini/slidesoftshop1.jpg") no-repeat center top/ cover;
-}
-.softshop2{
-	border-bottom:2px solid #EFCA5F;
-	background: url("../immagini/slidesoftshop2.jpg") no-repeat center top/ cover;
-}
-.softshop3{
-	border-bottom:2px solid #EFCA5F;
-	background: url("../immagini/slidesoftshop3.jpg") no-repeat center top/ cover;
-}
+
 /* SCEHDA TECNICA: RISTOMANAGER */
 .ristomanager{
 	border-bottom:2px solid #D12424;
