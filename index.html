@@ -107,19 +107,22 @@
 			@media only screen and (min-width: 780px) {
 				#cd-menu-trigger {display:none;}
 			}
-			#cd-lateral-nav .cd-navigation {margin: 10px 0 16px;}
+			#cd-lateral-nav .cd-navigation {margin: 50px 0px 0px 0px; padding: 0px 10px;}
 			#cd-lateral-nav .cd-navigation li{float:left;margin-top:10px;width:90%;}
 			#cd-lateral-nav .cd-navigation .ricerca{float:left;height:auto;width:90%;}
 			#cd-lateral-nav .cd-navigation .ricerca .cerca{width:85%;height:35px;border:0px;color:#000000;padding-left:5px;background:#B9B9B9;}
 			#cd-lateral-nav .cd-navigation .ricerca .lente{background:url(immagini/lente.jpg);background-repeat:no-repeat;background-position:center;background-color:#B9B9B9;width:15%;height:35px;float:left;border:0px;cursor:pointer;}
 			#cd-lateral-nav a {display: block;line-height: 2em;padding: 0px;color: #aab5b7;}
 			#cd-lateral-nav a.current {background-color: #8fdffd;color: #FFF;}
+			#cd-lateral-nav .titolo-sottomenu {font-weight:bold;}
+			#cd-lateral-nav .titolo-sottomenu:hover {color:#aab5b7;}
 			.no-touch #cd-lateral-nav a:hover {color: #FFF;}
 			#cd-lateral-nav a:hover {color: #8fdffd;}
 			@media only screen and (min-width: 790px) {
 				#cd-lateral-nav .cd-navigation {margin: 20px 0;}
 			}
 			#cd-lateral-nav.lateral-menu-is-open {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);visibility: visible;-webkit-transition: -webkit-transform .4s 0s, visibility 0s 0s;-moz-transition: -moz-transform .4s 0s, visibility 0s 0s;transition: transform .4s 0s, visibility 0s 0s;-webkit-overflow-scrolling: touch;}
+			.cd-navigation .sotto-menu {padding:0px; margin:0px 0px 0px 10px;}
 			#nav li{-webkit-transition: all 0.1s ease-in-out;-moz-transition: all 0.1s ease-in-out;-ms-transition: all 0.1s ease-in-out;-o-transition: all 0.1s ease-in-out;transition: all 0.1s ease-in-out;}
 			#nav li.first {-moz-border-radius:5px 0 0 5px;-webkit-border-radius:5px 0 0 5px;border-radius:5px 0 0 5px;}
 			#nav li.last {-webkit-border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0;}
@@ -477,17 +480,18 @@
 			/*** BOX DESCRIZIONE CONTATTI ***/
 			.boxprodotto-contatti{background-color:#ffffff;background-image:url("immagini/oltre1024/contatti.jpg");background-repeat:no-repeat;background-position:bottom center;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
 			.contenutoprodotto-contatti{width:50%;height:100%;top: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto-contatti h3{margin-top:10px;font-size:25px;	color:#969595;}
 			.textprodotto-contatti{width:100%;height:auto;margin:10px 0px;}
-			.textprodotto-contatti p{margin:0px;font-size:16px;color:#000000;}
+			.textprodotto-contatti .linea1 {margin:10px 0px;font-size:25px;	color:#969595;font-weight:bold;}
+			.textprodotto-contatti .linea2{margin:0px;font-size:17px;color:#000000;}
+			.textprodotto-contatti .linea2 span{color:#009933;}
 			/*** MODULO DI COMPILAZIONE ***/
 			.boxmodulo{width:100%;height:auto;}
 			.modulo{width:100%;max-width:350px;height:300px;color:#262626;font-size:15px;}
-			.camponome, .campocognome, .campocitta, .campotel, .campoemail {width:50%;height:auto;text-align:left;float:left;margin-top:0px;}
+			.camponome, .campocognome, .campocitta, .campotel, .campoemail {width:50%;height:auto;text-align:left;float:left;margin:5px 0px;}
 			.modulo input{max-width:146px;height:20px;}
 			.campocitta{width:100% !important;}
 			.campocitta input{width:100%;max-width:322px;height:20px;}
-			.textarea{width:100%;height:auto;text-align:left;float:left;}
+			.textarea{width:100%;height:auto;text-align:left;float:left;margin:5px 0px;}
 			.textarea textarea{width:322px;height:100px;resize: none;}
 			.boxprivacy{width:100%;height:auto;margin-top:5px;float:left;}
 			.boxprivacy p{margin:0px;}
@@ -869,9 +873,11 @@
 							</a>
 						</h2>
 						<div class="textprodotto4">
-							<p class="linea1">S-Admin è la soluzione ideale per gestire facilmente il tuo negozio di arredamento anche on-line, tramite un pannello interno di facile utilizzo, abbinato ad un tuo sito personalizzato.</p>
-							<p class="linea2">Ricevi le richieste di preventivi già compilati da parte dei tuoi clienti direttamente sulla tua e-mail, e organizza velocemente le tue campagne pubblicitarie o fai conoscere le tue ultime novità con le newsletter personalizzate. </p>
-							<p class="linea3">Arreda con stile il tuo sito di arredamento.</p>
+							<p class="linea1">S-Admin è la soluzione ideale per gestire facilmente il tuo negozio di arredamento.</p>
+							<p class="linea2">Con il pannello di S-Admin, ricevi sul tuo sito web le richieste di preventivi già compilati da parte dei tuoi clienti.</p>
+							<p class="linea2">A differenza dei soliti e-commerce, i clienti non conosceranno il prezzo dei tuoi prodotti.</p>
+							<p class="linea2">Puoi descrivere tutte le dimensioni e le caratteristiche specifiche di ogni mobile.</p>
+							<p class="linea2">Organizza velocemente le tue campagne pubblicitarie o fai conoscere le tue ultime novità con le newsletter personalizzate.</p>
 						</div>
 						<div class="boxbottone">
 							<div class="contbottone">
@@ -910,7 +916,7 @@
 						<div class="textprodotto5">
 							<p class="linea1">Con Trova Password, puoi salvare un numero illimitato di password in modo rapido, comodo e soprattutto sicuro.</p>
 							<p class="linea2">Puoi salvare facilmente tutti i tuoi dati di accesso, dalla tua casella di posta elettronica al codice PIN del tuo cellulare o di qualsiasi altro dispositivo o servizio, sia online che fisico esistente.</p>
-							<p class="linea3">I tuoi dati di accesso saranno per sempre al sicuro, grazie allo speciale algoritmo di compressione dei dati, considerato dagli esperti come il migliore attualmente esistente.</p>
+							<p class="linea2">I tuoi dati di accesso saranno per sempre al sicuro, grazie allo speciale algoritmo di criptazione dei dati, considerato dagli esperti come il migliore attualmente esistente.</p>
 						</div>
 						<div class="boxbottone">
 							<div class="contbottone">
@@ -947,8 +953,8 @@
 							</a>
 						</h2>
 						<div class="textprodotto6">
-							<p class="linea1">Prova a indovinare le prossime uscite alla roulette, aumentando le possibilità di vittoria grazie a Roulette Analytics & Strategies.</p>
-							<p class="linea2">ti numeri sono stati estratti per Rosso e Nero, quante volte sono usciti numeri Pari o Dispari, di quali Dozzine e di quali Metà tra 1-19 e 20-36.</p>
+							<p class="linea1">Aumenta le tue possibilità di vittoria grazie a Roulette Analytics & Strategies.</p>
+							<p class="linea2">Consulta le Statistiche per creare la tua strategia di gioco vincente.</p>
 							<p class="linea2">Grazie al suo algoritmo specializzato, più numeri inserirai prima di puntare, maggiori saranno le probabilità di indovinare il prossimo numero uscito.</p>
 							<p class="linea3">Il tutto direttamente sul tuo smartphone o tablet!</p>
 						</div>
@@ -989,8 +995,9 @@
 						<div class="textprodotto7">
 							<p class="linea1">Spaccio world è il social network più innovativo di sempre.</p>
 							<p class="linea2">Incomincia subito a fare nuove amicizie, organizza e partecipa ad eventi e raduni in tutta Italia per coinvolgere centinaia di persone, mosse dalle tue stesse passioni!</p>
-							<p class="linea2">Diventa Spacciatore o Spacciatrice del Mese grazie all'aiuto dei tuoi amici, e fatti conoscere da tutti.</p>
-							<p class="linea3">Liberati delle cose che non usi o trova le migliori occasioni grazie al Mercatino, e tra un'attività e l'altra, divertiti coi nostri Giochi scelti dai nostri esperti dell'intrattenimento videoludico.</p>
+							<p class="linea2">Diventa Mister Spacciatore o Miss Spacciatrice del Mese grazie all'aiuto dei tuoi amici, e fatti conoscere da tutti.</p>
+							<p class="linea2">Trova le migliori occasioni sul nostro Mercatino o vendi quello che non usi.</p>
+							<p class="linea2">Nel tempo libero, divertiti con la varietà di Giochi messi a tua disposizione.</p>
 						</div>
 						<div class="boxbottone">
 							<div class="contbottone">
@@ -1027,13 +1034,15 @@
 							</a>
 						</h2>
 						<div class="textprodotto8">
-							<p class="linea1">SecurityHost offre un Hosting di elevata Sicurezza per lo startup e l'avvio del tuo sito web, oltre ad un supporto telefonico continuo che permette di venire incontro a tutte le esigenze dei clienti.</p>
+							<p class="linea1">SecurityHost offre un Hosting di elevata Sicurezza per lo startup e l'avvio del tuo sito web.</p>
+							<p class="linea2">Avrai un supporto telefonico continuo e altamente professionale che verrà incontro a tutte le tue esigenze.</p>
 							<p class="linea2">Scegli il pacchetto che soddisfa nel modo migliore le tue esigenze in termini di spazio web e prestazioni, e inizia a farti conoscere sul Web.</p>
 							<ul>
 								<li>Il Piano Mini è ideale per iniziare la tua avventura sul Web.</li>
 								<li>Il Piano Medio offre il migliore rapporto tra prezzo e prestazioni.</li>
 								<li>Il Piano Maxi è quanto di meglio possa offrire un servizio di hosting.</li>
 							</ul>
+							<p class="linea1">Se desideri uno spazio privato con prestazioni elevate, acquista una delle nostre VPS.</p>
 						</div>
 						<div class="boxbottone">
 							<div class="contbottone">
@@ -1070,8 +1079,9 @@
 							</a>
 						</h2>
 						<div class="textprodotto9">
-							<p class="linea1">Con Battery Alert non dimenticherai mai più di caricare la batteria del tuo telefono o del tuo tablet, grazie agli avvisi completamente personalizzabili.</p>
-							<p class="linea2">Puoi impostare gli avvisi in base ad un orario o una data prestabiliti, in un determinato giorno della settimana oppure puoi sfruttare l'avviso giornaliero alla stessa ora dell'ultima carica effettuata.</p>
+							<p class="linea1">Con Battery Alert non dimenticherai mai più di caricare la batteria del tuo smartphone o del tuo tablet.</p>
+							<p class="linea2">Imposta gli avvisi in base ad un orario o una data prestabiliti.</p>
+							<p class="linea2">L'avviso giornaliero ti ricorderà alla stessa ora dell'ultima carica effettuata il giorno prima.</p>
 							<p class="linea3">Sfrutta le suonerie di sistema di Android o qualsiasi altra suoneria installata sul tuo dispositivo mobile, per una personalizzazione completa degli avvisi e per riconoscerli subito.</p>
 						</div>
 						<div class="boxbottone">
@@ -1103,11 +1113,9 @@
 			<div class="boxprodotto-contatti"> <!-- CONTATTACI -->
 				<div class="boxdescrizione">
 					<div class="contenutoprodotto-contatti">
-						<h3>
-							Problemi o domande?
-						</h3>
 						<div class="textprodotto-contatti">
-							<p>Per qualsiasi domande o problemi, non esitate a contattarci!</p>
+							<p class="linea1">PROBLEMI O DOMANDE?</p>
+							<p class="linea2">Per qualsiasi domande o problema, non esitare a contattarci al N.<span>0831 1815236</span>, o inviaci una e-mail compilando il form qui sotto:</p>
 						</div>
 						<div class="boxmodulo">
 							<div class="modulo">
@@ -1856,16 +1864,117 @@
 					</form>
 				</li>
 				<li>
-					<a href="#0" title="I nostri prodotti">PRODOTTI</a>
+					<a href="#0" title="I nostri prodotti" class="titolo-sottomenu">PRODOTTI</a>
+					<ul class="sotto-menu">
+						<li>
+							<a href="http://softshop.it" title="Softshop">
+								<img src="immagini/frecciadestrabianca.png" alt="Softshop" width="10" height="10">Softshop
+							</a>
+						</li>
+						<li>
+							<a href="http://ristomanager.it" title="Ristomanager">
+								<img src="immagini/frecciadestrabianca.png" alt="Ristomanager" width="10" height="10">Ristomanager
+							</a>
+						</li>
+						<li>
+							<a href="http://gestionemessaggi.com" title="Gestione Messaggi">
+								<img src="immagini/frecciadestrabianca.png" alt="Gestione Messaggi" width="10" height="10">Gestioni messaggi
+							</a>
+						</li>
+						<li>
+							<a href="http://.softwarearredamento.com" title="S-Admin">
+								<img src="immagini/frecciadestrabianca.png" alt="S-Admin" width="10" height="10">S-Admin
+							</a>
+						</li>
+						<li>
+							<a href="http://trovapassword.com" title="Trovapassword">
+								<img src="immagini/frecciadestrabianca.png" alt="Trovapassword" width="10" height="10">Trova Password
+							</a>
+						</li>
+						<li>
+							<a href="https://play.google.com/store/apps/details?id=it.arkosoft.roulette&hl=it" title="Roulette Analytics">
+								<img src="immagini/frecciadestrabianca.png" alt="Roulette Analitycs" width="10" height="10">Roulette Analitycs
+							</a>
+						</li>
+						<li>
+							<a href="http://spaccioworld.com" title="Spaccioworld">
+								<img src="immagini/frecciadestrabianca.png" alt="Spaccioworld" width="10" height="10">Spaccio world
+							</a>
+						</li>
+						<li>
+							<a href="http://securityhost.it" title="Security Host">
+								<img src="immagini/frecciadestrabianca.png" alt="Security Host" width="10" height="10">SecurityHost
+							</a>
+						</li>
+						<li>
+							<a href="#0" title="Battery Alert">
+								<img src="immagini/frecciadestrabianca.png" alt="Battery Alert" width="10" height="10">Battery alert
+							</a>
+						</li>
+					</ul>
 				</li>
 				<li>
-					<a href="#0" title="Mondo Arkosoft">MONDO ARKOSOFT</a>
+					<a href="#0" title="Mondo Arkosoft" class="titolo-sottomenu">MONDO ARKOSOFT</a>
+					<ul class="sotto-menu">
+						<li id="prod-hover">
+							<a href="#0" title="Blog">
+								<img src="immagini/frecciadestrabianca.png" alt="icona Blog" width="10" height="10">Arkosoft Blog
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="Nnotizie">
+								<img src="immagini/frecciadestrabianca.png" alt="icona Notizie" width="10" height="10">Ultime Notizie
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="Lavora con noi">
+								<img src="immagini/frecciadestrabianca.png" alt="icona Lavora con noi" width="10" height="10">Lavora con noi
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="Chi siamo">
+								<img src="immagini/frecciadestrabianca.png" alt="icona Azienda" width="10" height="10">Azienda
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="I nostri rivenditori">
+								<img src="immagini/frecciadestrabianca.png" alt="icona Rivenditore" width="10" height="10">Rivenditori
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="I nostri traguardi">
+								<img src="immagini/frecciadestrabianca.png" alt="icona Traguardi" width="10" height="10">Traguardi
+							</a>
+						</li>
+					</ul>
 				</li>
 				<li>
-					<a href="#0" title="Chiedi aiuto">CHIEDI AIUTO</a>
+					<a href="#0" title="Chiedi aiuto" class="titolo-sottomenu">CHIEDI AIUTO</a>
+					<ul class="sotto-menu">
+						<li id="prod-hover">
+							<a href="#0" title="Assistenza online">
+								<img src="immagini/frecciadestrabianca.png" alt="Assistenza online" width="10" height="10">Assistenza Online
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="Domande frequenti">
+								<img src="immagini/frecciadestrabianca.png" alt="Domande frequenti" width="10" height="10">Domande Frequenti
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title=" Ripara e sostituisci">
+								<img src="immagini/frecciadestrabianca.png" alt="Ripara e sostituisci" width="10" height="10">Ripara e Sostituisci
+							</a>
+						</li>
+						<li id="prod-hover">
+							<a href="#0" title="Tichet">
+								<img src="immagini/frecciadestrabianca.png" alt="Tichet" width="10" height="10">Apri un Ticket
+							</a>
+						</li>
+					</ul>
 				</li>
 				<li>
-					<a href="#0" title="Blog">BLOG</a>
+					<a href="#0" title="Blog" class="titolo-sottomenu">BLOG</a>
 				</li>
 			</ul> <!-- cd-single-item-wrapper -->
 		</div>
