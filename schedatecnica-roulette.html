@@ -77,8 +77,6 @@
 			a{text-decoration:none;border:0px;cursor:pointer;}
 			ol, ul {list-style: none;}
 			h1,h2,h3{margin:0px; padding:0px;}
-			.codiceurl{float:left;display:block;height:100%;}
-			.codiceurl img{padding:0px;margin:0px;width:35px;height:auto;}
 			.logo-arkosoft{width:100%;height:45px;margin:0px auto;background:#000000;text-align:right;display:block;}
 			.logo-arkosoft img{padding:5px 15px;}
 			.boxheader{width:100%;height:65px;margin:0px auto;}
@@ -106,7 +104,7 @@
 			#cd-top-nav a {display: inline-block;padding: 23px 0.5em;color: #FFF;font-weight:600;}
 			#cd-top-nav a.current {background-color: #242e30;}
 			.no-touch #cd-top-nav a:hover {color: rgba(255, 255, 255, 0.7);}
-			@media only screen and (max-width: 795px) {
+			@media only screen and (max-width: 760px) {
 				#cd-top-nav {display: none;}
 			}
 			#cd-menu-trigger {position: absolute;right: 0;top: 0;height: 100%;width: 50px;}
@@ -124,7 +122,7 @@
 				#cd-menu-trigger {width: 110px;padding-left: 1.25em;}
 				#cd-menu-trigger .cd-menu-text {display:block; line-height: 65px;}
 			}
-			@media only screen and (min-width: 780px) {
+			@media only screen and (min-width: 760px) {
 				#cd-menu-trigger {display:none;}
 			}
 			#cd-lateral-nav .cd-navigation {margin: 50px 0px 0px 0px; padding: 0px 10px;}
@@ -138,7 +136,7 @@
 			#cd-lateral-nav .titolo-sottomenu:hover {color:#aab5b7;}
 			.no-touch #cd-lateral-nav a:hover {color: #FFF;}
 			#cd-lateral-nav a:hover {color: #8fdffd;}
-			@media only screen and (min-width: 790px) {
+			@media only screen and (min-width: 760px) {
 				#cd-lateral-nav .cd-navigation {margin: 20px 0;}
 			}
 			#cd-lateral-nav.lateral-menu-is-open {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);visibility: visible;-webkit-transition: -webkit-transform .4s 0s, visibility 0s 0s;-moz-transition: -moz-transform .4s 0s, visibility 0s 0s;transition: transform .4s 0s, visibility 0s 0s;-webkit-overflow-scrolling: touch;}
@@ -281,7 +279,7 @@
 			#nav li:hover li:hover li:hover li:hover ul ul
 			{display:none;}
 			/*** INIZIO FOOTER DELLA PAGINA ***/
-			.footer{background-color:#2f2f2f;width:100%;height:auto;float:left;position:relative;margin-top: 0px;}
+			.footer{background-color:#2f2f2f;width:100%;height:auto;float:left;position:relative;}
 			.footerinfo{width:100%;border-bottom:1px solid #ffffff;float:left;}
 			.contenutoinfo{height:auto;margin:0px auto;display:block;}
 			.infobox1{float:left;width:38%;text-align:left;margin-left:15px;}
@@ -320,6 +318,57 @@
 			.boxlingua img{float:right;margin-right:20px;}
 			.imglingua{float:right;width:16px;height:auto;}
 			.imglingua img{margin: 15px 10px;}
+			.box-schedatecnica{width:100%;height:auto;background-color:#ffffff;float:left;font-family: 'Bitter', serif;}
+			/*** BOX PRIMA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE ***/
+			.box-slidescheda{width:100%;height:410px;float:left;}
+			.roulette{border-bottom:2px solid #3C9E3C;background: url("immagini/slideroulette1.jpg") no-repeat center top/ cover;}
+			.slidescheda{width:100%;height:100%;max-width:1024px;margin:0px auto;}
+			.textslide{width:100%;height:auto;margin-top:10%;float:left;font-family: 'Bitter', serif;}
+			.textslide p{margin:10px 0px;}
+			.title{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:400;padding:5px 10px 5px 10px;}
+			.title1{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:700;padding:5px 10px 5px 10px;}
+			.title2{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:700;padding:5px 9px 5px 10px;}
+			.bottoneslide{width:200px;height:auto;float:left;background-image:url("immagini/bottoni/bottone-roulette.jpg");background-repeat:repeat-x;background-size: auto 100%;text-align:center;font-family: 'Bitter', serif;font-size:18px;font-weight:bold;margin-top:10px;margin-left:10px;}
+			.bottoneslide a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;background-image:url("immagini/bottoni/googlaplay.png");background-position:center left;background-repeat:no-repeat;}
+			.bottoneslide a:hover{background-color:#ff0000;background-image:url("immagini/bottoni/googlaplay.png");}
+			/*** BOX DESCRIZIONE DEL SOFTWARE ***/
+			.box-descrizione{width:100%;max-width:1024px;height:auto;margin:0px auto;float:none;background-color:#ffffff;}
+			.title-software{width:50%;float:right;text-align:right;margin-top:20px;margin-right:10px;font-family: 'Bitter', serif;font-size:35px;font-weight:700;color:#E6624D;}
+			.icona-desc{margin: 20px auto;width: 45%;height:auto;text-align:center;float:left;}
+			.icona-desc img{width:90%;max-width:300px;height:auto;}
+			.desc-software{width:45%;margin:20px auto;color:#000000;text-align:right;font-size:18px;float:right;margin-right:10px;}
+			/*** BOX SECONDA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE ***/
+			.box-slidescheda2{width:100%;height:410px;float:left;}
+			.roulette2{border-bottom:2px solid #3C9E3C;background: url("immagini/slideroulette2.jpg") no-repeat center bottom/ cover;}
+			.slidescheda2{width:100%;height:100%;max-width:1024px;margin:0px auto;}
+			.textslide2{width:50%;height:auto;margin: 5% auto;float:left;background-color:rgba(255,255,255, 0.7);}
+			.textslide2 p{margin:10px 0px;text-align:left;}
+			.textslide2 .title{font-size:25px;font-weight:700;color:#E6624D;background-color:rgba(0,0,0, 0);}
+			.descrizione{width:95%;margin-left:10px;}
+			.descrizione P{color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
+			/*** BOX SECONDA DESCRIZIONE DEL SOFTWARE ***/
+			.box-descrizione2{width:100%;max-width:1024px;height:auto;margin:0px auto;float:none;background-color:#ffffff;}
+			.title-software2{width:50%;float:left;text-align:left;margin-left:10px;margin-top:20px;font-family: 'Bitter', serif;font-size:35px;font-weight:700;color:#E6624D;}
+			.icona-desc2{margin: 20px auto;width: 45%;height:auto;text-align:center;float:right;}
+			.icona-desc2 img{width:90%;max-width:300px;height:auto;}
+			.desc-software2{width:45%;margin-left:10px;float:left;color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
+			/*** BOX TERZA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE ***/
+			.box-slidescheda3{float: left;height: 410px;width: 100%;}
+			.roulette3{border-bottom:2px solid #3C9E3C;background: url("immagini/slideroulette3.jpg") no-repeat center top/ cover;}
+			.slidescheda3{height: 100%;margin: 0 auto;max-width: 1024px;width: 100%;}
+			.textslide3 {width:50%;float: left;height: auto;margin: 5% 0%;background-color:rgba(255,255,255, 0);}
+			.textslide3 p{text-align:left;margin:5px 0px;}
+			.textslide3 .title{font-size:25px;font-weight:700;color:#E6624D;background-color: rgba(255,255,255, 0.7);}
+			.descrizione2{width:100%;margin:5px 0px;padding:5px 0px 0px 10px;background-color: rgba(255,255,255, 0.7);}
+			.descrizione2 P{color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
+			/*** CSS RESPONSIVE ***/
+			@media only screen and (max-width: 1980px){
+			/*** INIZIO FOOTER DELLA PAGINA ***/
+				.infobox1 {width: 30%;}
+				.boxinfo{width:23%;}
+				.boxinfo1{width:23%;}
+				.boxinfo2{width:23%;}
+			}
 			@media only screen and (max-width: 760px) {
 			/*** INIZIO HEADER DELLA PAGINA ***/
 				.logo-arkosoft{display:none;}
@@ -330,7 +379,11 @@
 				#cd-logo img:hover{background:none;}
 				.cd-main-content {padding-top: 65px;}
 			/*** FOOTER ***/
-				.footer {margin-top: 260px;}
+				.footer{margin-top:250px;}
+				.infobox1{width: 30%;}
+				.boxinfo{width:23%;}
+				.boxinfo1{width:23%;}
+				.boxinfo2{width:23%;}
 				.footerinfo{border-bottom:0px;}
 				.contenutoinfo{display:none;}
 				.logofooter{width:100%;text-align:center;margin:10px auto;padding:0px;}
@@ -345,104 +398,26 @@
 				.lingua a{padding:0px;margin:0px;float:none;}
 				.boxlingua img{float:none;margin-right:0px;margin-top:10px;}
 				.imglingua{float:left;width:16px;}
-				.copyright-nascosto{float:none;display:block;width:95%;height:auto;margin:10px auto;text-align:center;font-size:15px;}
-				.copyright-nascosto a{color:#ffffff;text-decoration:underline;}
-			}
-			@media only screen and (min-width: 1280px) and (max-height: 800px){
-			/*** INIZIO FOOTER DELLA PAGINA ***/
-				.infobox1 {width: 31%;}
-				.boxinfo{width:23%;}
-				.boxinfo1{width:23%;}
-				.boxinfo2{width:23%;}
-			}
-			@media only screen and (min-width: 1280px) and (max-height: 1024px){
-			/*** INIZIO FOOTER DELLA PAGINA ***/
-				.infobox1 {width: 32%;}
-			}
-			@media only screen and (min-width: 1920px) and (max-height: 1080px){
-			/*** INIZIO FOOTER DELLA PAGINA ***/
-				.infobox1 {width: 21%;}
-			}
-			.box-schedatecnica{width:100%;height:auto;background-color:#ffffff;float:left;font-family: 'Bitter', serif;}
-			/* BOX PRIMA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-			.box-slidescheda{width:100%;height:410px;float:left;}
-			.slidescheda{width:100%;height:100%;max-width:1024px;margin:0px auto;}
-			.textslide{width:100%;height:auto;margin-top:10%;float:left;font-family: 'Bitter', serif;}
-			.textslide p{margin:10px 0px;}
-			.title{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:400;padding:5px 10px 5px 10px;}
-			.title1{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:700;padding:5px 10px 5px 10px;}
-			.title2{background-color:rgba(0,0,0, 0.5);color:#ffffff;font-size:25px;font-weight:700;padding:5px 9px 5px 10px;}
-			.bottoneslide{width:200px;height:auto;float:left;background-image:url("immagini/bottoni/bottone-roulette.jpg");background-repeat:repeat-x;background-size: auto 100%;text-align:center;font-family: 'Bitter', serif;font-size:18px;font-weight:bold;margin-top:10px;margin-left:10px;}
-			.bottoneslide a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;background-image:url("immagini/bottoni/googlaplay.png");background-position:center left;background-repeat:no-repeat;}
-			.bottoneslide a:hover{background-color:#ff0000;background-image:url("immagini/bottoni/googlaplay.png");}
-			/* BOX SECONDA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-			.box-slidescheda2{width:100%;height:410px;float:left;}
-			.slidescheda2{width:100%;height:100%;max-width:1024px;margin:0px auto;}
-			.textslide2{width:50%;height:auto;margin: 5% auto;float:left;background-color:rgba(255,255,255, 0.7);}
-			.textslide2 p{margin:10px 0px;text-align:left;}
-			.textslide2 .title{font-size:25px;font-weight:700;color:#E6624D;background-color:rgba(0,0,0, 0);}
-			.descrizione{width:95%;margin-left:10px;}
-			.descrizione P{color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
-			@media only screen and (max-width: 790px) {
-			/* BOX SECONDA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
+			/*** BOX SECONDA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE ***/
 				.textslide2 {width:100%;margin-top: 360px;background-color:rgba(255,255,255, 0);}
 				.textslide2 p{text-align:center;}
 				.textslide2 .title{background-color: rgba(0, 0, 0, 0.5);}
 				.descrizione{margin:10px auto;text-align:center;}
-			}
-			/* BOX TERZA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
-			.box-slidescheda3{float: left;height: 410px;width: 100%;}
-			.slidescheda3{height: 100%;margin: 0 auto;max-width: 1024px;width: 100%;}
-			.textslide3 {width:50%;float: left;height: auto;margin: 5% 0%;background-color:rgba(255,255,255, 0);}
-			.textslide3 p{text-align:left;margin:5px 0px;}
-			.textslide3 .title{font-size:25px;font-weight:700;color:#E6624D;background-color: rgba(255,255,255, 0.7);}
-			.descrizione2{width:100%;margin:5px 0px;padding:5px 0px 0px 10px;background-color: rgba(255,255,255, 0.7);}
-			.descrizione2 P{color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
-			@media only screen and (max-width: 790px) {
-			/* BOX TERZA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE */
+			/*** BOX TERZA IMMAGINE A TUTTO SCHERMO DEL SOFTWARE ***/
 				.textslide3 .title{background-color: rgba(0,0,0, 0.5);}
 				.textslide3 {width:100%;margin-top: 370px;}
 				.textslide3 p{text-align:center;margin:0px;}
 				.descrizione2{width:95%;margin:10px auto;padding:0px;}
-			}
-			/* BOX DESCRIZIONE DEL SOFTWARE */
-			.box-descrizione{width:100%;max-width:1024px;height:auto;margin:0px auto;float:none;background-color:#ffffff;}
-			.title-software{width:50%;float:right;text-align:right;margin-top:20px;margin-right:10px;font-family: 'Bitter', serif;font-size:35px;font-weight:700;color:#E6624D;}
-			.icona-desc{margin: 20px auto;width: 45%;height:auto;text-align:center;float:left;}
-			.icona-desc img{width:90%;max-width:300px;height:auto;}
-			.desc-software{width:45%;margin:20px auto;color:#000000;text-align:right;font-size:18px;float:right;margin-right:10px;}
-			@media only screen and (max-width: 790px) {
-			/* BOX DESCRIZIONE DEL SOFTWARE */
+			/*** BOX DESCRIZIONE DEL SOFTWARE ***/
 				.box-descrizione{float:left;margin:10px auto;}
 				.title-software{width:auto;float:none;text-align:center;font-size:25px;margin:0px auto;}
 				.icona-desc{width: 100%;float:none;}
 				.desc-software{width:95%;text-align:center;float:none;margin:0px auto;}
-			}
-			/* BOX SECONDA DESCRIZIONE DEL SOFTWARE */
-				.box-descrizione2{width:100%;max-width:1024px;height:auto;margin:0px auto;float:none;background-color:#ffffff;}
-				.title-software2{width:50%;float:left;text-align:left;margin-left:10px;margin-top:20px;font-family: 'Bitter', serif;font-size:35px;font-weight:700;color:#E6624D;}
-				.icona-desc2{margin: 20px auto;width: 45%;height:auto;text-align:center;float:right;}
-				.icona-desc2 img{width:90%;max-width:300px;height:auto;}
-				.desc-software2{width:45%;margin-left:10px;float:left;color:#000000;text-align:left;font-family: 'Bitter', serif;font-size:18px;}
-			@media only screen and (max-width: 790px) {
-			/* BOX SECONDA DESCRIZIONE DEL SOFTWARE */
+			/*** BOX SECONDA DESCRIZIONE DEL SOFTWARE ***/
 				.box-descrizione2{float:left;margin-top:250px;}
 				.title-software2{width:100%;float:none;text-align:center;font-size:25px;margin-top:20px;}
 				.icona-desc2{width: 100%;float:none;}
 				.desc-software2{width:98%;float:none;text-align:center;margin:20px auto;}
-			}
-			/* SCEHDA TECNICA: ROULETTE ANALYTICS */
-			.roulette{
-				border-bottom:2px solid #3C9E3C;
-				background: url("immagini/slideroulette1.jpg") no-repeat center top/ cover;
-			}
-			.roulette2{
-				border-bottom:2px solid #3C9E3C;
-				background: url("immagini/slideroulette2.jpg") no-repeat center bottom/ cover;
-			}
-			.roulette3{
-				border-bottom:2px solid #3C9E3C;
-				background: url("immagini/slideroulette3.jpg") no-repeat center top/ cover;
 			}
 		</style>
 		<script type="text/javascript" src="js/animatedcollapse.js"></script> <!-- Animazione footer -->
@@ -636,7 +611,6 @@
 
 		<div class="header" id="header">
 			<div class="logo-arkosoft">
-				<div class="codiceurl"><img src="immagini/codiceurl.jpg" alt="Codice URL Arkosoft"></div>
 				<a href="registrazione-arkosoft.html" title="Arkosoft">
 					<img src="immagini/arkosoft-logo.jpg" alt="Logo Arkosoft" width="73" height="40">
 				</a>

@@ -59,8 +59,6 @@
 			a{text-decoration:none;border:0px;cursor:pointer;}
 			ol, ul {list-style: none;}
 			h1,h2,h3{margin:0px; padding:0px;}
-			.codiceurl{float:left;display:block;height:100%;}
-			.codiceurl img{padding:0px;margin:0px;width:35px;height:auto;}
 			.logo-arkosoft{width:100%;height:45px;margin:0px auto;background:#000000;text-align:right;display:block;}
 			.logo-arkosoft img{padding:5px 15px;}
 			.boxheader{width:100%;height:65px;margin:0px auto;}
@@ -106,7 +104,7 @@
 				#cd-menu-trigger {width: 110px;padding-left: 1.25em;}
 				#cd-menu-trigger .cd-menu-text {display:block; line-height: 65px;}
 			}
-			@media only screen and (min-width: 780px) {
+			@media only screen and (min-width: 760px) {
 				#cd-menu-trigger {display:none;}
 			}
 			#cd-lateral-nav .cd-navigation {margin: 50px 0px 0px 0px; padding: 0px 10px;}
@@ -120,7 +118,7 @@
 			#cd-lateral-nav .titolo-sottomenu:hover {color:#aab5b7;}
 			.no-touch #cd-lateral-nav a:hover {color: #FFF;}
 			#cd-lateral-nav a:hover {color: #8fdffd;}
-			@media only screen and (min-width: 790px) {
+			@media only screen and (min-width: 760px) {
 				#cd-lateral-nav .cd-navigation {margin: 20px 0;}
 			}
 			#cd-lateral-nav.lateral-menu-is-open {-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);visibility: visible;-webkit-transition: -webkit-transform .4s 0s, visibility 0s 0s;-moz-transition: -moz-transform .4s 0s, visibility 0s 0s;transition: transform .4s 0s, visibility 0s 0s;-webkit-overflow-scrolling: touch;}
@@ -514,6 +512,15 @@
 			.bottonisocial .google{background-color:#ffffff;background-image:url(immagini/1024x768/googleplus1.jpg);background-repeat:no-repeat;background-position:center;display:block;height:30px;width:30px;margin:0px 15px;float:left;}
 			.bottonisocial .youtube{background-color:#ffffff;background-image:url(immagini/1024x768/youtube1.jpg);background-repeat:no-repeat;background-position:center;display:block;height:30px;width:30px;margin:0px 15px;float:left;}
 			/*** CSS RESPONSIVE ***/
+			@media only screen and (max-width: 1980px){
+			/*** MODULO DI COMPILAZIONE ***/
+				.textprodotto-contatti p {font-size: 20px;}
+			/*** INIZIO FOOTER DELLA PAGINA ***/
+				.infobox1 {width: 30%;}
+				.boxinfo{width:23%;}
+				.boxinfo1{width:23%;}
+				.boxinfo2{width:23%;}
+			}
 			@media only screen and (max-width: 1100px) {
 				.boxprodotto1, .fineprodotto1{background-image:url("immagini/1024x768/softshop.jpg");}
 				.boxprodotto2, .fineprodotto2{background-image:url("immagini/1024x768/ristomanager.jpg")}
@@ -661,54 +668,9 @@
 				.lingua a{padding:0px;margin:0px;float:none;}
 				.boxlingua img{float:none;margin-right:0px;margin-top:10px;}
 				.imglingua{float:left;width:16px;}
-				.copyright-nascosto{float:none;display:block;width:95%;height:auto;margin:10px auto;text-align:center;font-size:15px;}
-				.copyright-nascosto a{color:#ffffff;text-decoration:underline;}
 			}
 			@media only screen and (max-width: 400px) {
 				.contenutoprodotto2{top:15px;}
-			}
-			@media only screen and (min-width: 1280px) and (max-height: 800px){
-			/*** BOX DESCRIZIONE PRODOTTO 1 ***/
-				.oggsoft{margin-top:80px;}
-			/*** BOX DESCRIZIONE PRODOTTO 2 ***/
-				.oggristo {margin-top:50px;}
-			/*** BOX DESCRIZIONE CONTATTI ***/
-				.boxprodotto-contatti{height:900px;}
-			/*** MODULO DI COMPILAZIONE ***/
-				.iframemaps{right: 155px;bottom: 209px;height: 282px;width: 450px;}
-			/*** INIZIO FOOTER DELLA PAGINA ***/
-				.infobox1{width: 31%;}
-				.boxinfo{width:23%;}
-				.boxinfo1{width:23%;}
-				.boxinfo2{width:23%;}
-			}
-			@media only screen and (min-width: 1280px) and (max-height: 1024px){
-			/*** MODULO DI COMPILAZIONE ***/
-				.iframemaps{bottom: 305px;height: 315px;right: 93px;width: 510px;}
-				.textprodotto-contatti p {font-size: 20px;}
-			/*** MODULO DI COMPILAZIONE ***/
-				.modulo{max-width:100%;height:auto;}
-				.camponome, .campocognome, .campocitta, .campotel, .campoemail, .textarea{margin-top:10px;}
-				.modulo input{width:95%;max-width:95%;height:30px;}
-				.campocitta input {height: 30px;max-width: 468px;width: 100%;}
-				.textarea textarea {height: 200px;max-width: 468px;width: 100%;}
-				.boxprivacy input{width:10px;height:10px;}
-				.bottonisocial {width: 50%;}
-			/*** INIZIO FOOTER DELLA PAGINA ***/
-				.infobox1 {width: 32%;}
-			}
-			@media only screen and (min-width: 1366px) and (max-height: 768px){
-			/*** MODULO DI COMPILAZIONE ***/
-				.modulo{width:100%;max-width:350px;height:300px;}
-				.modulo input{max-width:146px;height:20px;}
-				.campocitta input{width:100%;max-width:322px;height:20px;}
-				.textarea textarea{width:322px;height:100px;resize: none;}
-				.bottonisocial{width:70%;}
-				.iframemaps{bottom: 310px;height: 340px;right: 100px;width: 545px;}
-			}
-			@media only screen and (min-width: 1920px) and (max-height: 1080px){
-			/*** INIZIO FOOTER DELLA PAGINA ***/
-				.infobox1 {width: 21%;}
 			}
 		</style>
 		<script src="js/animatedcollapse.js" type="text/javascript"></script> <!-- Animazione footer -->
@@ -1275,7 +1237,6 @@
 		
 		<div class="header" id="header">
 			<div class="logo-arkosoft">
-				<div class="codiceurl"><img src="immagini/codiceurl.jpg" alt="Codice URL Arkosoft"></div>
 				<a href="registrazione-arkosoft.html" title="Arkosoft">
 					<img src="immagini/arkosoft-logo.jpg" alt="Logo Arkosoft" width="73" height="40">
 				</a>
