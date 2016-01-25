@@ -53,6 +53,24 @@
 			  font-weight: 700;
 			  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
 			}
+			@font-face {
+			  font-family: 'Bitter';
+			  font-style: normal;
+			  font-weight: 400;
+			  src: local('Bitter-Regular'), url(https://fonts.gstatic.com/s/bitter/v7/zfs6I-5mjWQ3nxqccMoL2A.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Bitter';
+			  font-style: normal;
+			  font-weight: 700;
+			  src: local('Bitter-Bold'), url(https://fonts.gstatic.com/s/bitter/v7/evC1haE-MsorTl_A7_uSGVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+			}
+			@font-face {
+			  font-family: 'Bitter';
+			  font-style: italic;
+			  font-weight: 400;
+			  src: local('Bitter-Italic'), url(https://fonts.gstatic.com/s/bitter/v7/-t3SK6sofTjAH0MNf_tLaPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+			}
 			html, body {height: 100%;}
 			body{color:#ffffff;margin:0px;padding:0px;font-size:18px;font-family: 'Raleway', sans-serif;}
 			a img{border:0px;cursor:pointer;}
@@ -301,221 +319,21 @@
 			.boxlingua img{float:right;margin-right:20px;}
 			.imglingua{float:right;width:16px;height:auto;}
 			.imglingua img{margin: 15px 10px;}
-			/*** BOX GENERALE DELLA DESCRIZIONE E BOTTONE DEL PRODOTTO ***/
-			.boxdescrizione{width:100%;max-width:960px;height:100%;margin-left:auto;margin-right:auto;}
-			.boxbottone{width:100%;height:auto;margin:20px 0px;}
-			.contbottone{width:200px;height:auto;background-image: url("immagini/sfondo-bottoni.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;float:left;margin:10px 10px 10px 0px;}
-			.contbottone a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;}
-			.contbottone a:hover{color:#ffffff;background:#F5A101;}
-			.contbottone2{width:200px;height:auto;background-image: url("immagini/sfondo-bottoni.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;float:left;margin:10px 0px 0px 0px;}
-			.contbottone2 a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;}
-			.contbottone2 a:hover{color:#ffffff;background-color:#F5A101;}
-			.bottonegiu p{margin:0px;}
-			/*** BOX DESCRIZIONE PRODOTTO 1 ***/
-			.boxprodotto1{background-color:#ffffff;background-image:url("immagini/oltre1024/softshop.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto1{background-color:#ffffff;background-image:url("immagini/oltre1024/softshop.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:110px;}
-			.contenutoprodotto{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto h2{margin-top: 10px;}
-			.textprodotto{width:100%;height:auto;margin:0px;}
-			.textprodotto p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:20px;font-weight:normal;color:#000000;}
-			.textprodotto .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto .linea3{font-size:17px;font-weight:bold;}
-			.textprodotto ul{margin:0px;padding-left:25px;list-style:inherit;color:#000000;font-size:17px;font-weight:italic;}
-			.textprodotto ul li{margin:10px 0px;}
-			.oggsoft{width:100%;height:335px;margin-top:20px;float:left;}
-			.boxprodotto1 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto1 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto1 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 2 ***/
-			.boxprodotto2{background-color:#ffffff;background-image:url("immagini/oltre1024/ristomanager.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto2{background-color:#ffffff;background-image:url("immagini/oltre1024/ristomanager.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto2{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto2 h2{margin-top: 50px;}
-			.contenutoprodotto2 h2 img{height:auto;}
-			.textprodotto2{width:100%;height:auto;margin:0px;}
-			.textprodotto2 p{margin:20px 0px;font-family: 'Roboto Slab', serif;color:#000000;}
-			.textprodotto2 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto2 .linea3{font-size:17px;font-weight:bold;}
-			.textprodotto2 ul{margin:0px;padding-left:25px;list-style:inherit;color:#000000;font-size:15px;font-weight:italic;}
-			.textprodotto2 ul li{margin:10px 0px;}
-			.boxprodotto2 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-risto.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;float:left;margin:10px 10px 10px 0px;}
-			.boxprodotto2 .contbottone a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;}
-			.boxprodotto2 .contbottone a:hover{color:#ffffff;background:#d12424;}
-			.boxprodotto2 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-risto.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;float:left;margin:10px 0px 0px 0px;}
-			.boxprodotto2 .contbottone2 a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;}
-			.boxprodotto2 .contbottone2 a:hover{color:#ffffff;background:#d12424;}
-			.oggristo{width:100%;height:335px;margin-top:20px;float:left;}
-			.boxprodotto2 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto2 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto2 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 3 ***/
-			.boxprodotto3{background-color:#ffffff;background-image:url("immagini/oltre1024/gestionemessaggi.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto3{background-color:#ffffff;background-image:url("immagini/oltre1024/gestionemessaggi.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto3{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto3 h2{margin-top: 50px;}
-			.textprodotto3{width:100%;height:auto;margin:0px;}
-			.textprodotto3 p{margin:20px 0px;font-family: 'Roboto Slab', serif;color:#000000;}
-			.textprodotto3 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto3 .linea3{font-size:17px;font-weight:bold;}
-			.textprodotto3 ul{margin:0px;padding-left:25px;list-style:inherit;color:#000000;font-size:15px;font-weight:italic;}
-			.textprodotto3 ul li{margin:10px 0px;}
-			.boxprodotto3 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-gmex.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto3 .contbottone a:hover{color:#ffffff;background:#016BA5;}
-			.boxprodotto3 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-gmex.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto3 .contbottone2 a:hover{color:#ffffff;background:#016BA5;}
-			.oggmex{width:100%;height:335px;margin-top:20px;float:left;}
-			.boxprodotto3 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto3 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto3 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 4 ***/
-			.boxprodotto4{background-color:#ffffff;background-image:url("immagini/oltre1024/sadmin.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto4{background-color:#ffffff;background-image:url("immagini/oltre1024/sadmin.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto4{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto4 h2{margin-top: 50px;}
-			.textprodotto4{width:100%;height:auto;margin:0px;}
-			.textprodotto4 p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:18px;font-weight:normal;color:#000000;}
-			.textprodotto4 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto4 .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto4 .linea3{font-size:17px;font-weight:bold;}
-			.boxprodotto4 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-admin.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto4 .contbottone a:hover{color:#ffffff;background:#9D0000;}
-			.boxprodotto4 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-admin.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto4 .contbottone2 a:hover{color:#ffffff;background:#9D0000;}
-			.oggsadmin{width:100%;height:335px;margin-top:20px;float:left;}
-			.boxprodotto4 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto4 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto4 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 5 ***/
-			.boxprodotto5{background-color:#ffffff;background-image:url("immagini/oltre1024/trovapassword.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto5{background-color:#ffffff;background-image:url("immagini/oltre1024/trovapassword.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto5{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto5 h2{margin-top: 50px;}
-			.textprodotto5{width:100%;height:auto;margin:0px;}
-			.textprodotto5 p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:18px;font-weight:normal;color:#000000;}
-			.textprodotto5 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto5 .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto5 .linea3{font-size:17px;font-weight:bold;}
-			.boxprodotto5 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-password.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto5 .contbottone a:hover{color:#ffffff;background:#4387C5;}
-			.boxprodotto5 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-password.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto5 .contbottone2 a:hover{color:#ffffff;background:#4387C5;}
-			.oggpassword{width:100%;height:335px;margin-top: 20px;float:left;}
-			.boxprodotto5 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto5 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto5 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 6 ***/
-			.boxprodotto6{background-color:#ffffff;background-image:url("immagini/oltre1024/roulette.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto6{background-color:#ffffff;background-image:url("immagini/oltre1024/roulette.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto6{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto6 h2{margin-top: 50px;}
-			.textprodotto6{width:100%;height:auto;margin:0px;}
-			.textprodotto6 p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:18px;font-weight:normal;color:#000000;}
-			.textprodotto6 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto6 .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto6 .linea3{font-size:17px;font-weight:bold;}
-			.boxprodotto6 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-roulette.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto6 .contbottone a:hover{color:#ffffff;background:#ff0000;}
-			.boxprodotto6 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-roulette.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto6 .contbottone2 a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;background-image:url("immagini/bottoni/googlaplay.png");background-position:center left;background-repeat:no-repeat;}
-			.boxprodotto6 .contbottone2 a:hover{color:#ffffff;background-color:#ff0000;background-image:url("immagini/bottoni/googlaplay.png");}
-			.oggroulette{width:100%;height:335px;margin-top:20px;float:left;}
-			.boxprodotto6 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto6 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto6 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 7 ***/
-			.boxprodotto7{background-color:#ffffff;background-image:url("immagini/oltre1024/spaccio.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto7{background-color:#ffffff;background-image:url("immagini/oltre1024/spaccio.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto7{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto7 h2{margin-top: 50px;}
-			.textprodotto7{width:100%;height:auto;margin:0px;}
-			.textprodotto7 p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:18px;font-weight:normal;color:#000000;}
-			.textprodotto7 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto7 .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto7 .linea3{font-size:17px;font-weight:bold;}
-			.boxprodotto7 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-spaccio.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto7 .contbottone a:hover{color:#ffffff;background:#B70485;}
-			.boxprodotto7 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-spaccio.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto7 .contbottone2 a:hover{color:#ffffff;background:#B70485;}
-			.oggspaccio{width:100%;height:335px;margin-top:20px;float:left;}
-			.boxprodotto7 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto7 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto7 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 8 ***/
-			.boxprodotto8{background-color:#ffffff;background-image:url("immagini/oltre1024/security.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto8{background-color:#ffffff;background-image:url("immagini/oltre1024/security.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto8{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto8 h2{margin-top: 50px;}
-			.textprodotto8{width:100%;height:auto;margin:0px;}
-			.textprodotto8 p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:18px;font-weight:normal;color:#000000;}
-			.textprodotto8 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto8 .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto8 ul{margin:0px;padding-left:25px;list-style:inherit;color:#000000;font-size:17px;font-weight:italic;}
-			.textprodotto8 ul li{margin:10px 0px;}
-			.boxprodotto8 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-security.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto8 .contbottone a:hover{color:#ffffff;background:#ff0000;}
-			.boxprodotto8 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-security.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto8 .contbottone2 a:hover{color:#ffffff;background:#ff0000;}
-			.oggsecurity{width:100%;height:335px;margin-top:20px;margin-left:0px;float:left;}
-			.boxprodotto8 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto8 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto8 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE PRODOTTO 9 ***/
-			.boxprodotto9{background-color:#ffffff;background-image:url("immagini/oltre1024/battery.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.fineprodotto9{background-color:#ffffff;background-image:url("immagini/oltre1024/battery.jpg");background-repeat:no-repeat;background-position:center bottom;background-attachment:fixed;background-size:cover;height:0px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;padding-top:109px;}
-			.contenutoprodotto9{width:50%;height:100%;top: 0px;left: 0px;position:relative;text-align:left;float:left;}
-			.contenutoprodotto9 h2{margin-top: 50px;}
-			.textprodotto9{width:100%;height:auto;margin:0px;}
-			.textprodotto9 p{margin:20px 0px;font-family: 'Roboto Slab', serif;font-size:18px;font-weight:normal;color:#000000;}
-			.textprodotto9 .linea1{font-size:20px;font-weight:bold;}
-			.textprodotto9 .linea2{font-size:17px;font-weight:normal;}
-			.textprodotto9 .linea3{font-size:17px;font-weight:bold;}
-			.boxprodotto9 .contbottone{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-battery.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto9 .contbottone a:hover{color:#ffffff;background:#009933;}
-			.boxprodotto9 .contbottone2{width:200px;height:auto;background-image: url("immagini/bottoni/bottone-battery.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;}
-			.boxprodotto9 .contbottone2 a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;background-image:url("immagini/bottoni/googlaplay.png");background-position:center left;background-repeat:no-repeat;}
-			.boxprodotto9 .contbottone2 a:hover{color:#ffffff;background-color:#009933;background-image:url("immagini/bottoni/googlaplay.png");}
-			.oggbattery{width:100%;height:335px;margin-top:20px;margin-left:0px;float:left;}
-			.boxprodotto9 .bottonegiu{color: #000000;font-family: "Roboto Slab",serif;font-size: 14px;height: auto;right: 0%;text-align: center;width: 100%;}
-			.boxprodotto9 .bottonegiu p{margin-bottom:20px;}
-			.boxprodotto9 .freccia-giu {width:75px;height:75px;margin-left:auto;margin-right:auto;border-radius:10px;border:2px solid #000000;}
-			/*** BOX DESCRIZIONE CONTATTI ***/
-			.boxprodotto-contatti{background-color:#ffffff;background-image:url("immagini/oltre1024/contatti.jpg");background-repeat:no-repeat;background-position:bottom center;background-attachment:fixed;background-size:cover;height:900px;width:100%;position:relative;top:0;left:0;overflow:hidden;float:left;}
-			.contenutoprodotto-contatti{width:50%;height:100%;top: 0px;position:relative;text-align:left;float:left;}
-			.textprodotto-contatti{width:100%;height:auto;margin:50px 0px 10px 0px;}
-			.textprodotto-contatti .linea1 {margin:10px 0px;font-size:25px;	color:#969595;font-weight:bold;}
-			.textprodotto-contatti .linea2{margin:0px;font-size:17px;color:#000000;}
-			.textprodotto-contatti .linea2 span{font-weight:bold;}
-			/*** MODULO DI COMPILAZIONE ***/
-			.boxmodulo{width:100%;height:auto;}
-			.modulo{width:100%;max-width:350px;height:300px;color:#262626;font-size:15px;}
-			.camponome, .campocognome, .campocitta, .campotel, .campoemail {width:50%;height:auto;text-align:left;float:left;margin:5px 0px;}
-			.modulo input{max-width:146px;height:20px;}
-			.campocitta{width:100% !important;}
-			.campocitta input{width:100%;max-width:322px;height:20px;}
-			.textarea{width:100%;height:auto;text-align:left;float:left;margin:5px 0px;}
-			.textarea textarea{width:322px;height:100px;resize: none;}
-			.boxprivacy{width:100%;height:auto;margin-top:5px;float:left;}
-			.boxprivacy p{margin:0px;}
-			.boxprivacy a{color:#0098D0;}
-			.boxprivacy input{height:auto;width:auto;}
-			.modulo .boxbottone{width:100%;height:auto;float:left;margin:0px;}
-			.modulo .contbottone{width:150px;height:auto;background:url("immagini/sfondo-bottoni.jpg");background-repeat:repeat-x;background-position:center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;margin-top:5px;}
-			.modulo .contbottone a{display:block;cursor:pointer;color:#FFFFFF;padding:10px 5px;}
-			.modulo .contbottone a:hover{color:#ffffff;background:#F5A101;}
-			/*** GOOGLE MAPS ***/
-			.boxsocial{width:100%;height:auto;float:left;margin-top: 10px;text-align:center;}
-			hr{width:200px;height:2px;margin: 0px auto;background-color:#d4d4d4;border:0px;}
-			.boxsocial p{color:#000000;font-size:18px;margin:5px 0px;}
-			.bottonisocial{width:240px;height:auto;text-align:center;margin:0px auto;}
-			.bottonisocial .facebook{background-color:#ffffff;background-image:url(immagini/1024x768/facebook1.jpg);background-repeat:no-repeat;background-position:center;display:block;height:30px;width:30px;margin:0px 15px;float:left;}
-			.bottonisocial .twitter{background-color:#ffffff;background-image:url(immagini/1024x768/twitter1.jpg);background-repeat:no-repeat;background-position:center;display:block;height:30px;width:30px;margin:0px 15px;float:left;}
-			.bottonisocial .google{background-color:#ffffff;background-image:url(immagini/1024x768/googleplus1.jpg);background-repeat:no-repeat;background-position:center;display:block;height:30px;width:30px;margin:0px 15px;float:left;}
-			.bottonisocial .youtube{background-color:#ffffff;background-image:url(immagini/1024x768/youtube1.jpg);background-repeat:no-repeat;background-position:center;display:block;height:30px;width:30px;margin:0px 15px;float:left;}
+			/*** PAGINA LAVORA CON NOI ***/
+			.box-schedatecnica{width:100%;height:auto;background-color:#ffffff;float:left;font-family: 'Bitter', serif;}
+			.box-slide{width:100%;height:410px;float:left;background: url("immagini/lavoraconnoi.jpg") no-repeat center left/ cover;}
+			.container-centro{width:100%;height:auto;float:left;}
+			.box-centro{width:95%;max-width:900px;height:auto;margin:0px auto;}
+			.titolo{color:#0B5F8E;text-align:center;font-size:22px;font-family:'Roboto', serif;font-weight:700;line-height:20px;margin:20px 0px;}
+			.testo{color:#000000;text-align:center;font-size:16px;font-family:'Bitter', serif;}
+			.box-candidature{width:98%;max-width:700px;height:auto;margin:100px auto;border-bottom:2px solid #cccccc;}
+			.titolo-candidatura{color:#0B5F8E;text-align:left;font-size:22px;font-family:'Roboto', serif;font-weight:700;line-height:20px;}
+			.nome-candidatura{color:#A61E1E;font-weight:bold;font-family:'Roboto', serif;font-size:18px;}
+			.testo-candidatura{color:#000000;text-align:left;font-size:15px;font-family:'Bitter', serif;}
+			.box-candidature a{display: block;margin: 10px 0;max-width: 100px;padding: 5px 10px;width: 90%;text-align:center;cursor:pointer;background-image:url("immagini/bottoni/bottone-rosso.jpg");background-repeat: repeat-x;background-position: center top;padding:5px 10px;border-bottom:2px solid #cccccc;color:#ffffff;}
+			.box-candidature a:hover{color:#ffffff;background:#9d0000;}
 			/*** CSS RESPONSIVE ***/
 			@media only screen and (max-width: 1980px){
-			/*** MODULO DI COMPILAZIONE ***/
-				.textprodotto-contatti p {font-size: 20px;}
 			/*** INIZIO FOOTER DELLA PAGINA ***/
 				.infobox1{width:30%;}
 				.boxinfo{width:23%;}
@@ -523,16 +341,6 @@
 				.boxinfo2{width:23%;}
 			}
 			@media only screen and (max-width: 1100px) {
-				.boxprodotto1, .fineprodotto1{background-image:url("immagini/1024x768/softshop.jpg");}
-				.boxprodotto2, .fineprodotto2{background-image:url("immagini/1024x768/ristomanager.jpg")}
-				.boxprodotto3, .fineprodotto3{background-image:url("immagini/1024x768/gestionemessaggi.jpg");}
-				.boxprodotto4, .fineprodotto4{background-image:url("immagini/1024x768/sadmin.jpg")}
-				.boxprodotto5, .fineprodotto5{background-image:url("immagini/1024x768/trovapassword.jpg");}
-				.boxprodotto6, .fineprodotto6{background-image:url("immagini/1024x768/roulette.jpg");}
-				.boxprodotto7, .fineprodotto7{background-image:url("immagini/1024x768/spaccio.jpg");}
-				.boxprodotto8, .fineprodotto8{background-image:url("immagini/1024x768/security.jpg");}
-				.boxprodotto9, .fineprodotto9{background-image:url("immagini/1024x768/battery.jpg");}
-				.boxprodotto-contatti{background-image:url("immagini/1024x768/contatti.jpg");}
 			/*** INIZIO FOOTER DELLA PAGINA ***/
 				.infobox1 {width: 38%;}
 			}
@@ -545,117 +353,6 @@
 				#cd-menu-trigger .cd-menu-icon {top: 50%;}
 				#cd-logo img:hover{background:none;}
 				.cd-main-content {padding-top: 65px;}
-				.boxbottone {margin: 20px auto;}
-				.contbottone {margin: 10px auto;float:none;}
-				.contbottone2 {margin: 10px auto;float:none;}
-				.contenutogiu{top:60%;left:0;}
-			/*** BOX PRODOTTO 1 ***/
-				.boxprodotto1 {background-image:none;background-color:#ffffff;height:auto;}
-				.fineprodotto1 {background:none;padding-top:64px;}
-				.boxdescrizione {width: 100%;}
-				.contenutoprodotto {float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto {margin: 0 auto;width: 98%;text-align:left;}
-				.oggsoft{background-image:url("immagini/mobile/oggettosoftshop1.jpg");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto1 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}	
-			/*** BOX PRODOTTO 2 ***/
-				.boxprodotto2 {background-image:url("immagini/mobile/ristomanager-sfondo.jpg");height:auto;}
-				.fineprodotto2 {background-image:url("immagini/mobile/ristomanager-sfondo.jpg");padding-top:64px;}
-				.contenutoprodotto2 {float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto2 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto2 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto2 p {font-size: 16px;}
-				.boxprodotto2 .oggristo{background-image:url("immagini/mobile/oggettoristo1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto2 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto2 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto2 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}	
-			/*** BOX PRODOTTO 3 ***/
-				.boxprodotto3 {background-image:url("immagini/mobile/gestionemessaggi-sfondo.jpg");height:auto;}
-				.fineprodotto3 {background-image:url("immagini/mobile/gestionemessaggi-sfondo.jpg");padding-top:64px;}
-				.contenutoprodotto3 {float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto3 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto3 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto3 p {font-size: 16px;}
-				.boxprodotto3 .oggmex{background-image:url("immagini/mobile/oggettomex1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto3 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto3 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto3 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}	
-			/*** BOX PRODOTTO 4 ***/
-				.boxprodotto4 {background-image:url("immagini/mobile/sadmin-sfondo.jpg");height:auto;}
-				.fineprodotto4 {background-image:url("immagini/mobile/sadmin-sfondo.jpg");padding-top:64px;}
-				.contenutoprodotto4{float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto4 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto4 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto4 p {font-size: 16px;}
-				.boxprodotto4 .oggsadmin{background-image:url("immagini/mobile/oggettos-admin1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto4 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto4 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto4 .bottonegiu {bottom:200px;font-size:16px;left:0;margin:0 auto;width:98%;}
-			/*** BOX PRODOTTO 5 ***/
-				.boxprodotto5 {background-image:url("immagini/mobile/trovapassword-sfondo.jpg");height:auto;}
-				.fineprodotto5 {background-image:url("immagini/mobile/trovapassword-sfondo.jpg");padding-top:64px;}
-				.contenutoprodotto5{float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto5 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto5 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto5 p {font-size: 16px;}
-				.boxprodotto5 .oggpassword{background-image:url("immagini/mobile/oggettopassword1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto5 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto5 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto5 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
-			/*** BOX PRODOTTO 6 ***/
-				.boxprodotto6 {background-image:url("immagini/mobile/roulette-sfondo.jpg");height:auto;}
-				.fineprodotto6 {background-image:url("immagini/mobile/roulette-sfondo.jpg");padding-top:64px;}
-				.contenutoprodotto6{float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto6 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto6 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto6 p {font-size: 16px;}
-				.boxprodotto6 .oggroulette{background-image:url("immagini/mobile/oggettoroulette1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto6 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto6 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto6 .bottonegiu {bottom:200px;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
-			/*** BOX PRODOTTO 7 ***/
-				.boxprodotto7 {background-image:url("immagini/mobile/spaccio-sfondo.jpg");background-repeat:no-repeat;background-position:center;height:auto;}
-				.fineprodotto7 {background-image:url("immagini/mobile/spaccio-sfondo.jpg");background-repeat:no-repeat;background-position:center;padding-top:64px;}
-				.contenutoprodotto7{float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto7 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto7 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto7 p {font-size: 16px;}
-				.boxprodotto7 .oggspaccio{background-image:url("immagini/mobile/oggettospaccio1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto7 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto7 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto7 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
-			/*** BOX PRODOTTO 8 ***/
-				.boxprodotto8 {background-image:none;background-color:#E6E6E6;height:auto;}
-				.fineprodotto8 {background-image:none;background-color:#E6E6E6;padding-top:64px;}
-				.contenutoprodotto8{float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto8 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto8 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto8 p {font-size: 16px;}
-				.boxprodotto8 .oggsecurity{background-image:url("immagini/mobile/oggettosecurity1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto8 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto8 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto8 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
-			/*** BOX PRODOTTO 9 ***/
-				.boxprodotto9 {background-image:none;background-color:#F4F4F2;height:auto;}
-				.fineprodotto9 {background-image:none;background-color:#F4F4F2;padding-top:64px;}
-				.contenutoprodotto9{float: none;margin: 0 auto;text-align: center;width: 100%;}
-				.contenutoprodotto9 h2 img{width:90%;max-width:350px;height:auto;margin:0px auto;}
-				.textprodotto9 {margin: 0 auto;width: 98%;text-align:left;}
-				.textprodotto9 p {font-size: 16px;}
-				.boxprodotto9 .oggbattery{background-image:url("immagini/mobile/oggettobattery1.png");background-repeat:no-repeat;background-position:center;width:100%;height:335px;margin-left:0px;}
-				.boxprodotto9 .contbottone{margin: 10px auto;float:none;}
-				.boxprodotto9 .contbottone2 {margin: 10px auto;float:none;}
-				.boxprodotto9 .bottonegiu {bottom:200px;color: #000000;font-family: "Roboto Slab",serif;font-size: 16px;height: auto;left: 0;margin: 0 auto;right: 0;text-align: center;width: 98%;}
-			/*** BOX CONTATTI ***/
-				.boxprodotto-contatti{background-color:#ffffff;background-image:none;height:auto;padding-bottom:10px;height:auto;}
-				.contenutoprodotto-contatti{float: none;width: 98%;max-width:300px;margin-left:auto;margin-right:auto;}
-			/*** MODULO DI COMPILAZIONE ***/
-				.modulo{max-width:300px;height:auto;margin:0px auto;}
-				.camponome, .campocognome, .campocitta, .campotel, .campoemail {width:100%;}
-				.modulo input{width:98%;max-width:100%;height:30px;}
-				.textarea textarea{width:98%;}
-				.boxprivacy input{height:auto;width:auto;}
-				.modulo .contbottone {margin: 15px auto;}
 			/*** FOOTER ***/
 				.footerinfo{border-bottom:0px;}
 				.contenutoinfo{display:none;}
@@ -672,455 +369,63 @@
 				.boxlingua img{float:none;margin-right:0px;margin-top:10px;}
 				.imglingua{float:left;width:16px;}
 			}
-			@media only screen and (max-width: 400px) {
-				.contenutoprodotto2{top:15px;}
-			}
 		</style>
 		<script src="js/animatedcollapse.js" type="text/javascript"></script> <!-- Animazione footer -->
 	</head>
 	<body>
 		<div class="cd-main-content" id="prodotto1">
-			
-			<div class="boxprodotto1"> <!-- SOFTSHOP -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto">
-						<h2>
-							<a href="schedatecnica-softshop.html" title="Softshop">
-								<img src="immagini/1024x768/logosoftshop.jpg" alt="Softshop" width="350" height="115">
-							</a>
-						</h2>
-						<div class="textprodotto">
-							<p class="linea1">SOFTSHOP &Egrave; LO STRUMENTO PI&Ugrave; SEMPLICE, RAPIDO ED EFFICACE PER LA GESTIONE DEL TUO MAGAZZINO.</p>
-							<ul>
-								<li>Gestire il carico e lo scarico anche di più prodotti alla volta.</li>
-								<li>Tenere un archivio dettagliato delle Fatture e dei DDT.</li>
-								<li>Conoscere lo stato delle Giacenze e il Valore della merce in magazzino.</li>
-							</ul>
-							<p class="linea3">
-								In più, con la versione Advanced potrai gestire un vero e proprio sito di e-commerce, 
-								con un magazzino separato per i prodotti destinati alla vendita online.
+		
+			<div class="box-schedatecnica">
+				<div class="box-slide">&nbsp;</div>
+				<div class="container-centro">
+					<div class="box-centro">
+						<p class="titolo">COSA CERCHIAMO</p>
+						<p class="testo">Non cerchiamo dei semplici collaboratori ma vogliamo assumere persone uniche con grande desiderio di imparare, voglia di migliorare 
+						continuamente e forte orientamento al risultato. Siamo alla ricerca di giovani intraprendenti e motivati 
+						che svolgano il loro lavoro con passione.</p>
+						<p class="titolo">COSA OFFRIAMO</p>
+						<p class="testo">La possibilità di lavorare in un'azienda in espansione caratterizzata da un ambiente dinamico e propositivo. 
+						Diamo ai nostri collaboratori l'opportunità di crescere sia sul piano professionale, che su quello individuale.
+						</p>
+						<div class="box-candidature">
+							<p class="titolo-candidatura">POSIZIONI APERTE</p>
+							<p class="nome-candidatura">Sistemista</p>
+							<p class="testo-candidatura">
+								Le figure individuate saranno inserite, con il supporto di un percorso di crescita strutturato, nei 
+								ruoli sotto descritti, ognuna in generale si occuperà: di analizzare le esigenze del Cliente, 
+								individuare e progettare la Soluzione più adatta in termini di costi/benefici, implementarla, 
+								gestirla in termini di evoluzione, problem solving, performance tuning.
 							</p>
-							<p class="linea2">Il tutto in modo facile e veloce.</p>
+							<a href="" title="candidati come sistemista">PROPONITI</a>
 						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-softshop.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://softshop.it/acquista.html" title="Acquista Softshop">
-									ACQUISTA ORA
-								</a>
-							</div>
+						
+						<div class="box-candidature">
+							<p class="nome-candidatura">Account Manager</p>
+							<p class="testo-candidatura">
+								La responsabilità fondamentale del ruolo è quella di procacciare e gestire opportunità d’affari, 
+								coerenti con il portafoglio d’offerta e le competenze del gruppo; devono essere altresì relative a 
+								clienti sani da un punto di vista economico finanziario per apportare reddito al ciclo aziendale.
+							</p>
+							<a href="" title="candidati come Account Manager">PROPONITI</a>
 						</div>
-						<div class="oggsoft">
-							<div class="bottonegiu">
-								<p>PASSA AL PRODOTTO SUCCESSIVO</p>
-								<div class="freccia-giu">
-									<a href="#prodotto2" title="Vai al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
+						
+						<div class="box-candidature">
+							<p class="nome-candidatura">Progettista Applicativo - Junior</p>
+							<p class="testo-candidatura">
+								il candidato ideale deve avere conoscenze fondamentali sulle principali aree dell’informatica 
+								relative alla progettazione e all’analisi del software tra cui linguaggi di programmazione, 
+								algoritmi, ingegneria del software, disegno di database. In aggiunta risulteranno elementi 
+								qualificanti una spiccata attitudine a trattare temi e aspetti gestionali e l’interesse per 
+								la materia trattata.
+							</p>
+							<a href="" title="candidati come Account Manager">PROPONITI</a>
 						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto2" class="fineprodotto1">&nbsp;</div>
-			<div class="boxprodotto2"> <!-- RISTOMANAGER -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto2">
-						<h2>
-							<a href="schedatecnica-ristomanager.html" title="Ristomanager">
-								<img src="immagini/1024x768/logoristomanager.png" alt="Ristomanager" width="350" height="70">
-							</a>
-						</h2>
-						<div class="textprodotto2">
-							<p class="linea1">CON RISTOMANAGER POTRAI MIGLIORARE LA GESTIONE DEL TUO RISTORANTE E PUB.</p>
-							<ul>
-								<li>Elimina le fastidiose comande cartacee utilizzando i tablet</li>
-								<li>Conosci in tempo reale lo stato dei tavoli: Libero, Occupato, Prenotato e in Attesa di Pagamento</li>
-								<li>Gestisci la parte relativa all'asporto, grazie alla Cassa Veloce</li>
-								<li>Crea un elenco dei tuoi Clienti abituali.</li>
-								<li>Segui l'andamento del tuo locale grazie alle Statistiche</li>
-								<li>Disponibile per piattaforme Windows, Linux e Mac</li>
-							</ul>
-							<p class="linea3">In caso di dubbi sul corretto funzionamento di Ristomanager, potrai consultare in ogni momento la Guida in Linea.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-ristomanager.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://ristomanager.it/acquista.html" title="Acquista Ristomanager">
-									ACQUISTA ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggristo">
-							<div class="bottonegiu">
-								<p>PASSA AL PRODOTTO SUCCESSIVO</p>
-								<div class="freccia-giu">
-									<a href="#prodotto3" title="Vai al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto3" class="fineprodotto2">&nbsp;</div>
-			<div class="boxprodotto3"> <!-- GESTIONE MESSAGGI -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto3">
-						<h2>
-							<a href="schedatecnica-gmessaggi.html" title="Gestione Messaggi">
-								<img src="immagini/1024x768/logogestionemessaggi.png" alt="Gestione Messaggi" width="350" height="91">
-							</a>
-						</h2>
-						<div class="textprodotto3">
-							<p class="linea1">RAGGIUNGI OVUNQUE I TUOI CLIENTI CON IL NOSTRO INNOVATIVO PROGRAMMA DI SMS ED EMAIL MARKETING.</p>
-							<ul>
-								<li>Invia un numero illimitato di sms ed email e fatti riconoscere tramite la gestione del Mittente.</li>
-								<li>Puoi memorizzare i tuoi clienti nell'apposito Archivio.</li>
-								<li>Crea campagne pubblicitarie personalizzate in base agli interessi di ogni cliente, o geolocalizzate grazie al filtro per Regione, Provincia o singolo Comune.</li>
-							</ul>
-							<p class="linea3">Scopri subito quant'è facile creare le tue campagne pubblicitarie.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-gmessaggi.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://www.gestionemessaggi.com/negozio" title="Acquista Gestione Messaggi">
-									ACQUISTA ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggmex">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#prodotto4" title="Vai al prossimo prodotti">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto4" class="fineprodotto3">&nbsp;</div>
-			<div class="boxprodotto4"> <!-- S-ADMIN -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto4">
-						<h2>
-							<a href="schedatecnica-sadmin.html" title="S-Admin">
-								<img src="immagini/1024x768/logosadmin.png" alt="S-Admin" width="350" height="115">
-							</a>
-						</h2>
-						<div class="textprodotto4">
-							<p class="linea1">S-ADMIN &Egrave; LA SOLUZIONE IDEALE PER GESTIRE FACILMENTE IL TUO NEGOZIO DI ARREDAMENTO.</p>
-							<p class="linea2">Con il pannello di S-Admin, ricevi sul tuo sito web le richieste di preventivi già compilati da parte dei tuoi clienti.</p>
-							<p class="linea2">A differenza dei soliti e-commerce, i clienti non conosceranno il prezzo dei tuoi prodotti.</p>
-							<p class="linea2">Puoi descrivere tutte le dimensioni e le caratteristiche specifiche di ogni mobile.</p>
-							<p class="linea2">Organizza velocemente le tue campagne pubblicitarie o fai conoscere le tue ultime novità con le newsletter personalizzate.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-sadmin.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://www.softwarearredamento.com/acquista.html" title="Acquista S-Admin">
-									ACQUISTA ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggsadmin">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#prodotto5" title="vai al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto5" class="fineprodotto4">&nbsp;</div>
-			<div class="boxprodotto5"> <!-- TROVA PASSWORD -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto5">
-						<h2>
-							<a href="schedatecnica-trovapassword.html" title="Trova Password">
-								<img src="immagini/1024x768/logotrovapassword.png" alt="Trova Password" width="350" height="115">
-							</a>
-						</h2>
-						<div class="textprodotto5">
-							<p class="linea1">CON TROVA PASSWORD, PUOI SALVARE UN NUMERO ILLIMITATO DI PASSWORD IN MODO RAPIDO, COMODO E SOPRATUTTO SICURO.</p>
-							<p class="linea2">Puoi salvare facilmente tutti i tuoi dati di accesso, dalla tua casella di posta elettronica al codice PIN del tuo cellulare o di qualsiasi altro dispositivo o servizio, sia online che fisico esistente.</p>
-							<p class="linea2">I tuoi dati di accesso saranno per sempre al sicuro, grazie allo speciale algoritmo di criptazione dei dati, considerato dagli esperti come il migliore attualmente esistente.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-trovapassword.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://server.trovapassword.com/cgi-bin/trovapasswordmobile.cgi/special/formlogin" title="Registrati su Trova Password">
-									REGISTRATI ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggpassword">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#prodotto6" title="Vai al prossim prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto6" class="fineprodotto5">&nbsp;</div>
-			<div class="boxprodotto6"> <!-- ROULETTE -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto6">
-						<h2>
-							<a href="schedatecnica-roulette.html" title="Rolette Analitycs">
-								<img src="immagini/1024x768/logoroulette.png" alt="Roulette Analitycs" width="350" height="89">
-							</a>
-						</h2>
-						<div class="textprodotto6">
-							<p class="linea1">AUMENTA LE TUE POSSIBILITà DI VITTORIA GRAZIE A ROULETTE ANALYTCS &amp; STRATEGIES.</p>
-							<p class="linea2">Consulta le Statistiche per creare la tua strategia di gioco vincente.</p>
-							<p class="linea2">Grazie al suo algoritmo specializzato, più numeri inserirai prima di puntare, maggiori saranno le probabilità di indovinare il prossimo numero uscito.</p>
-							<p class="linea3">Il tutto direttamente sul tuo smartphone o tablet!</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-roulette.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="https://play.google.com/store/apps/details?id=it.arkosoft.roulette&hl=it" title="Scarica Roulette Analitycs">
-									SCARICA ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggroulette">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#prodotto7" title="Vai al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto7" class="fineprodotto6">&nbsp;</div>
-			<div class="boxprodotto7"> <!-- SPACCIO WORLD -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto7">
-						<h2>
-							<a href="schedatecnica-spaccio.html" title="Spaccio World">
-								<img src="immagini/1024x768/logospaccio.png" alt="Spaccio World" width="350" height="115">
-							</a>
-						</h2>
-						<div class="textprodotto7">
-							<p class="linea1">SPACCIO WORLD &Egrave; IL SOCIAL NETWORK PI&Ugrave; INNOVATIVO DI SEMPRE.</p>
-							<p class="linea2">Incomincia subito a fare nuove amicizie, organizza e partecipa ad eventi e raduni in tutta Italia per coinvolgere centinaia di persone, mosse dalle tue stesse passioni!</p>
-							<p class="linea2">Diventa Mister Spacciatore o Miss Spacciatrice del Mese grazie all'aiuto dei tuoi amici, e fatti conoscere da tutti.</p>
-							<p class="linea2">Trova le migliori occasioni sul nostro Mercatino o vendi quello che non usi.</p>
-							<p class="linea2">Nel tempo libero, divertiti con la varietà di Giochi messi a tua disposizione.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-spaccio.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://spaccioworld.com" title="Registrati su SpaccioWorld">
-									REGISTRATI ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggspaccio">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#prodotto8" title="Vai al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto8" class="fineprodotto7">&nbsp;</div>
-			<div class="boxprodotto8"> <!-- SECURITY HOST -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto8">
-						<h2>
-							<a href="schedatecnica-security.html" title="Security Host">
-								<img src="immagini/1024x768/logosecurity.png" alt="Security Host" width="350" height="115">
-							</a>
-						</h2>
-						<div class="textprodotto8">
-							<p class="linea1">SECURITY HOST OFFRE HOSTING DI ELEVATA SICUREZZA PER LO STARTUP E L'AVVIO DEL TUO SITO WEB.</p>
-							<p class="linea2">Avrai un supporto telefonico continuo e altamente professionale che verrà incontro a tutte le tue esigenze.</p>
-							<p class="linea2">Scegli il pacchetto che soddisfa nel modo migliore le tue esigenze in termini di spazio web e prestazioni, e inizia a farti conoscere sul Web.</p>
-							<ul>
-								<li>Il Piano Mini è ideale per iniziare la tua avventura sul Web.</li>
-								<li>Il Piano Medio offre il migliore rapporto tra prezzo e prestazioni.</li>
-								<li>Il Piano Maxi è quanto di meglio possa offrire un servizio di hosting.</li>
-							</ul>
-							<p class="linea1">Se desideri uno spazio privato con prestazioni elevate, acquista una delle nostre VPS.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-security.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="http://securityhost.it" title="Acqsuita su SecurityHost">
-									ACQUISTA ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggsecurity">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#prodotto9" title="Vai al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="prodotto9" class="fineprodotto8">&nbsp;</div>
-			<div class="boxprodotto9"> <!-- BATTERY ALERT -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto9">
-						<h2>
-							<a href="schedatecnica-battery.html" title="Battery Alert">
-								<img src="immagini/1024x768/logobattery.png" alt="Battery Alert" width="350" height="98">
-							</a>
-						</h2>
-						<div class="textprodotto9">
-							<p class="linea1">CON BATTERY ALERT NON DIMENTICHERAI MAI PI&Ugrave; DI CARICARE LA BATTERIA DEL TUO SMARTPHONE O DAL TUO TABLET.</p>
-							<p class="linea2">Imposta gli avvisi in base ad un orario o una data prestabiliti.</p>
-							<p class="linea2">L'avviso giornaliero ti ricorderà alla stessa ora dell'ultima carica effettuata il giorno prima.</p>
-							<p class="linea3">Sfrutta le suonerie di sistema di Android o qualsiasi altra suoneria installata sul tuo dispositivo mobile, per una personalizzazione completa degli avvisi e per riconoscerli subito.</p>
-						</div>
-						<div class="boxbottone">
-							<div class="contbottone">
-								<a href="schedatecnica-battery.html" title="Leggi di più">
-									PER SAPERNE DI PI&Ugrave;
-								</a>
-							</div>
-							<div class="contbottone2">
-								<a href="https://play.google.com/store/apps/details?id=it.arkosoft.batteryalert" title="Scarica Battery Alert">
-									SCARICA ORA
-								</a>
-							</div>
-						</div>
-						<div class="oggbattery">
-							<div class="bottonegiu">
-								<p>PASSA AL PROSSIMO SOFTWARE</p>
-								<div class="freccia-giu">
-									<a href="#boxcontatti" title="Vaia al prossimo prodotto">
-										<img src="immagini/softsuccesivo.png" alt="Prossimo prodotto" width="75" height="75">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="boxcontatti" class="fineprodotto9">&nbsp;</div>
-			<div class="boxprodotto-contatti"> <!-- CONTATTACI -->
-				<div class="boxdescrizione">
-					<div class="contenutoprodotto-contatti">
-						<div class="textprodotto-contatti">
-							<p class="linea1">PROBLEMI O DOMANDE?</p>
-							<p class="linea2">Per qualsiasi domanda o problema, non esitare a contattarci al numero: <span>(+39) 0831 1815236</span>, o inviaci una <span>E-mail</span> compilando il form qui sotto:</p>
-						</div>
-						<div class="boxmodulo">
-							<div class="modulo">
-								<div class="camponome">
-									<span>Nome*</span>
-									<input type="text" name="nome">
-								</div>
-								<div class="campocognome">
-									<span>Cognome*</span>
-									<input type="text" name="cognome">
-								</div>
-								<div class="campocitta">
-									<span>Città*</span>
-									<input type="text" name="citta">
-								</div>
-								<div class="campotel">
-									<span>Telefono*</span>
-									<input type="text" name="telefono">
-								</div>
-								<div class="campoemail">
-									<span>Email*</span>
-									<input type="text" name="email">
-								</div>
-								<div class="textarea">
-									<span>Richiesta*</span>
-									<textarea name="messaggio" rows="10" cols="30">&nbsp;</textarea>
-								</div>
-								<div class="boxprivacy">
-									<p>
-										<input type="checkbox" name="privacy">
-										Dichiaro di aver letto la <a href="#0">legge sulla privacy</a>
-									</p>
-								</div>
-								<div class="boxbottone">
-									<div class="contbottone">
-										<a href="#0">
-											INVIA
-										</a>
-									</div>
-								</div>
-								<div class="boxsocial">
-									<hr>
-									<p>Seguici anche su:</p>
-									<div class="bottonisocial">
-										<a href="https://www.facebook.com/pages/Arkosoft/775370489244865?ref=ts&fref=ts" class="facebook">&nbsp;</a>
-										<a href="https://twitter.com/arkosoft" class="twitter">&nbsp;</a>
-										<a href="https://plus.google.com/+ArkosoftIt/posts" class="google">&nbsp;</a>
-										<a href="https://www.youtube.com/user/Arkosoft" class="youtube">&nbsp;</a>
-									</div>
-								</div>
-							</div>
-						</div>
+						<p class="titolo">CANDIDATURA SPONTANEA</p>
+						<p class="testo">Arkosoft è costantemente alla ricerca di nuovi talenti che vogliono applicare le proprie 
+						potenzialità su applicazioni e tecnologie innovative con elevato potenziale di crescita. 
+						Per candidature spontanee inviare CV via email a info@arkosoft.it con autorizzazione al trattamento dei 
+						dati personali.
+						</p>
 					</div>
 				</div>
 			</div>
