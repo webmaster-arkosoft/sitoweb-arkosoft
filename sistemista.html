@@ -336,6 +336,11 @@
 			.modulo-note{width:100%;float:left;height:auto;margin:10px 20px;}
 			.modulo-note .nome{color:#000000;text-align:left;}
 			.modulo-note textarea{resize:none; width:90%; max-width:350px; height:200px;}
+			.boxprivacy{width:100%;height:auto;margin:10px 0px;float:left;}
+			.boxprivacy p{margin:10px 0px;color:#000000;}
+			.boxprivacy a{cursor:pointer;color:#FFFFFF;max-width:250px;height:auto;background-image: url("immagini/bottoni/bottone-rosso.jpg");background-repeat: repeat-x;background-position: center top;font-size:15px;text-align:center;font-family: 'Roboto Slab', serif;font-weight:bold;float:left;padding:10px 5px;}
+			.boxprivacy a:hover{color:#ffffff;background:#9d0000;}
+			
 			/*** CSS RESPONSIVE ***/
 			@media only screen and (max-width: 1980px){
 			/*** INIZIO FOOTER DELLA PAGINA ***/
@@ -451,6 +456,14 @@
 						<div class="modulo-note">
 							<p class="nome">Note</p>
 							<textarea name="messaggio" rows="10" cols="30">&nbsp;</textarea>
+						</div>
+						<div class="boxprivacy">
+							<p>Allega CV (peso massimo 3MB; formato: PDF, DOC, DOCX, ODT)</p>
+							<p>
+								<input type="checkbox" name="privacy">
+								Consenso legge sulla privacy
+							</p>
+							<a href="" title="">SCEGLI FILE</a>
 						</div>
 					</div>
 				</div>
