@@ -324,15 +324,18 @@
 			.box-slide{width:100%;height:410px;float:left;background: url("immagini/lavoraconnoi.jpg") no-repeat center left/ cover;}
 			.container-centro{width:100%;height:auto;float:left;}
 			.box-centro{width:95%;max-width:900px;height:auto;margin:0px auto;}
-			.titolo{color:#0B5F8E;text-align:center;font-size:22px;font-family:'Roboto', serif;font-weight:700;line-height:20px;margin:20px 0px;}
-			.testo{color:#000000;text-align:center;font-size:16px;font-family:'Bitter', serif;}
-			.box-candidature{width:98%;max-width:700px;height:auto;margin:20px auto;border-bottom:2px solid #cccccc;}
-			.box-candidature2{width:98%;max-width:700px;height:auto;margin:80px auto;}
-			.titolo-candidatura{color:#0B5F8E;text-align:left;font-size:22px;font-family:'Roboto', serif;font-weight:700;line-height:20px;border-bottom:2px solid;margin-top:120px;margin-bottom:50px;}
-			.nome-candidatura{color:#A61E1E;font-weight:bold;font-family:'Roboto', serif;font-size:18px;}
-			.testo-candidatura{color:#000000;text-align:left;font-size:15px;font-family:'Bitter', serif;}
-			.box-candidature a{display: block;margin: 10px 0;max-width: 100px;padding: 5px 10px;width: 90%;text-align:center;cursor:pointer;background-image:url("immagini/bottoni/bottone-rosso.jpg");background-repeat: repeat-x;background-position: center top;padding:5px 10px;border-bottom:2px solid #cccccc;color:#ffffff;}
-			.box-candidature a:hover{color:#ffffff;background:#9d0000;}
+			.titolo-candidatura{color:#0B5F8E;text-align:left;font-size:22px;font-family:'Roboto', serif;font-weight:700;line-height:20px;border-bottom:2px solid;margin:30px 0px;}
+			.testo-candidatura{margin:0px;font-size:16px;color:#000000;}
+			.titolo-requisiti{color:#000000;text-align:left;font-size:18px;font-family:'Roboto', serif;font-weight:700;line-height:20px;margin:30px 0px;}
+			.requisiti{color:#000000;margin:5px 0px;font-size:16px;text-align:left;}
+			.requisiti span{display:block;font-weight:bold;width:200px;color:#000000;float:left;}
+			.modulo{width:28.5%;float:left;height:auto;margin:10px 20px;}
+			.modulo .nome{color:#000000;text-align:left;}
+			.modulo .nome span{color:#ff0000;}
+			.modulo input{width:100%;height:25px;text-align:left;color:#000000;}
+			.modulo-note{width:100%;float:left;height:auto;margin:10px 20px;}
+			.modulo-note .nome{color:#000000;text-align:left;}
+			.modulo-note textarea{resize:none; width:90%; max-width:350px; height:200px;}
 			/*** CSS RESPONSIVE ***/
 			@media only screen and (max-width: 1980px){
 			/*** INIZIO FOOTER DELLA PAGINA ***/
@@ -380,56 +383,74 @@
 				<div class="box-slide">&nbsp;</div>
 				<div class="container-centro">
 					<div class="box-centro">
-						<p class="titolo">COSA CERCHIAMO</p>
-						<p class="testo">Non cerchiamo dei semplici collaboratori ma vogliamo assumere persone uniche con grande desiderio di imparare, voglia di migliorare 
-						continuamente e forte orientamento al risultato. Siamo alla ricerca di giovani intraprendenti e motivati 
-						che svolgano il loro lavoro con passione.</p>
-						<p class="titolo">COSA OFFRIAMO</p>
-						<p class="testo">La possibilità di lavorare in un'azienda in espansione caratterizzata da un ambiente dinamico e propositivo. 
-						Diamo ai nostri collaboratori l'opportunità di crescere sia sul piano professionale, che su quello individuale.
+						<p class="titolo-candidatura">SISTEMISTA</p>
+						<p class="testo-candidatura">
+							Le figure individuate saranno inserite, con il supporto di un percorso di crescita strutturato, nei ruoli sotto descritti, ognuna 
+							in generale si occuper&agrave;: di analizzare le esigenze del Cliente, individuare e progettare la Soluzione pi&ugrave; adatta in termini di 
+							costi/benefici, implementarla, gestirla in termini di evoluzione, problem solving, performance tuning.
+							<br><br>
+							- Sistemista specializzato in ambito middleware: si occupa di gestire il layer application server, interfacciandosi con i 
+							database administrator ed i programmatori. Le tecnologie principali su cui operer&agrave; sono JBoss, Oracle Weblogic&trade;, IBM Websphere&trade;.
+							<br>
+							- Sistemista specializzato in ambito database: database administrator, si occupa di installare ed ottimizzare, anche in 
+							ambienti in alta affidabilit&agrave;, manutenere ed aggiornare database in ambienti linux/unix o Microsoft&trade;. Le tecnologie 
+							principali su cui operer&agrave; sono Oracle&trade;, Postgres e MySQL.
+							<br><br>
+							Costituiscono elementi preferenziali di valutazione del profilo, esperienze maturate durante il periodo di studi e/o post-laurea, 
+							in ambito di:
+							<br>
+							- Gestione di server basati su piattaforma Linux o Microsoft&trade;. Amministrazioni di reti locali. Amministrazione di server 
+							Tomcat, Apache. Amministrazione di database (PostgreSQL, MySQL, Oracle&trade;).
+							<br><br>
+							Costituiscono elementi di positiva valutazione del profilo le seguenti conoscenze:
+							<br>
+							- Sistemi operativi Linux e Microsoft&trade;. Reti di trasmissione dati. Sistemi storage basati su configurazioni RAID. Shell 
+							scripting, Perl, Python. Conoscenza tecnologie Java, esperienze di programmazione. Gestione basi dati, linguaggio SQL. 
+							Modellazione dei dati, data mining.
 						</p>
-						
-						<div class="box-candidature">
-							<p class="titolo-candidatura">POSIZIONI APERTE</p>
-							<p class="nome-candidatura">Sistemista</p>
-							<p class="testo-candidatura">
-								Le figure individuate saranno inserite, con il supporto di un percorso di crescita strutturato, nei 
-								ruoli sotto descritti, ognuna in generale si occuperà: di analizzare le esigenze del Cliente, 
-								individuare e progettare la Soluzione più adatta in termini di costi/benefici, implementarla, 
-								gestirla in termini di evoluzione, problem solving, performance tuning.
-							</p>
-							<a href="sistemista.html" title="candidati come sistemista">PROPONITI</a>
+						<p class="titolo-requisiti">La conoscenza della lingua inglese &egrave; il requisito essenziale.</p>
+						<p class="requisiti"><span class="nome-requisiti">Inquadramento</span>Impiegato</p>
+						<p class="requisiti"><span class="nome-requisiti">Settore d'impresa</span>Informatica - IT</p>
+						<p class="requisiti"><span class="nome-requisiti">Area funzionale</span>Divisione Ingegneria dei Sistemi</p>
+						<p class="requisiti"><span class="nome-requisiti">Zona di residenza</span>Puglia</p>
+						<p class="requisiti"><span class="nome-requisiti">Permesso di lavoro</span>Unione Europea</p>
+						<p class="requisiti"><span class="nome-requisiti">Numero Posti</span>2</p>
+						<p class="requisiti"><span class="nome-requisiti">Studi minimi</span>Laurea in: Informatica, Scienze e Tecnologie Informatiche, Ingegneria Informatica e/o Ingegneria dell'Informazione.</p>
+						<p class="requisiti"><span class="nome-requisiti">Esperienza minima</span>da uno a due anni</p>
+						<p class="requisiti"><span class="nome-requisiti">Tipo di contratto</span>lavoro a tempo indeterminato</p>
+						<p class="requisiti"><span class="nome-requisiti">Giornata Lavorativa</span>Full-Time</p>
+						<p class="titolo-candidatura">CANDIDATURA</p>
+						<div class="modulo">
+							<p class="nome"><span>*</span>Nome</p>
+							<input type="text" name="nome">
 						</div>
-						
-						<div class="box-candidature">
-							<p class="nome-candidatura">Account Manager</p>
-							<p class="testo-candidatura">
-								La responsabilità fondamentale del ruolo è quella di procacciare e gestire opportunità d’affari, 
-								coerenti con il portafoglio d’offerta e le competenze del gruppo; devono essere altresì relative a 
-								clienti sani da un punto di vista economico finanziario per apportare reddito al ciclo aziendale.
-							</p>
-							<a href="account-manager.html" title="candidati come Account Manager">PROPONITI</a>
+						<div class="modulo">
+							<p class="nome"><span>*</span>Cognome</p>
+							<input type="text" name="cognome">
 						</div>
-						
-						<div class="box-candidature">
-							<p class="nome-candidatura">Progettista Applicativo - Junior</p>
-							<p class="testo-candidatura">
-								il candidato ideale deve avere conoscenze fondamentali sulle principali aree dell’informatica 
-								relative alla progettazione e all’analisi del software tra cui linguaggi di programmazione, 
-								algoritmi, ingegneria del software, disegno di database. In aggiunta risulteranno elementi 
-								qualificanti una spiccata attitudine a trattare temi e aspetti gestionali e l’interesse per 
-								la materia trattata.
-							</p>
-							<a href="progettista-junior.html" title="candidati come Account Manager">PROPONITI</a>
+						<div class="modulo">
+							<p class="nome"><span>*</span>Data di nascita</p>
+							<input type="text" name="data">
 						</div>
-						
-						<div class="box-candidature2">
-							<p class="titolo">CANDIDATURA SPONTANEA</p>
-							<p class="testo">Arkosoft è costantemente alla ricerca di nuovi talenti che vogliono applicare le proprie 
-							potenzialità su applicazioni e tecnologie innovative con elevato potenziale di crescita. 
-							Per candidature spontanee inviare CV via email a info@arkosoft.it con autorizzazione al trattamento dei 
-							dati personali.
-							</p>
+						<div class="modulo">
+							<p class="nome"><span>*</span>Citt&agrave;</p>
+							<input type="text" name="cita">
+						</div>
+						<div class="modulo">
+							<p class="nome"><span>*</span>E-mail</p>
+							<input type="text" name="email">
+						</div>
+						<div class="modulo">
+							<p class="nome"><span>*</span>Telefono</p>
+							<input type="text" name="telefono">
+						</div>
+						<div class="modulo">
+							<p class="nome"><span>*</span>Titolo di studio</p>
+							<input type="text" name="titolo di studio">
+						</div>
+						<div class="modulo-note">
+							<p class="nome">Note</p>
+							<textarea name="messaggio" rows="10" cols="30">&nbsp;</textarea>
 						</div>
 					</div>
 				</div>
@@ -533,7 +554,7 @@
 					</div>
 					<div class="boxlingua">
 						<div class="copyright">
-							Website ©2015 Arkosoft. Tutti i contenuti, nomi dei software, nomi commerciali e/o 
+							Website �2015 Arkosoft. Tutti i contenuti, nomi dei software, nomi commerciali e/o 
 							marchi registrati, grafica e immagini associati sono marchi registrati e/o 
 							materiale protetto da copyright dei rispettivi proprietari. 
 							Tutti i diritti riservati. <a href="infoprivacy.html">Maggiori info</a>
@@ -938,33 +959,33 @@
 											Domande frequenti
 										</li>
 										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che programmi realizzate?
+											<a href="#0" title="Domande pi� frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande pi� frequenti" width="10" height="10">Che programmi realizzate?
 											</a>
 										</li>
 										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Ci sono demo dei programmi?
+											<a href="#0" title="Domande pi� frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande pi� frequenti" width="10" height="10">Ci sono demo dei programmi?
 											</a>
 										</li>
 										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Create programmi su misura?
+											<a href="#0" title="Domande pi� frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande pi� frequenti" width="10" height="10">Create programmi su misura?
 											</a>
 										</li>
 										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Realizzate siti internet?
+											<a href="#0" title="Domande pi� frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande pi� frequenti" width="10" height="10">Realizzate siti internet?
 											</a>
 										</li>
 										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Che tipo di assistenza offrite?
+											<a href="#0" title="Domande pi� frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande pi� frequenti" width="10" height="10">Che tipo di assistenza offrite?
 											</a>
 										</li>
 										<li>
-											<a href="#0" title="Domande più frequenti">
-												<img src="immagini/frecciadestrabianca.png" alt="Domande più frequenti" width="10" height="10">Come realizzate i vostri prodotti?
+											<a href="#0" title="Domande pi� frequenti">
+												<img src="immagini/frecciadestrabianca.png" alt="Domande pi� frequenti" width="10" height="10">Come realizzate i vostri prodotti?
 											</a>
 										</li>
 									</ul>
@@ -1109,7 +1130,7 @@
 						</li>
 					</ul>
 				</div>
-				<a id="cd-menu-trigger" href="#0" title="Apri menù">
+				<a id="cd-menu-trigger" href="#0" title="Apri men�">
 					<span class="cd-menu-text">Menu</span>
 					<span class="cd-menu-icon"></span>
 				</a>
